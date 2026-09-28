@@ -393,6 +393,355 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-056",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Grand Hôtel",
+      "place": "Blasieholmen",
+      "caption": "Grand Hôtel, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the quay at Södra Blasieholmshamnen looking at the long waterfront facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Grand Hôtel from the quay at Södra Blasieholmshamnen, Stockholm, a long mansard waterfront block, at night",
+      "description": "From the quay at Södra Blasieholmshamnen the view looks across dark water at Grand Hôtel, a long pale plaster block with a dark mansard roof and rows of lit windows. It is an overcast night, about 15.4°C, about 231 minutes after the 18:29 sunset, with quay lamps on and no sun in the sky.",
+      "viewpoint": "On the quay at Södra Blasieholmshamnen, looking across a strip of water at the hotel's long waterfront facade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Grand_H%C3%B4tel_(Stockholm)",
+        "https://stockholmskallan.stockholm.se/post/1117"
+      ],
+      "anchors": [
+        "Grand Hôtel stands on Södra Blasieholmshamnen at Blasieholmen, facing Strömmen",
+        "The waterfront block is a long plaster facade with a mansard roof, begun in 1874 and later altered by Ivar Tengbom",
+        "The subject is the hotel, not Nationalmuseum, which stands farther along the same shore"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 231 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-056-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-056-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-056-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-057",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Rosendal Palace",
+      "place": "Djurgården",
+      "caption": "Rosendal Palace, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the gravel court looking at the south facade and the four-column balcony · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Rosendal Palace on Djurgården, Stockholm, a small yellow Empire villa with a four-column balcony, at night",
+      "description": "From the gravel court the view looks at Rosendal Palace, a small pale-yellow Empire villa with a balcony carried on four columns and a modest hipped roof. Dark trees stand close on both sides. It is an overcast night, about 15.2°C, about 231 minutes after the 18:29 sunset, with garden lamps on and no sun in the sky.",
+      "viewpoint": "On the gravel court in front of the south facade of Rosendal Palace on Djurgården. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/rosendal-palace.html",
+        "https://en.wikipedia.org/wiki/Rosendal_Palace"
+      ],
+      "anchors": [
+        "Rosendal Palace is the Empire summer palace on Djurgården, built 1823–1827 for Karl XIV Johan",
+        "Fredrik Blom designed it as a small rendered timber building",
+        "The south facade has a balcony carried on four Kolmården marble Ionic columns"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 231 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-057-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-057-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-057-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-058",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kungsholms Church",
+      "place": "Kungsholmen",
+      "caption": "Kungsholms Church, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the churchyard looking at the west tower and the octagonal copper cupola · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kungsholms Church on Kungsholmen, Stockholm, the west tower ending in an octagonal copper cupola, at night",
+      "description": "From the churchyard the view looks at Kungsholms Church, a pale yellow cross church. The west tower ends in an octagonal copper cupola and a short lantern. It is an overcast night, about 15.6°C, about 230 minutes after the 18:30 sunset, with a few windows lit and no sun in the sky.",
+      "viewpoint": "In the churchyard south of Kungsholms Church, looking at the west tower and its copper cupola. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Kungsholmens_kyrka",
+        "https://en.wikipedia.org/wiki/Ulrika_Eleonora_Church"
+      ],
+      "anchors": [
+        "Kungsholms Church, officially Ulrika Eleonora Church, is the cross church on Kungsholmen",
+        "The church was consecrated in 1688; the west tower was built in 1810 to drawings by P. W. Palmroth",
+        "The tower ends in an octagonal copper cupola and a lantern, not a gothic spire"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 230 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-058-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-058-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-058-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-059",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Bromma Church",
+      "place": "Bromma",
+      "caption": "Bromma Church, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the churchyard path looking at the round nave and the separate bell tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Bromma Church in Stockholm, the medieval round stone nave with a baroque spire and a separate wooden bell tower, at night",
+      "description": "From the churchyard path the view looks at Bromma Church. The round stone nave carries a copper baroque hood, a lantern, and a slender spire, and a separate wooden bell tower stands apart. It is an overcast night, about 15.2°C, about 230 minutes after the 18:30 sunset, with path lamps on and no sun in the sky.",
+      "viewpoint": "On the gravel path in the churchyard at Bromma Church, looking at the round nave and the separate bell tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.svenskakyrkan.se/bromma/bromma-kyrka",
+        "https://sv.wikipedia.org/wiki/Bromma_kyrka"
+      ],
+      "anchors": [
+        "Bromma Church is in Bromma, in the city of Stockholm, and its round nave was built in the 12th century",
+        "A copper baroque hood, octagonal lantern, and spire were added on the roundhouse in 1681",
+        "A separate bell tower stands in the churchyard, apart from the stone church"
+      ],
+      "solar": "Night. Model sunrise 06:46 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 230 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-059-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-059-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-059-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-060",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Avicii Arena",
+      "place": "Johanneshov",
+      "caption": "Avicii Arena, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the plaza looking at the white spherical arena · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Avicii Arena at Johanneshov, Stockholm, the white spherical arena seen from the plaza at night",
+      "description": "From the plaza the view looks at Avicii Arena, a huge white sphere on a low dark base, lit from below. The pavement is empty. It is an overcast night, about 14.8°C, about 231 minutes after the 18:29 sunset, with plaza lamps on and no sun in the sky.",
+      "viewpoint": "On the plaza north of the arena at Globentorget, Johanneshov, looking at the white sphere. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Avicii_Arena",
+        "https://sv.wikipedia.org/wiki/Avicii_Arena"
+      ],
+      "anchors": [
+        "Avicii Arena is the white spherical arena at Johanneshov, opened in 1989 as the Stockholm Globe",
+        "The sphere is about 110 metres across and about 85 metres tall",
+        "The viewpoint is the plaza looking at the sphere. No lettering is used as an anchor"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 231 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-060-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-060-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-060-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-061",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Hedvig Eleonora Church",
+      "place": "Östermalm",
+      "caption": "Hedvig Eleonora Church, Stockholm",
+      "scenario_label": "28 September 2026 · 22:20 Europe/Stockholm",
+      "composition": "Overcast night · the Storgatan churchyard looking at the octagonal church and the central dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Hedvig Eleonora Church in Östermalm, Stockholm, the octagonal Baroque church under a large dome, at night",
+      "description": "From the Storgatan churchyard the view looks at Hedvig Eleonora Church, an octagonal pale church under a large dark dome and a lantern. Warm light shows in the arched windows. It is an overcast night, about 15.5°C, about 231 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In the churchyard along Storgatan, looking at the dome of Hedvig Eleonora Church. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Hedvig_Eleonora_Church",
+        "https://sv.wikipedia.org/wiki/Hedvig_Eleonora_kyrka"
+      ],
+      "anchors": [
+        "Hedvig Eleonora Church is the Baroque central church on Storgatan in Östermalm",
+        "The plan is octagonal, with a large dome and a lantern",
+        "The church was consecrated in 1737 and the tower was completed in 1868. It is not Östermalms Saluhall"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:20 scenario is about 231 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-061-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-061-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-061-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-062",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Skeppsholmsbron",
+      "place": "Blasieholmen",
+      "caption": "Skeppsholmsbron, Stockholm",
+      "scenario_label": "28 September 2026 · 22:21 Europe/Stockholm",
+      "composition": "Overcast night · the Blasieholmen abutment looking along the iron bridge toward Skeppsholmen · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Skeppsholmsbron from the Blasieholmen abutment, Stockholm, a long low iron bridge at night",
+      "description": "From the Blasieholmen abutment the view looks along Skeppsholmsbron, a long low iron bridge with railings and lamp posts, dark water on both sides, toward the trees of Skeppsholmen. It is an overcast night, about 15.3°C, about 232 minutes after the 18:29 sunset, with bridge lamps on and no sun in the sky.",
+      "viewpoint": "On the Blasieholmen abutment, looking along Skeppsholmsbron toward Skeppsholmen. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Skeppsholmsbron",
+        "https://sv.wikipedia.org/wiki/Skeppsholmsbron"
+      ],
+      "anchors": [
+        "Skeppsholmsbron connects Blasieholmen to Skeppsholmen",
+        "The present iron bridge was built in 1861, about 165 metres long, in five spans",
+        "Gilded crowns stand on the railing. The subject is the bridge, not the ship af Chapman"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:21 scenario is about 232 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-062-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-062-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-062-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-063",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Fåfängan",
+      "place": "Södermalm",
+      "caption": "Fåfängan, Stockholm",
+      "scenario_label": "28 September 2026 · 22:21 Europe/Stockholm",
+      "composition": "Overcast night · the cliff terrace looking past the wooden pavilion toward Saltsjön · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Fåfängan on eastern Södermalm, Stockholm, a wooden pavilion on the cliff above Saltsjön, at night",
+      "description": "From the cliff terrace at Fåfängan the view looks past a small pale wooden pavilion and the lindens, over a railing, toward the dark water of Saltsjön and distant lights. It is an overcast night, about 15.4°C, about 232 minutes after the 18:29 sunset, with terrace lamps on and no sun in the sky.",
+      "viewpoint": "On the cliff terrace at Fåfängan, at the east end of the Södermalm ridge, looking past the wooden pavilion toward Saltsjön. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://fafangan.se/",
+        "https://sv.wikipedia.org/wiki/F%C3%A5f%C3%A4ngan"
+      ],
+      "anchors": [
+        "Fåfängan is the named cliff terrace at the east end of Södermalm, above Saltsjön near Danviken",
+        "A wooden pavilion and lindens stand on the rock",
+        "The view looks out over the inlet. It is not the Fjällgatan street walk and not the Fotografiska quay"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:21 scenario is about 232 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-063-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-063-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-063-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-064",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Maria Magdalena Church",
+      "place": "Södermalm",
+      "caption": "Maria Magdalena Church, Stockholm",
+      "scenario_label": "28 September 2026 · 22:21 Europe/Stockholm",
+      "composition": "Overcast night · the south churchyard looking at the tower and its copper round temple · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Maria Magdalena Church on Södermalm, Stockholm, the tower ending in a copper round temple, at night",
+      "description": "From the south churchyard the view looks at Maria Magdalena Church, a pale yellow Baroque nave and a tower that ends in a copper round temple, a lantern, and a small cross. It is an overcast night, about 15.3°C, about 232 minutes after the 18:29 sunset, with windows lit and no sun in the sky.",
+      "viewpoint": "In the south churchyard of Maria Magdalena Church, looking at the west tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Maria_Magdalena_kyrka,_Stockholm",
+        "https://en.wikipedia.org/wiki/Maria_Magdalena_Church,_Stockholm"
+      ],
+      "anchors": [
+        "Maria Magdalena Church stands where Bellmansgatan meets Hornsgatan on Södermalm",
+        "The present tower, finished in 1825 to drawings by Carl Fredrik Sundvall, is neoclassical",
+        "The tower ends in a copper-clad round temple, a lantern, and a cross, about 55 metres above the ground, not a pointed spire"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:21 scenario is about 232 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-064-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-064-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-064-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
