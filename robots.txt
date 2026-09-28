@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sweden.jdvision.org/sitemap.xml
+Sitemap: https://sweden.jdvision.org/image-sitemap.xml
