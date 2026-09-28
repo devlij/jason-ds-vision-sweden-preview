@@ -1,0 +1,104 @@
+Sweden Stockholm batch SE-01-029 through SE-01-037
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-028 are not in this checkout. They were not edited.
+
+Every new scene is genuine night: model is_day 0, after sunset Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (21:00–21:59).
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-029 Högalid Church (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:05+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: f2822a2b8d073611df23bbc616e1fe568899810ba63698d55bd6f45248347140
+  SHA-256 4:5: b0f64e6d1c16eeb2a8690d1f4c8590225d3efd59e1c786a2778f48f46da9bf1d
+  SHA-256 9:16: ce8303ba873d0975846f0f76d29478ee03b82d88322b3aff0f64774007cc6300
+
+SE-01-030 Royal Dramatic Theatre (Nybroplan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:08+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 9500d2b92b5ab5761a48e0c20ec1bc07ad810082c71e6746604d059edc47788f
+  SHA-256 4:5: 3df84aac30d65d3ab6459d018ae6c9ab09dda5080798c341f67d9c04837c6b9e
+  SHA-256 9:16: 28a4e89774064eabb0bcb70651e34c40786748d7e89566731cde96982dd7ec9c
+
+SE-01-031 Köpmantorget (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:10+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: c67021757f82ddae25a364500e826ef6ba6735efcee70d5560f1cf80aec5ed5e
+  SHA-256 4:5: e066ee0834eddcb6fb5cc5cbd5647d7bcf6c18a475f68c11e14b5a21ef2e750d
+  SHA-256 9:16: 4abb1f78a7d643b476ececbbc70df4803d764ceac72bd0e02a5efb68fbc253fc
+
+SE-01-032 Kastellet (Kastellholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:13+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 820e86d652b0fe2d3852784935e48e496e7f2ca404640eb310ef2b82869f8a2b
+  SHA-256 4:5: 021518b620bb658556a1899eec3b08ee9a860f53d2d0a94530682bee8aeedcef
+  SHA-256 9:16: 99e36ebce93095bf49813a97afacc033c145aa02cfd39d84ef7a674f410c1296
+
+SE-01-033 Royal Library (Humlegården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:16+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 8f0e06f5ccdbd04ead707ec266cdb1e48ff9acf0a7de57f3ac47de08b7448d83
+  SHA-256 4:5: 342288c007b89737a1b188e637da628d57cf3a72130bfddcfe1aa582a56cce22
+  SHA-256 9:16: de980ff409019aa1f2d54a61f44b3d87d16862d49b8942765902eb1bef030978
+
+SE-01-034 Västerbron (Kungsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:18+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 3015c6c190fdf79afc9cbb20f112d0325438367de04b43fbb8f91739ab068615
+  SHA-256 4:5: 5dfc2aa756843a0e391e5187f6573a96feb5df21655c3f1187e9a528f5ccb498
+  SHA-256 9:16: 3585ee14157a9a7b94ff04eceb0a3293231c44af8b7f5adfb40fe5f1c5f21141
+
+SE-01-035 Woodland Cemetery (Enskede)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:21+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 224af18e9e7e86405dc84afdec74ed54d90cd72facd4a12e71b8b9776bb238a5
+  SHA-256 4:5: e3fc7ead41b2588227a52d85dc04288fecc5d184f558f9b2eb21996d1817eac2
+  SHA-256 9:16: abaf7a3cd6de6a9e1717285f2c64bf428e393566e7d582508a13bb8b3cdf171f
+
+SE-01-036 Koppartälten (Hagaparken)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:24+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 7f53fa3469e975190ccf5e6a46616cae63201d2ca2ad14d8eba0c804e6d283b5
+  SHA-256 4:5: cb1c57de720fc92f850cd17eeeb125271923eb1142670a5d23e2448013f5e975
+  SHA-256 9:16: 71d498179cfa31b9e3fceac786ee49d122acdcfd8a06212d3f3400d5d4b6829e
+
+SE-01-037 Engelbrekt Church (Lärkstaden)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:32:27+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:32 Europe/Stockholm
+  SHA-256 16:9: 01c9ba95e576f352044da127d10406624ec8cc1f6366cf5fc78b46f3626d146d
+  SHA-256 4:5: 668070e5f4777309df5c4708c2f76306ffe2ae5c1de25613f2f411d345343de2
+  SHA-256 9:16: d380d2cafdbf6ec95a2d6b7c0d5771a0d460f7e6896aa544989f654bdbb75e4e
