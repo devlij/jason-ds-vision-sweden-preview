@@ -1,0 +1,103 @@
+Sweden Stockholm batch SE-01-011 through SE-01-019
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+
+Every new scene is genuine night: model is_day 0, after sunset Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (20:00–20:59).
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-011 Skeppsbron (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:22+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 6196f5e3bfdc9f7eef8ab3d59f0f193b855beeff68055b68318085e656c529ba
+  SHA-256 4:5: 8050f7155d580df665fe3084d32bd04437834f02bfe869a25edcaf81116e2b6f
+  SHA-256 9:16: e7f87843d0e43ca38dfefa24b3cb41c90bcae756f3e57c659ee0698fb2d7a2cd
+
+SE-01-012 Fjällgatan (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:25+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: a48cb5374619dfcbcd8f40b2c09478569b48bcd376d21d9db89cbc8783039fb1
+  SHA-256 4:5: f685cb4cad0dee12f7b17cf5345f781e415bf6145a0d937932f08170a426b259
+  SHA-256 9:16: 997682238bd461855fce116cd48d9f7058687fe6f798724c9fb94960ab261b35
+
+SE-01-013 Nationalmuseum (Blasieholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:28+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 4a5094f8cf01dd7ea457ae8fed0997a5d245441a5382a3672b511bb9aef64c92
+  SHA-256 4:5: 6cd037513430d2c3a4dd914b21cb87072bb0a0d5f8e039442999ef9b17c24d33
+  SHA-256 9:16: d10d1f00c44aedc02c44380442297d80f110e645bb26a4e4cffe9161aed5dea9
+
+SE-01-014 Royal Opera (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:30+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: c9ecd9b3433ba9d05df33abfb2791fd2cafd3ba3d1f6063ef11ab05a4b0b2432
+  SHA-256 4:5: 5bc22604b92ac85ec1ba58e60c5f37da97e618023a7a1eca91a4f5f7c25b56f8
+  SHA-256 9:16: 77a839b34074b1be0b5b1f12a9ab6b27fc2cfd678d9b3ddbee91b587cccf8fae
+
+SE-01-015 Riksdagshuset (Helgeandsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:32+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 9dbaa66cab1b597a13806a9a117d38865af626495dba5de60a04f55821e218a5
+  SHA-256 4:5: c498df2f3ab99ecd36a94e680c302d01804fdec5d4bfdf6ae558e05e72d27080
+  SHA-256 9:16: bfdcc6feb00d7487c08b3d63156355f398afaea790544bb752981daff58947a8
+
+SE-01-016 af Chapman (Skeppsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:35+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 6320ed3fc6708968f938f0c3c32d0dd70d4ebb26456f6fa9148fcbedb77de5ae
+  SHA-256 4:5: 9c3612f2a462f3d96f9f8bf5030eae4e13a372d1bfae6b65e24a3de67207e8ec
+  SHA-256 9:16: 635c1c754472bb39cf38f0ec2305b52451be1a00c9152fc18cd11a8f804c5073
+
+SE-01-017 Norr Mälarstrand (Kungsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:37+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 1c8d4b3b29af106a5c852293785cb2aaba186b47bccc93d51af320c243c56875
+  SHA-256 4:5: 6e24a41e0048b7b58fcaea49ba5089c4e01045105b1a9a7fa6f7915c735aec0f
+  SHA-256 9:16: 56993e7345c28087e043226e8b981212d2bcf926f294b6615ec6bddd0b80b8c1
+
+SE-01-018 Stockholm Public Library (Vasastan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:40+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: 4cb6244e5d5246418c8799c5addaf38846503b0529c04d9df187a543cca2d076
+  SHA-256 4:5: 5209b0b3fd178c640ee8e743dfb1fde94453f656bb3303e3843440f6f4a4acce
+  SHA-256 9:16: 65e6f27baede9fa2872912b3cf710bc45676c237d4c0b5a8573b4f18b2d0c296
+
+SE-01-019 Östermalms Saluhall (Östermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:00:42+02:00
+  model time: 2026-09-28T20:00
+  scenario: 28 September 2026 · 20:00 Europe/Stockholm
+  SHA-256 16:9: e79ac6648612a9d1ed524428c263d6bc09eaaaacaff3c09ef51fa7c7967138c2
+  SHA-256 4:5: 3f6e8bdf5f7eca32cdc821827965a9ad7d7ae774dd4072b9adb4faa18ecf9720
+  SHA-256 9:16: ed168126a44f84fcf931d232204cf2a7632eb611eed506e4c6f2e994de86f4b7

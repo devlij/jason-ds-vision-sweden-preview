@@ -393,6 +393,357 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-011",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Skeppsbron",
+      "place": "Gamla Stan",
+      "caption": "Skeppsbron, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · Skeppsbron quay looking north along the merchant houses · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Skeppsbron in Gamla Stan, Stockholm, at night, with tall merchant houses along the dark water",
+      "description": "From the stone quay of Skeppsbron the view looks north along the east shore of Gamla Stan. Tall narrow merchant houses, in ochre, rust red, and pale yellow plaster, stand in a continuous row, with warm windows and steep dark roofs. The dark water of Saltsjön is on the east side, with a few small boats moored. It is an overcast night, about 15.9°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the stone quay of Skeppsbron, the east waterfront of Gamla Stan, looking north along the row of merchant houses. A surveyed tripod mark was not pinned; the open quay is the viewpoint.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Skeppsbron",
+        "https://sv.wikipedia.org/wiki/Skeppsbron,_Stockholm"
+      ],
+      "anchors": [
+        "Skeppsbron is the quay street along the east shore of Stadsholmen",
+        "A continuous row of tall narrow historic merchant houses faces the water",
+        "The open water of Saltsjön lies on the east side of the quay"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-011-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-011-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-011-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-012",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Fjällgatan",
+      "place": "Södermalm",
+      "caption": "Fjällgatan, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · Fjällgatan looking northeast from the cliff over Saltsjön · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Fjällgatan on Södermalm, Stockholm, at night, wooden houses on the cliff street and dark water beyond",
+      "description": "From Fjällgatan the view looks northeast off the cliff of Stigberget. Low wooden houses, red and ochre, line the cobbled street. Beyond the edge, the dark water of Saltsjön lies far below, with distant lights on the far islands. It is an overcast night, about 15.7°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Fjällgatan at Stigberget, looking northeast from the cliff street over Stadsgården and Saltsjön. A surveyed tripod mark was not pinned; the open street is the viewpoint.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Fj%C3%A4llgatan",
+        "https://sv.wikipedia.org/wiki/Fj%C3%A4llgatan"
+      ],
+      "anchors": [
+        "Fjällgatan is the cliff street on Stigberget above Stadsgården",
+        "Low wooden houses line the street",
+        "The view opens northeast over Saltsjön toward the islands"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-012-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-012-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-012-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-013",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Nationalmuseum",
+      "place": "Blasieholmen",
+      "caption": "Nationalmuseum, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · the quay looking at the museum’s south facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Nationalmuseum on Blasieholmen, Stockholm, at night, the pale palace facade across the dark water",
+      "description": "From the quay in front of Nationalmuseum the view looks at the south facade, a symmetrical Renaissance palace of pale stone with a central columned portico and rows of windows. Dark water fills the foreground. It is an overcast night, about 15.8°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From the quay in front of Nationalmuseum on Blasieholmen, looking at the south facade across the near water. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.nationalmuseum.se/en/",
+        "https://en.wikipedia.org/wiki/Nationalmuseum"
+      ],
+      "anchors": [
+        "Nationalmuseum stands on the point of Blasieholmen",
+        "The south facade is a symmetrical Renaissance palace of pale stone with a central portico",
+        "The building faces Strömmen"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-013-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-013-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-013-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-014",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Royal Opera",
+      "place": "Norrmalm",
+      "caption": "Royal Opera, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · Gustav Adolfs torg looking toward the opera and the equestrian statue · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Royal Swedish Opera from Gustav Adolfs torg, Stockholm, at night, with the equestrian statue in the square",
+      "description": "From Gustav Adolfs torg the view looks toward the Royal Swedish Opera, a pale neoclassical block with a columned portico and tall windows. A bronze equestrian statue stands in the square. It is an overcast night, about 15.8°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From Gustav Adolfs torg, looking north at the Royal Swedish Opera, with the equestrian statue in the square. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.operan.se/en/",
+        "https://en.wikipedia.org/wiki/Royal_Swedish_Opera"
+      ],
+      "anchors": [
+        "The Royal Swedish Opera faces Gustav Adolfs torg and Norrström",
+        "The facade is a pale neoclassical block with a columned portico",
+        "An equestrian bronze of Gustav II Adolf stands in the square"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-014-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-014-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-014-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-015",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Riksdagshuset",
+      "place": "Helgeandsholmen",
+      "caption": "Riksdagshuset, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · the west quay looking at the curved west wing · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Swedish Parliament’s curved west wing on Helgeandsholmen, Stockholm, at night, across dark water",
+      "description": "From the west quay of Helgeandsholmen the view looks at the curved west wing of the Riksdag, a stone front with a colonnade and rows of lit windows, and a plain roof without a dome. Dark water of Riddarfjärden fills the foreground. It is an overcast night, about 16.0°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From the west quay of Helgeandsholmen, looking at the curved west wing across the near water. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.riksdagen.se/en/contact-and-visit/the-riksdag-buildings/",
+        "https://en.wikipedia.org/wiki/Parliament_House,_Stockholm"
+      ],
+      "anchors": [
+        "The Riksdag stands on Helgeandsholmen",
+        "The west wing is a curved stone front facing Riddarfjärden",
+        "Water lies along that west side"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-015-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-015-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-015-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-016",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "af Chapman",
+      "place": "Skeppsholmen",
+      "caption": "af Chapman, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · the west quay looking at the moored full-rigged ship · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the white full-rigged ship af Chapman moored at Skeppsholmen, Stockholm, at night",
+      "description": "From the west quay of Skeppsholmen the view looks at a white full-rigged ship moored alongside, three masts and rigging against the dark sky, with no name lettered on the hull. Long ochre former naval buildings and a pale church tower stand on the island behind. It is an overcast night, about 16.0°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From the west quay of Skeppsholmen, looking at the moored full-rigged ship, with the island’s ochre buildings and church tower behind. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Af_Chapman_(ship)",
+        "https://en.wikipedia.org/wiki/Skeppsholmen"
+      ],
+      "anchors": [
+        "af Chapman is a white full-rigged ship moored on the west side of Skeppsholmen",
+        "Long ochre former naval buildings stand on the island behind the ship",
+        "Skeppsholmen Church’s pale tower rises above those buildings"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-016-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-016-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-016-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-017",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Norr Mälarstrand",
+      "place": "Kungsholmen",
+      "caption": "Norr Mälarstrand, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · the promenade looking west along the tree-lined quay · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Norr Mälarstrand on Kungsholmen, Stockholm, at night, trees and lamps along the quay and stone apartment buildings inland",
+      "description": "From the promenade of Norr Mälarstrand, west of City Hall, the view looks west along the quay. Trees and street lamps line the walk. Dark water of Riddarfjärden is on one side, with a few moored boats, and a row of ornate early-20th-century stone apartment buildings is on the inland side. City Hall is behind the camera and is not the subject. It is an overcast night, about 15.8°C, about 90 minutes after the 18:30 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the promenade west of City Hall, looking west along Norr Mälarstrand. City Hall is behind the camera. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Norr_M%C3%A4larstrand",
+        "https://en.wikipedia.org/wiki/Kungsholmen"
+      ],
+      "anchors": [
+        "Norr Mälarstrand is the quay promenade along the north shore of Riddarfjärden",
+        "A row of trees separates the walk from the street",
+        "Ornamented early-20th-century apartment buildings line the inland side"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 90 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-017-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-017-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-017-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-018",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stockholm Public Library",
+      "place": "Vasastan",
+      "caption": "Stockholm Public Library, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · the terrace looking at the orange cylinder · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm Public Library in Vasastan at night, the orange cylindrical hall above a lower base and a shallow pool",
+      "description": "From the terrace in front of Stockholm Public Library the view looks at Gunnar Asplund’s cylinder, a tall drum of orange stucco rising from a lower square base, with a shallow pool in front and dark trees of Observatorielunden behind. It is an overcast night, about 16.0°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From the terrace in front of Stockholm Public Library, looking at the cylinder. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://biblioteket.stockholm.se/bibliotek/stadsbiblioteket",
+        "https://en.wikipedia.org/wiki/Stockholm_Public_Library"
+      ],
+      "anchors": [
+        "Stockholm Public Library stands by Observatorielunden at Sveavägen",
+        "The main volume is a tall orange-stucco cylinder on a lower square base",
+        "A shallow pool sits on the terrace in front of the entrance"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-018-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-018-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-018-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-019",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Östermalms Saluhall",
+      "place": "Östermalm",
+      "caption": "Östermalms Saluhall, Stockholm",
+      "scenario_label": "28 September 2026 · 20:00 Europe/Stockholm",
+      "composition": "Overcast night · Östermalmstorg looking at the brick market hall · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Östermalms Saluhall in Stockholm at night, the red-brick market hall with corner turrets",
+      "description": "From Östermalmstorg the view looks at Östermalms Saluhall, a red-brick market hall with pale stone trim, a steep roof, tall gables, and round corner turrets. Warm light shows in the arched windows. It is an overcast night, about 15.9°C, about 91 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "From Östermalmstorg, looking at the market hall’s gabled front and corner turrets. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.ostermalmshallen.se/",
+        "https://en.wikipedia.org/wiki/%C3%96stermalm_Market_Hall"
+      ],
+      "anchors": [
+        "Östermalms Saluhall is the brick market hall on Östermalmstorg",
+        "The exterior is red brick with pale stone trim, steep roofs, and corner turrets",
+        "Tall gables face the square"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:00 scenario is about 91 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-019-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-019-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-019-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
