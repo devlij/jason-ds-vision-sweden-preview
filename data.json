@@ -1,0 +1,45 @@
+{
+  "country": "Sweden",
+  "code": "SE",
+  "canonical": "https://sweden.jdvision.org/",
+  "ga": "G-PDJ4WSS725",
+  "timezone": "Europe/Stockholm",
+  "scenes": [
+    {
+      "entry_id": "SE-01-001",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Royal Palace",
+      "place": "Gamla Stan",
+      "caption": "Royal Palace, Stockholm",
+      "scenario_label": "28 September 2026 · 06:41 Europe/Stockholm",
+      "composition": "Pre-dawn · Slottsbacken looking toward the palace south front, with the obelisk on the slope · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Royal Palace south front from Slottsbacken in Gamla Stan, Stockholm, in cloudy pre-dawn light",
+      "description": "From the cobbles of Slottsbacken the view looks toward the palace’s south front, a long brown sandstone Baroque block with the entrance centered on that facade. The granite obelisk stands on the slope in front of it. Storkyrkan’s tower is off to the west, a separate church, not part of the palace. It is a cloudy pre-dawn, about 11.7°C, still before the 06:45 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "Tourist viewpoint on Slottsbacken, the sloping street south of the Royal Palace in Gamla Stan, looking toward the south front. The obelisk is in the square. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace.html",
+        "https://en.wikipedia.org/wiki/Stockholm_Palace"
+      ],
+      "anchors": [
+        "Slottsbacken is the slope south of the palace, running from Storkyrkan toward Skeppsbron",
+        "A granite obelisk stands on Slottsbacken in front of the south front",
+        "The palace is the Baroque sandstone block on the north side of that slope; Storkyrkan is the separate church at the west end"
+      ],
+      "solar": "Before sunrise. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 06:41 scenario is about four minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame.",
+      "moods": ["urban", "historic"],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-001-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-001-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-001-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    }
+  ]
+}
