@@ -1,0 +1,138 @@
+Sweden Stockholm batch SE-01-074 through SE-01-082
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-028 are already on main and were not edited.
+SE-01-029 through SE-01-073 live on open draft PRs and are not in this checkout.
+
+Every new scene is genuine night: model is_day 0, after sunset Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (23:00–23:59).
+The Karlberg and Långholmen model sunset is 18:30. The other seven model sunset is 18:29.
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+Locked SHA-256 of SE-01-001 through SE-01-010 on this branch, unchanged from origin/main:
+SE-01-001 SHA-256 16x9 1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3
+SE-01-001 SHA-256 4x5 25810ce465b775fd5fad674cbeb5123eb55a5c76147893a6ed4d80f0d216944c
+SE-01-001 SHA-256 9x16 f155a695f8e90d56250cfeef2504e9152b7aa0776db05ebb65e8d0c055636a9a
+SE-01-002 SHA-256 16x9 e4bb4f3d4f3825730cdd52ce5c2332d75683e2e49c2d7e64ff3ed2a853203d59
+SE-01-002 SHA-256 4x5 0fa79324d33a87ced491a6b1338734692be991d95ab733b4ed55f32ab4effb24
+SE-01-002 SHA-256 9x16 96d1fffb4b3c02b498003e5c81df735220bff28605a9fd177472235c418124e2
+SE-01-003 SHA-256 16x9 cd88ff6f31e5201490f2bf4486eeee84a877d6d5abdad7403b2b2cc08ac7b960
+SE-01-003 SHA-256 4x5 9329bbdc87d43a5f3024a4fd2a263dd50390e12f96167a95042584d472b6aee0
+SE-01-003 SHA-256 9x16 0b3c2098ef44e0a9a100aa5e229ada7203bb0fe40acddacdc8a348b0f5d341bd
+SE-01-004 SHA-256 16x9 55cd86a2de111ae3e39e36169796dec4b9e9493b740ab39fc7ceedc29518b7a6
+SE-01-004 SHA-256 4x5 df68b733476933266a7d1a11ad2254d3f8496ba02fbc9f0f5a6a20c87fb39ace
+SE-01-004 SHA-256 9x16 1731f84870a83eefcdddd67cff0795746dccfc37199f72a6c2229cedb81e9801
+SE-01-005 SHA-256 16x9 08702cb07898ec1ef6e368eea04130341f4f38345414d30390bc97098154ee59
+SE-01-005 SHA-256 4x5 121e88ab166a7ebfe3ca3352430a2d277a4868fabb3644d294b8af05b0b303da
+SE-01-005 SHA-256 9x16 025ded58810e98dc00b586a399fca3c2cf5a476c7cc578bfb0a25f1f601affd0
+SE-01-006 SHA-256 16x9 519ec77d3920c1277d9f5be54ced9806aa5838a607d730d34842815396398b6c
+SE-01-006 SHA-256 4x5 642e8ae5d79b7aa828dedd99ff662a480533e1f0fd3f8e3fd26aa106cecd741d
+SE-01-006 SHA-256 9x16 b3e33ee6b049aecdb91c903678a7ba45f3539cacce631541185ed7f215b24a69
+SE-01-007 SHA-256 16x9 3abcb61d26db8a15a650b239986a6fd068af001b37dff8550c94e2a94d899cbc
+SE-01-007 SHA-256 4x5 949c0ea3fa0333364ed4bfe85610f6144a7fa78143f608fc85162f69c1275bab
+SE-01-007 SHA-256 9x16 337e2176432c003eb0cc66c6a481c3b689745ce7f644cdf2b4549d5024d7a1cb
+SE-01-008 SHA-256 16x9 b6f5f0c06f046e16518995bc59bf5253c755712223ed6e5dbcd4eb77168ec649
+SE-01-008 SHA-256 4x5 443e596ce2506c7d99c6d13e5fde785d2d464b17ffb6aa15a8fde095ecb128db
+SE-01-008 SHA-256 9x16 4fe9800cf7608b9aeb372636c8050b94587553ca56c6801a0df47238f8924b68
+SE-01-009 SHA-256 16x9 93467088835352ee60685948850331c31a13899fb9b0779fe5fb9cafa5b56b20
+SE-01-009 SHA-256 4x5 f0b52c297e80a294fd03f0554083b12ef5a0bfdc09647e51ea45dd9d302a9aa2
+SE-01-009 SHA-256 9x16 7e181a57a0cf3a0476c55bfee5f0a2f826073e56cf2b6b0931cb4ed0a161dc9a
+SE-01-010 SHA-256 16x9 56dc778e7c100239b123411d1f178440d5874f3f26dc4b31c772f71923a65385
+SE-01-010 SHA-256 4x5 e641dfb00686c45514d2a8086aac8666e2a74fc59fba51f187228711f8895887
+SE-01-010 SHA-256 9x16 baadcb2e68e1f8967085f38bd88560ce0fd2f1cb4149aee90d0040775ed79c49
+
+SE-01-074 Karlberg Palace (Karlberg)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:14+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 5e27ecb51165292fab30ac42970b8d33547790090f32f1d7fdf20588c9b0c098
+  SHA-256 4:5: 73cc58d2456fb22bdd5cad1c578d5bfde0f3ca937644cc896c931f0fcb468bf3
+  SHA-256 9:16: 0c82a0de1fe1f6ffb798744f6887694c52f68b77b3da946a958a312763d63ccd
+
+SE-01-075 Västerlånggatan (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:16+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 4c09ee59054e4474bd8b327083d3bf7fb1a5afc462a086a653effe9203c1ceb7
+  SHA-256 4:5: 3e1edc2a7531876a22c75e4c6421f86a9a9e487e79df242e2cff23e0ceacb47e
+  SHA-256 9:16: 0a679e02da9f38022e4f3b3c21e12b3cce34699a932e6a5501de0351ba84bdce
+
+SE-01-076 Söder Mälarstrand (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:19+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 963dfd94c14541d3154d58959bf3f9b60571e49eab222119f659e11e0c85b659
+  SHA-256 4:5: f92d425c1c1f4dfa7c0fa19f8d8cc5cbf192289046f8a050dcec2de80e3bf6e0
+  SHA-256 9:16: c2d1954993e2ac3d5da4a2e6068333c5336f44eefecef8bbeb75229317f5147f
+
+SE-01-077 Vanadis Reservoir (Vasastan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:21+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 11c4d3cd4bdb61a58dea1540e79c87835cbc9c05c2ad30b47ec84ca1809975c9
+  SHA-256 4:5: 198bbaacf185d87666df8a22463908ed328eafcce85e2be4b818fd224549728a
+  SHA-256 9:16: 88d0b52f468c09857160ecbf6be5e30647568fef320cebe0e4b335a1b1eee558
+
+SE-01-078 Beckholmen (Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:24+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: e523cb5ee598fc1bc96ba5dea680145e5219fab1b564d51b3210f1c2c325cb55
+  SHA-256 4:5: 209b84074016dfefa895243ac969b811c98938630005fc5ecf4e854a7a58d989
+  SHA-256 9:16: 7aff2b296ad2e15ae11fafb96a701155c3be083bb0aaa709d439801c7e6f755f
+
+SE-01-079 Långholmen (Långholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:26+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: e3436a27717d463b4f5d1643590150ebd47a2fb6ce9198b60df89d0f64bcf87f
+  SHA-256 4:5: d60a04fa3ced51ce0d30f2ca66fe3deedfb6053e42d0b42eb6c43447d872bc31
+  SHA-256 9:16: 9544369f8de37937eddbfa61fe10993522b92c580e30e3039d8b11c743e29bdd
+
+SE-01-080 St. John's Church (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:29+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 3251c9203193345414657008f74704335f65bb097f094403b78b3e3d47203e1c
+  SHA-256 4:5: 8f3a2e4e188a346bb53085a244c36d49a81f29537a071c65a636e09edf917c65
+  SHA-256 9:16: e6e6ed855cab808b37c2a553ae159fb8e163093c1323ee0bbc4dcf705988634b
+
+SE-01-081 Kornhamnstorg (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:31+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: 9919eff4b2d392d291434ac41357833632c360ed3f52bcdad10255422f2157dd
+  SHA-256 4:5: c2870ddecc991ba99a654d76885106de0679901b21deb8c9c89f39509cf88fb9
+  SHA-256 9:16: 59f0898cd7229eaf545f85ae6731deccb79f909dbdac98a2539480fa0acba3d0
+
+SE-01-082 Natural History Museum (Frescati)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T23:37:34+02:00
+  model time: 2026-09-28T23:30
+  scenario: 28 September 2026 · 23:37 Europe/Stockholm
+  SHA-256 16:9: fc02653f711dc98f93693ed9c14c0ec42c5bdabad9f333be126f3f115d3df414
+  SHA-256 4:5: f7ca1a8c41ed016a684fb4609608d80cefd8c5b0fdeae4f1a4059138cf7c7f68
+  SHA-256 9:16: c5fc1e749c804dece6309624aded94364b34df5bcc56891b51a194b202313488

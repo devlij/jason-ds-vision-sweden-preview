@@ -23,7 +23,9 @@ FORBIDDEN = (
 NEW_IDS = [f"SE-01-{n:03d}" for n in range(2, 11)]
 NIGHT_IDS = [f"SE-01-{n:03d}" for n in range(11, 20)]
 LATE_IDS = [f"SE-01-{n:03d}" for n in range(20, 29)]
-EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS]
+# SE-01-029–073 live on open drafts and are not part of this checkout.
+BATCH_IDS = [f"SE-01-{n:03d}" for n in range(74, 83)]
+EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS, *BATCH_IDS]
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
 SE001_SHA = {
     "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
@@ -232,6 +234,54 @@ def main() -> None:
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
+    batch74_path = ROOT / "approvals" / "BATCH-SE-01-074-082.txt"
+    batch74 = batch74_path.read_text() if batch74_path.is_file() else ""
+    if not batch74_path.is_file():
+        errors.append("missing approvals/BATCH-SE-01-074-082.txt")
+    elif "night scenes do not get an aerial" not in batch74.lower():
+        errors.append("074 batch file missing the no-aerial note")
+
+    for entry_id in BATCH_IDS:
+        scene = by_id.get(entry_id) or {}
+        if scene.get("approval_status") != "Candidate":
+            errors.append(f"{entry_id} approval_status is not Candidate")
+        if scene.get("format_9x16_approval_status") != "Candidate":
+            errors.append(f"{entry_id} 9:16 approval is not Candidate")
+        if scene.get("format_16x9_approval_status") == "Approved":
+            errors.append(f"{entry_id} 16:9 was self-approved")
+        if scene.get("format_4x5_approval_status") == "Approved":
+            errors.append(f"{entry_id} 4:5 was self-approved")
+        if scene.get("motion"):
+            errors.append(f"{entry_id} motion is set without an aerial file")
+        note = check_note(errors, entry_id, candidate=True)
+        if note and "night scenes do not get an aerial" not in note.lower():
+            errors.append(f"{entry_id} approval note missing the night aerial refusal")
+        weather = check_weather(errors, entry_id, stamps)
+        if weather:
+            if weather.get("is_day") != 0 or weather.get("daynight") != "night":
+                errors.append(f"{entry_id} weather is not genuine night")
+            sunset = weather.get("sunset") or ""
+            minute = (weather.get("retrieval_timestamp") or "")[11:16]
+            if minute < sunset[11:16]:
+                errors.append(f"{entry_id} retrieval is not after sunset")
+        check_masters(errors, entry_id, note)
+        if batch74 and entry_id not in batch74:
+            errors.append(f"074 batch file missing {entry_id}")
+        scene_line = ""
+        if batch74:
+            for line in batch74.splitlines():
+                if line.startswith(entry_id + " "):
+                    scene_line = line
+                    break
+            if not scene_line:
+                errors.append(f"074 batch file missing a scene line for {entry_id}")
+            else:
+                idx = batch74.find(scene_line)
+                nxt = batch74.find("\nSE-01-", idx + len(scene_line))
+                block = batch74[idx:nxt if nxt > idx else None]
+                if "aerial: no" not in block.lower():
+                    errors.append(f"{entry_id} batch line is not aerial no")
+
     html = (ROOT / "index.html").read_text()
     if "Download 9:16" in html.split("const SCENES")[0]:
         errors.append("static markup exposes a 9:16 download")
@@ -239,9 +289,11 @@ def main() -> None:
         errors.append("Sweden is not marked current")
     if "G-PDJ4WSS725" not in html:
         errors.append("GA4 id missing")
+    if "var INTERVAL=4000;" not in html:
+        errors.append("lightbox interval is not the 4000ms value on main")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
-    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS]:
+    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *BATCH_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:
             errors.append(f"{entry_id} missing from index.html")
