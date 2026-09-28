@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://sweden.jdvision.org/#SE-01-001</loc>
+    <image:image><image:loc>https://sweden.jdvision.org/assets/sweden/Stockholm/se-01-001-16x9.png</image:loc></image:image>
+    <image:image><image:loc>https://sweden.jdvision.org/assets/sweden/Stockholm/se-01-001-4x5.png</image:loc></image:image>
+  </url>
 </urlset>

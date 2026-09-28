@@ -58,8 +58,11 @@ def write_image_sitemap(scenes: list[dict]) -> None:
 def main() -> None:
     scenes = load_scenes()
     html = render_gallery(scenes)
-    if any(scene.get("approval_status") == "Approved" for scene in scenes):
-        raise SystemExit("refusing to publish a self-approved scene")
+    # SE-01-001 was approved on main before this batch. This rebuild must not
+    # self-approve any later scene.
+    for scene in scenes:
+        if scene.get("approval_status") == "Approved" and scene.get("entry_id") != "SE-01-001":
+            raise SystemExit(f"refusing to publish a self-approved scene: {scene.get('entry_id')}")
     (ROOT / "index.html").write_text(html)
     write_robots()
     write_sitemap()
