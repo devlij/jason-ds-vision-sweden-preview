@@ -393,6 +393,354 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-020",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Concert Hall",
+      "place": "Norrmalm",
+      "caption": "Concert Hall, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · Hötorget looking toward the blue colonnade and the Orpheus fountain · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Stockholm Concert Hall from Hötorget, the pale blue colonnade and the Orpheus fountain, on an overcast night",
+      "description": "From the open square of Hötorget the view looks toward the Stockholm Concert Hall. The façade is pale blue, with ten Corinthian columns rising from a broad stone stair. At the foot of the steps, the bronze Orpheus group stands in a low basin. It is an overcast night, about 15.9°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Hötorget, looking toward the concert hall’s Hötorget façade. The Orpheus fountain is at the foot of the steps. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.konserthuset.se/en/about-us/the-building/",
+        "https://sv.wikipedia.org/wiki/Konserthuset_Stockholm"
+      ],
+      "anchors": [
+        "The concert hall stands at Hötorget, at the corner of Kungsgatan and Sveavägen",
+        "The Hötorget façade is a pale blue colonnade of ten Corinthian columns above a broad stair",
+        "Carl Milles’s Orpheus group stands at the foot of those steps"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-020-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-020-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-020-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-021",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Katarina Church",
+      "place": "Södermalm",
+      "caption": "Katarina Church, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · the west churchyard looking toward the yellow church and the cupola · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Katarina Church on Södermalm, Stockholm, the yellow Greek-cross church and octagonal cupola tower, on an overcast night",
+      "description": "From the churchyard west of Katarina Church the view looks toward the west entrance. The walls are yellow plaster, the plan is a Greek cross, and an octagonal tower with an open gallery carries a dark cupola, a lantern, and a slender spire. It is an overcast night, about 15.4°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In the churchyard west of Katarina Church, looking toward the west entrance and the cupola. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.svenskakyrkan.se/katarina",
+        "https://sv.wikipedia.org/wiki/Katarina_kyrka"
+      ],
+      "anchors": [
+        "Katarina Church stands at Högbergsgatan 13 on eastern Södermalm",
+        "The church is a Greek-cross central plan with yellow plastered brick walls",
+        "An octagonal tower with a gallery rises over the crossing, crowned by a cupola, a lantern, and a spire"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-021-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-021-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-021-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-022",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Moderna Museet",
+      "place": "Skeppsholmen",
+      "caption": "Moderna Museet, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · the path west of the museum looking toward the red halls and the roof lanterns · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Moderna Museet on Skeppsholmen, Stockholm, low red halls with roof lanterns beside the long Tyghuset, on an overcast night",
+      "description": "From the path just west of Moderna Museet the view looks toward the low red halls. Rectangular lantern skylights rise from the roof, and the long pale Tyghuset runs beside the museum. Dark water lies beyond the buildings. It is an overcast night, about 15.6°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the path just west of Moderna Museet, looking toward the red halls and the roof lanterns. This is not the west quay where af Chapman is moored. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.modernamuseet.se/stockholm/en/",
+        "https://rafaelmoneo.com/en/projects/moderna-museet-and-arkitekturmuseet-in-stockholm/"
+      ],
+      "anchors": [
+        "Moderna Museet stands on Skeppsholmen, gathered beside the long Tyghuset",
+        "The 1998 halls are low and finished in red stucco",
+        "Rectangular lantern skylights rise from the roof"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-022-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-022-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-022-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-023",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Olympic Stadium",
+      "place": "Norra Djurgården",
+      "caption": "Olympic Stadium, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · outside the south gate looking at the two octagonal brick towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm Olympic Stadium from outside the south gate, two octagonal dark-brick towers flanking an arch, on an overcast night",
+      "description": "From outside the south gate the view looks at Stockholm Olympic Stadium. Two octagonal towers of dark brick flank a deep arch, and the parapets are crenellated. It is an overcast night, about 15.8°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "Outside the south gate of Stockholms stadion, looking at the two octagonal brick towers and the arch between them. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stockholms_stadion",
+        "https://sv.wikipedia.org/wiki/Stockholms_stadion"
+      ],
+      "anchors": [
+        "Stockholms stadion stands between Lidingövägen and Valhallavägen on Norra Djurgården",
+        "The 1912 building is dark brick with granite, in the manner of a medieval city wall",
+        "The south gate is a vault flanked by two octagonal towers"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-023-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-023-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-023-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-024",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "German Church",
+      "place": "Gamla Stan",
+      "caption": "German Church, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · Svartmangatan looking up at the red brick church and the copper spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the German Church in Gamla Stan, Stockholm, dark red brick and a tall copper spire above the old-town roofs, on an overcast night",
+      "description": "From Svartmangatan the view looks toward the German Church. Dark red brick and pale sandstone rise into a tall green copper spire, with four small turrets and a weathercock. Old town houses crowd the street. It is an overcast night, about 15.6°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Svartmangatan, looking toward the church and the copper spire. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/German_Church,_Stockholm",
+        "https://sv.wikipedia.org/wiki/Tyska_kyrkan,_Stockholm"
+      ],
+      "anchors": [
+        "The German Church, Sankta Gertruds kyrka, stands at Svartmangatan 16 in Gamla Stan",
+        "The walls are dark red brick with sandstone details",
+        "The spire completed in 1887 is copper-clad, flanked by four turrets, and topped by a gilded weathercock"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-024-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-024-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-024-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-025",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "House of Nobility",
+      "place": "Gamla Stan",
+      "caption": "House of Nobility, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · Riddarhustorget looking north at the brick palace and the Gustav Vasa statue · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the House of Nobility from Riddarhustorget in Gamla Stan, Stockholm, the brick palace and the Gustav Vasa statue, on an overcast night",
+      "description": "From Riddarhustorget the view looks north at the House of Nobility. Red brick and pale stone pilasters face the square, with a central pediment and a steep dark metal roof. A statue of Gustav Vasa stands in the square. It is an overcast night, about 15.7°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Riddarhustorget, looking north at Riddarhuspalatset. The Gustav Vasa statue is in the square. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.riddarhuset.se/en/",
+        "https://sv.wikipedia.org/wiki/Riddarhuspalatset"
+      ],
+      "anchors": [
+        "Riddarhuspalatset stands on the north side of Riddarhustorget and was completed in 1674",
+        "The palace is Dutch Baroque, of brick and stone, with a steep metal roof",
+        "The square was widened for a statue of Gustav Vasa, which was moved to its present place in 1914–1916"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-025-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-025-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-025-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-026",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Sergels Torg",
+      "place": "Norrmalm",
+      "caption": "Sergels Torg, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · the roundabout looking at the glass obelisk, with the sunken plaza below · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Sergels torg in Stockholm at night, the lit glass obelisk in the superellipse fountain and the black and white plaza",
+      "description": "From the edge of the roundabout the view looks toward the glass obelisk at Sergels torg. The column of glass is lit from within and rises from a low superellipse fountain. Below, the sunken plaza shows a black and white triangular floor and a wide stair. Kulturhuset’s glass wall is behind the obelisk. It is an overcast night, about 15.6°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "At street level by the roundabout, looking at the glass obelisk, with the sunken plaza in the foreground and Kulturhuset beyond. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Sergels_torg",
+        "https://sv.wikipedia.org/wiki/Sergels_torg"
+      ],
+      "anchors": [
+        "Sergels torg is the 1960s square in Norrmalm, built as a traffic junction and completed in 1967",
+        "Edvin Öhrström’s glass obelisk stands in Piet Hein’s superellipse fountain",
+        "The sunken plaza has a black and white triangular floor, and Kulturhuset’s glass wall closes the south side"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-026-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-026-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-026-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-027",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Waldemarsudde",
+      "place": "Djurgården",
+      "caption": "Waldemarsudde, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · the south shore path looking toward the mansion and the oil mill · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Waldemarsudde on Djurgården, Stockholm, the mansion above the water and the red oil mill without sails, on an overcast night",
+      "description": "From the shore path south of Waldemarsudde the view looks toward the mansion. A pale house with a mansard roof and large windows faces a terrace above the dark water. To one side stands the red oil mill, a Dutch mill without sails. It is an overcast night, about 15.7°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the shore path south of the mansion, looking toward the south façade and the oil mill. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://waldemarsudde.se/en/about-waldemarsudde/",
+        "https://en.wikipedia.org/wiki/Waldemarsudde"
+      ],
+      "anchors": [
+        "The mansion at Prins Eugens Waldemarsudde was designed by Ferdinand Boberg and completed in 1905",
+        "The south side opens in large windows onto a terrace above the water",
+        "The linseed-oil mill is a falu-red Dutch mill from the 1780s, and its sails were taken down in the 1870s"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-027-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-027-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-027-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-028",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kaknäs Tower",
+      "place": "Gärdet",
+      "caption": "Kaknäs Tower, Stockholm",
+      "scenario_label": "28 September 2026 · 20:52 Europe/Stockholm",
+      "composition": "Overcast night · the lawn looking up at the concrete tower and its turned platforms · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kaknästornet on Gärdet, Stockholm, the square concrete tower with platforms turned near the top, on an overcast night",
+      "description": "From the lawn at its foot the view looks up at Kaknästornet. The shaft is square concrete. Near the top, the platforms turn 45 degrees to the shaft, and a slender mast continues above them. It is an overcast night, about 15.5°C, about 143 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the lawn at the foot of Kaknästornet, looking up at the shaft. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Kakn%C3%A4stornet",
+        "https://sv.wikipedia.org/wiki/Kakn%C3%A4stornet"
+      ],
+      "anchors": [
+        "Kaknästornet stands at Ladugårdsgärdet and was completed in 1967",
+        "The shaft is a square of reinforced concrete",
+        "The platforms near the top are rotated 45 degrees to the shaft, with an antenna mast above"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 20:52 scenario is about 143 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-028-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-028-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-028-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }

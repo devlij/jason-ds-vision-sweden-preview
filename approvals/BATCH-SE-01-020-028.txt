@@ -1,0 +1,104 @@
+Sweden Stockholm batch SE-01-020 through SE-01-028
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-019 are not in this checkout. They were not edited.
+
+Every new scene is genuine night: model is_day 0, after sunset 18:29 Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (20:00–20:59).
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-020 Concert Hall (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:04+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: 172b7b50f1878f357917b24fefbdc42744844954588c865b22b0e1b310595d16
+  SHA-256 4:5: a32b60b4b912c58d87a2b0c210f079d73fd410d3bf316ba7bda522d666c1f8e1
+  SHA-256 9:16: 70b95f79277b74b8060845e3ce5a313d6526f390a07be6385b206b5c705d6b61
+
+SE-01-021 Katarina Church (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:06+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: 864bd3d08284e38afbe921aa05a257756331a8f3be865c6a0c18e35077f558cd
+  SHA-256 4:5: 5dae04175b7ee4639fdee251213b84dffdd834fb1ca81f9dc3b8faa3eb540fd9
+  SHA-256 9:16: 714393f4f3827446ada37467c714334ff8772db8e3dfed853eb45fddf3128b38
+
+SE-01-022 Moderna Museet (Skeppsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:09+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: fec7951d0452b62a038308234c1f7cf0fe4b7be482c5fa4d136e0a2adff429f7
+  SHA-256 4:5: d0e344c0d10edc70817474f398567ec949443f09ab9f8545885ae46952ec1d71
+  SHA-256 9:16: dc3363feee87e58480427c44d04d80801d2c4946705d0f07d0c14d9dec291579
+
+SE-01-023 Olympic Stadium (Norra Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:12+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: 9de3f9352895a6b8cec1bed8d3c0b0479e732f0f8eaeb5532b90fe7a4bcde5d2
+  SHA-256 4:5: 9f2df344e25e830997d360cf600a19d5b9900f9e1e2b2ee7f8908c5acd8043d3
+  SHA-256 9:16: a597110cb3d871cd78f89295d93e0d0d2589d36df7398cf52c264348c008d82d
+
+SE-01-024 German Church (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:14+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: a82f619e78fe3234adeaf861b66e4164a9363fa9ab394ee45ff818f67bb5a1c1
+  SHA-256 4:5: 871aa69481040b622d7fc0cda9b0eb29c8a0d5353a3e39e9bd8b2205650fa519
+  SHA-256 9:16: dc5b452eb911f4b99bf238efed20448a0eae021d1f3103b40b2217545e188546
+
+SE-01-025 House of Nobility (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:17+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: 08085cbff533db22a8d958321999ed64d8070e389444c84698d0acf89f35fa9e
+  SHA-256 4:5: 731734e07b49ae59f6cc13b6062b75cd892b7bb8733574eb835cf22daefeec15
+  SHA-256 9:16: 82a4f65d3aa85c3da277fc4a0e75a72b99339c5d414ed252572db2250540ed4e
+
+SE-01-026 Sergels Torg (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:20+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: 2d5001b14141c56188b9ef13d6d3dd8fe8cad5526a2f49d5927a00f545751155
+  SHA-256 4:5: ac9d6f529122106b6257ea7df243d5e85d56a26543719c95e88076fbc688001a
+  SHA-256 9:16: bdfeda64f791e113c450cdf9284a5c30cd60accc3887607a453b2fe32f562ecc
+
+SE-01-027 Waldemarsudde (Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:22+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: ff2686ed12d38bf70ad2f40946afa0fc1021edd7d011ea52e12467440c308bb3
+  SHA-256 4:5: e27ffeea0f45ab9b4570246d70cd69cc1bdfbdef8facae79a796d11e7b9cb09f
+  SHA-256 9:16: ea7af4f0ab68cdf6a886d9e8384688b3cdc4cdf1e5767bfb5bea7da8af09322b
+
+SE-01-028 Kaknäs Tower (Gärdet)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T20:52:25+02:00
+  model time: 2026-09-28T20:45
+  scenario: 28 September 2026 · 20:52 Europe/Stockholm
+  SHA-256 16:9: b1b14cc697a49a8dac1db5514adce44d0a2324cd2729dd152d685357d9a24a80
+  SHA-256 4:5: 2d06792bf05a17eb6710a7b76adec250c130b009d5ad0e41622eaa7309f05663
+  SHA-256 9:16: 98409fe8932ce38c09bb9cd31174f9b1b0788a16c19e6faf50b92b301e7e4055

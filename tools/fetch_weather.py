@@ -45,6 +45,17 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-008", "Riddarholmen", "Stockholm", 59.32430, 18.06420, "Europe/Stockholm"),
     ("SE-01-009", "Skansen", "Stockholm", 59.32670, 18.10440, "Europe/Stockholm"),
     ("SE-01-010", "Strandvägen", "Stockholm", 59.33210, 18.08240, "Europe/Stockholm"),
+    # SE-01-011–019 live on an open draft and are not in this checkout.
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    ("SE-01-020", "Concert Hall", "Stockholm", 59.33490, 18.06280, "Europe/Stockholm"),
+    ("SE-01-021", "Katarina Church", "Stockholm", 59.31690, 18.07740, "Europe/Stockholm"),
+    ("SE-01-022", "Moderna Museet", "Stockholm", 59.32610, 18.08320, "Europe/Stockholm"),
+    ("SE-01-023", "Olympic Stadium", "Stockholm", 59.34455, 18.07910, "Europe/Stockholm"),
+    ("SE-01-024", "German Church", "Stockholm", 59.32410, 18.07205, "Europe/Stockholm"),
+    ("SE-01-025", "House of Nobility", "Stockholm", 59.32570, 18.06620, "Europe/Stockholm"),
+    ("SE-01-026", "Sergels Torg", "Stockholm", 59.33230, 18.06450, "Europe/Stockholm"),
+    ("SE-01-027", "Waldemarsudde", "Stockholm", 59.31945, 18.11370, "Europe/Stockholm"),
+    ("SE-01-028", "Kaknäs Tower", "Stockholm", 59.33440, 18.12640, "Europe/Stockholm"),
 ]
 
 
