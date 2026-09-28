@@ -12,7 +12,7 @@ from pathlib import Path
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from composite_masters import CANVAS, assert_art50
+from composite_masters import CANVAS, assert_art50, read_text_chunks
 
 ROOT = Path(__file__).resolve().parents[1]
 FORBIDDEN = (
@@ -23,7 +23,8 @@ FORBIDDEN = (
 NEW_IDS = [f"SE-01-{n:03d}" for n in range(2, 11)]
 NIGHT_IDS = [f"SE-01-{n:03d}" for n in range(11, 20)]
 LATE_IDS = [f"SE-01-{n:03d}" for n in range(20, 29)]
-EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS]
+BATCH_IDS = [f"SE-01-{n:03d}" for n in range(83, 92)]
+EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS, *BATCH_IDS]
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
 SE001_SHA = {
     "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
@@ -232,6 +233,62 @@ def main() -> None:
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
+    batch83_path = ROOT / "approvals" / "BATCH-SE-01-083-091.txt"
+    batch83 = batch83_path.read_text() if batch83_path.is_file() else ""
+    if not batch83_path.is_file():
+        errors.append("missing approvals/BATCH-SE-01-083-091.txt")
+    elif "night scenes do not get an aerial" not in batch83.lower():
+        errors.append("083 batch file missing the no-aerial note")
+
+    for entry_id in BATCH_IDS:
+        scene = by_id.get(entry_id) or {}
+        if scene.get("approval_status") != "Candidate":
+            errors.append(f"{entry_id} approval_status is not Candidate")
+        if scene.get("format_9x16_approval_status") != "Candidate":
+            errors.append(f"{entry_id} 9:16 approval is not Candidate")
+        if scene.get("format_16x9_approval_status") == "Approved":
+            errors.append(f"{entry_id} 16:9 was self-approved")
+        if scene.get("format_4x5_approval_status") == "Approved":
+            errors.append(f"{entry_id} 4:5 was self-approved")
+        if scene.get("motion"):
+            errors.append(f"{entry_id} motion is set without an aerial file")
+        note = check_note(errors, entry_id, candidate=True)
+        if note and "night scenes do not get an aerial" not in note.lower():
+            errors.append(f"{entry_id} approval note missing the night aerial refusal")
+        weather = check_weather(errors, entry_id, stamps)
+        if weather:
+            if weather.get("is_day") != 0 or weather.get("daynight") != "night":
+                errors.append(f"{entry_id} weather is not genuine night")
+            sunrise = (weather.get("sunrise") or "")[11:16]
+            sunset = (weather.get("sunset") or "")[11:16]
+            minute = (weather.get("retrieval_timestamp") or "")[11:16]
+            # Pre-dawn (before sunrise) and after sunset are both night. This batch is pre-dawn.
+            if not (minute < sunrise or minute >= sunset):
+                errors.append(f"{entry_id} retrieval is inside the daylight window")
+        check_masters(errors, entry_id, note)
+        for fmt in ("16x9", "4x5", "9x16"):
+            path = ROOT / "assets" / "sweden" / "Stockholm" / f"{entry_id.lower()}-{fmt}.png"
+            if path.is_file():
+                comment = read_text_chunks(path).get("Comment", ("", ""))[1]
+                if "embedded 2026-09-29." not in comment:
+                    errors.append(f"{entry_id} {fmt} Art. 50 comment is not the Stockholm build day")
+        if batch83 and entry_id not in batch83:
+            errors.append(f"083 batch file missing {entry_id}")
+        scene_line = ""
+        if batch83:
+            for line in batch83.splitlines():
+                if line.startswith(entry_id + " "):
+                    scene_line = line
+                    break
+            if not scene_line:
+                errors.append(f"083 batch file missing a scene line for {entry_id}")
+            else:
+                idx = batch83.find(scene_line)
+                nxt = batch83.find("\nSE-01-", idx + len(scene_line))
+                block = batch83[idx:nxt if nxt > idx else None]
+                if "aerial: no" not in block.lower():
+                    errors.append(f"{entry_id} batch line is not aerial no")
+
     html = (ROOT / "index.html").read_text()
     if "Download 9:16" in html.split("const SCENES")[0]:
         errors.append("static markup exposes a 9:16 download")
@@ -241,16 +298,18 @@ def main() -> None:
         errors.append("GA4 id missing")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
-    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS]:
+    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *BATCH_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
+        if start < 0:
+            start = html.find(f'"entry_id":"{entry_id}"')
         if start < 0:
             errors.append(f"{entry_id} missing from index.html")
             continue
         end = html.find('"entry_id":', start + 10)
         chunk = html[start:end if end > start else start + 2500]
-        if '"approval_status": "Approved"' in chunk:
+        if '"approval_status": "Approved"' in chunk or '"approval_status":"Approved"' in chunk:
             errors.append(f"{entry_id} is Approved in index.html")
-        if '"format_9x16_approval_status": "Approved"' in chunk:
+        if '"format_9x16_approval_status": "Approved"' in chunk or '"format_9x16_approval_status":"Approved"' in chunk:
             errors.append(f"{entry_id} 9:16 is Approved in index.html")
 
     cname = (ROOT / "CNAME").read_text().strip()

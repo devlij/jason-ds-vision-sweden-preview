@@ -63,6 +63,15 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-026", "Sergels Torg", "Stockholm", 59.33230, 18.06450, "Europe/Stockholm"),
     ("SE-01-027", "Waldemarsudde", "Stockholm", 59.31945, 18.11370, "Europe/Stockholm"),
     ("SE-01-028", "Kaknäs Tower", "Stockholm", 59.33440, 18.12640, "Europe/Stockholm"),
+    ("SE-01-083", "Hallwyl Museum", "Stockholm", 59.33340, 18.07460, "Europe/Stockholm"),
+    ("SE-01-084", "Ulriksdal Palace", "Stockholm", 59.38990, 18.01750, "Europe/Stockholm"),
+    ("SE-01-085", "Drottningholm Palace", "Stockholm", 59.32170, 17.88690, "Europe/Stockholm"),
+    ("SE-01-086", "Klara Church", "Stockholm", 59.33140, 18.06170, "Europe/Stockholm"),
+    ("SE-01-087", "Nybrokajen", "Stockholm", 59.33115, 18.07760, "Europe/Stockholm"),
+    ("SE-01-088", "Sankt Eriksbron", "Stockholm", 59.33870, 18.03490, "Europe/Stockholm"),
+    ("SE-01-089", "Skeppsholmen Church", "Stockholm", 59.32640, 18.08480, "Europe/Stockholm"),
+    ("SE-01-090", "Österlånggatan", "Stockholm", 59.32480, 18.07360, "Europe/Stockholm"),
+    ("SE-01-091", "Wenner-Gren Center", "Stockholm", 59.35111, 18.04861, "Europe/Stockholm"),
 ]
 
 

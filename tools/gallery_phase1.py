@@ -229,10 +229,12 @@ def render_gallery(scenes: list[dict] | None = None) -> str:
     template = TEMPLATE.read_text()
     wotd = load_wotd()
     narr = narr_manifest(page_scenes)
-    payload = json.dumps(page_scenes, ensure_ascii=False).replace("<", "\\u003c")
-    meta_payload = json.dumps(meta, ensure_ascii=False).replace("<", "\\u003c")
-    wotd_payload = json.dumps(wotd, ensure_ascii=False).replace("<", "\\u003c")
-    narr_payload = json.dumps(narr, ensure_ascii=False).replace("<", "\\u003c")
+    # Compact separators match the gallery already published on main.
+    compact = (",", ":")
+    payload = json.dumps(page_scenes, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
+    meta_payload = json.dumps(meta, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
+    wotd_payload = json.dumps(wotd, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
+    narr_payload = json.dumps(narr, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
     html = (
         template.replace("__SCENES__", payload)
         .replace("__SE_META__", meta_payload)
