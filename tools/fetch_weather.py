@@ -33,8 +33,18 @@ MONTHS = [
 ]
 
 # Later scenes append here. Do not re-list a scene that already has a file.
+# Pins are the public viewpoint, not a surveyed tripod mark.
 SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-001", "Royal Palace", "Stockholm", 59.32555, 18.07105, "Europe/Stockholm"),
+    ("SE-01-002", "Vasa Museum", "Stockholm", 59.32830, 18.09140, "Europe/Stockholm"),
+    ("SE-01-003", "City Hall", "Stockholm", 59.32690, 18.05620, "Europe/Stockholm"),
+    ("SE-01-004", "Stortorget", "Stockholm", 59.32505, 18.07085, "Europe/Stockholm"),
+    ("SE-01-005", "Nordic Museum", "Stockholm", 59.32860, 18.09370, "Europe/Stockholm"),
+    ("SE-01-006", "Monteliusvägen", "Stockholm", 59.32155, 18.06105, "Europe/Stockholm"),
+    ("SE-01-007", "Kungsträdgården", "Stockholm", 59.33055, 18.07175, "Europe/Stockholm"),
+    ("SE-01-008", "Riddarholmen", "Stockholm", 59.32430, 18.06420, "Europe/Stockholm"),
+    ("SE-01-009", "Skansen", "Stockholm", 59.32670, 18.10440, "Europe/Stockholm"),
+    ("SE-01-010", "Strandvägen", "Stockholm", 59.33210, 18.08240, "Europe/Stockholm"),
 ]
 
 

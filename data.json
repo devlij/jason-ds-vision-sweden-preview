@@ -29,7 +29,10 @@
         "The palace is the Baroque sandstone block on the north side of that slope; Storkyrkan is the separate church at the west end"
       ],
       "solar": "Before sunrise. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 06:41 scenario is about four minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame.",
-      "moods": ["urban", "historic"],
+      "moods": [
+        "urban",
+        "historic"
+      ],
       "approval_status": "Approved",
       "format_16x9_approval_status": "Approved",
       "format_4x5_approval_status": "Approved",
@@ -37,6 +40,356 @@
       "file_16x9": "assets/sweden/Stockholm/se-01-001-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-001-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-001-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-002",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Vasa Museum",
+      "place": "Djurgården",
+      "caption": "Vasa Museum, Stockholm",
+      "scenario_label": "28 September 2026 · 17:56 Europe/Stockholm",
+      "composition": "Overcast late afternoon · Galärvarvsvägen looking toward the copper roofs and the three masts · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Vasa Museum on Djurgården, Stockholm, with three ship masts above the copper roofs, in overcast late-afternoon light",
+      "description": "From the public walk on Galärvarvsvägen the view looks toward the Vasa Museum, a low group of halls built across the old dry dock. Steep copper roofs and dark timber walls face the walk, and three wooden masts rise through the roof. It is an overcast late afternoon, about 16.4°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "Public walk on Galärvarvsvägen in front of the museum’s north side, looking toward the copper roofs and the masts. A surveyed tripod mark was not pinned; the open walk is the viewpoint.",
+      "references": [
+        "https://www.vasamuseet.se/en",
+        "https://en.wikipedia.org/wiki/Vasa_Museum"
+      ],
+      "anchors": [
+        "The museum stands on Galärvarvet, Djurgården, built across the old dry dock",
+        "Steep copper roofs and dark timber halls form the exterior",
+        "Three masts of the preserved warship rise through the roof"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:56 scenario is about 33 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-002-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-002-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-002-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-003",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "City Hall",
+      "place": "Kungsholmen",
+      "caption": "City Hall, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the Riddarfjärden quay looking toward the brick tower and the three golden crowns · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm City Hall from the Riddarfjärden quay, the red-brick tower crowned by three golden crowns, in overcast late-afternoon light",
+      "description": "From the public quay at the southeast shore of Kungsholmen the view looks toward Stockholm City Hall across a short stretch of Riddarfjärden. The building is red brick, with green copper roofs on the lower wings. The square tower at the southeast corner is crowned by three golden crowns, not a church spire. It is an overcast late afternoon, about 16.6°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "Public quay at the southeast shore of Kungsholmen, looking toward the City Hall tower across a short stretch of Riddarfjärden. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://stadshuset.stockholm/en/",
+        "https://en.wikipedia.org/wiki/Stockholm_City_Hall"
+      ],
+      "anchors": [
+        "The City Hall is the National Romantic red-brick building on the eastern tip of Kungsholmen",
+        "The square tower stands at the southeast corner beside the water",
+        "The tower is crowned by three golden crowns, not a church spire"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-003-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-003-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-003-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-004",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stortorget",
+      "place": "Gamla Stan",
+      "caption": "Stortorget, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the cobbled square looking toward the west merchant houses, with the stone well in the square · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stortorget in Gamla Stan, Stockholm, with colorful gabled merchant houses and the stone well, in overcast late-afternoon light",
+      "description": "From the cobbles of Stortorget the view looks toward the west row of narrow merchant houses, painted in different warm colors, with stepped and curved gables. Palmstedt’s stone well stands in the square. Börshuset, pale and neoclassical, with a pediment and a lantern cupola, closes the north side. There is no market. It is an overcast late afternoon, about 16.4°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "In Stortorget itself, looking toward the west row of merchant houses. The stone well is in the square. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stortorget",
+        "https://nobelprizemuseum.se/en/"
+      ],
+      "anchors": [
+        "Stortorget is the open square at the top of Gamla Stan",
+        "The west side is a row of narrow gabled merchant houses in different colors",
+        "Palmstedt’s stone well stands in the square, and Börshuset, with its pediment and lantern cupola, closes the north side"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-004-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-004-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-004-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-005",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Nordic Museum",
+      "place": "Djurgården",
+      "caption": "Nordic Museum, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the south lawn looking toward the sandstone palace and its central tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Nordic Museum on Djurgården, Stockholm, the pale sandstone facade and central tower seen from the south lawn, in overcast late-afternoon light",
+      "description": "From the lawn south of the Nordic Museum the view looks north at the long Northern Renaissance building on Lejonslätten. The walls are pale Roslagen sandstone, the corner turrets carry copper roofs, and a tall central tower rises from the middle of the facade. It is an overcast late afternoon, about 16.4°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "The public lawn south of the museum, looking north at the central tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.nordiskamuseet.se/en/about-us/the-history-of-the-building/",
+        "https://en.wikipedia.org/wiki/Nordic_Museum"
+      ],
+      "anchors": [
+        "The museum is the long Northern Renaissance building on Lejonslätten, Djurgården",
+        "The walls are Roslagen sandstone, with copper on the corner-turret roofs",
+        "A tall central tower rises from the middle of the south facade"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-005-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-005-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-005-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-006",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Monteliusvägen",
+      "place": "Södermalm",
+      "caption": "Monteliusvägen, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the cliff walk looking north over Riddarfjärden toward City Hall and Riddarholmen · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation from Monteliusvägen on Södermalm, Stockholm, looking over Riddarfjärden toward City Hall and the Riddarholmen spire, in overcast late-afternoon light",
+      "description": "From the cliff walk of Monteliusvägen a wooden railing runs along the drop above Riddarfjärden. Across the water, the red-brick City Hall tower with its three golden crowns stands on Kungsholmen, and the openwork iron spire of Riddarholmen Church rises from the island, with the old roofs of Gamla Stan beyond. It is an overcast late afternoon, about 16.4°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "The pedestrian cliff walk on the north edge of Södermalm, wooden railing in the foreground, looking across Riddarfjärden. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Monteliusv%C3%A4gen",
+        "https://en.wikipedia.org/wiki/Stockholm_City_Hall"
+      ],
+      "anchors": [
+        "Monteliusvägen is the cliff path along the north edge of Södermalm",
+        "A wooden railing runs above the drop toward the water",
+        "Across Riddarfjärden, City Hall’s tower is on Kungsholmen and Riddarholmen Church’s iron spire stands on the island"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-006-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-006-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-006-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-007",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kungsträdgården",
+      "place": "Norrmalm",
+      "caption": "Kungsträdgården, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the central walk looking north toward Molin’s fountain · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kungsträdgården in Stockholm, the chestnut walk and Molin’s fountain, in overcast late-afternoon light",
+      "description": "From the central gravel walk of Kungsträdgården the view looks north between rows of horse chestnuts, the leaves beginning to turn. Molin’s fountain, a bronze group in a stone basin, sits on the walk. Farther north the statue of Charles XII stands on its pedestal with its back to the park. It is an overcast late afternoon, about 16.5°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "On the central gravel walk, looking north toward Molin’s fountain. The Charles XII statue is the north-end terminus of the same walk. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Kungstr%C3%A4dg%C3%A5rden",
+        "https://sv.wikipedia.org/wiki/Molins_font%C3%A4n"
+      ],
+      "anchors": [
+        "Kungsträdgården is the long rectangular park between Hamngatan and the water",
+        "Horse-chestnut rows flank the central gravel walk",
+        "Molin’s fountain, a bronze group in a stone basin, sits on that walk; the Charles XII statue stands at the north end, facing the water"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-007-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-007-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-007-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-008",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Riddarholmen",
+      "place": "Riddarholmen",
+      "caption": "Riddarholmen, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the south quay looking toward Riddarholmen Church and its openwork iron spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Riddarholmen Church in Stockholm, the brick church and its openwork iron spire seen from the south quay, in overcast late-afternoon light",
+      "description": "From the public quay on the south side of Riddarholmen the view looks toward Riddarholmen Church. The church is red-brown brick. Its spire is a tall openwork cast-iron lattice, with sky showing through the cage, not a solid stone spire. Riddarfjärden is in the foreground. It is an overcast late afternoon, about 16.4°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "The public quay on the south side of Riddarholmen, looking toward the church. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-riddarholmen-church.html",
+        "https://en.wikipedia.org/wiki/Riddarholmen_Church"
+      ],
+      "anchors": [
+        "Riddarholmen Church is the brick church on the island of Riddarholmen",
+        "The spire is a tall openwork cast-iron lattice, not a solid stone spire",
+        "Riddarfjärden lies along the south side of the island"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-008-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-008-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-008-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-009",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Skansen",
+      "place": "Djurgården",
+      "caption": "Skansen, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the path in front of Seglora Church, red shingles and the timber tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Seglora Church at Skansen on Djurgården, Stockholm, red shingled timber and a wooden tower, in overcast late-afternoon light",
+      "description": "From the path in front of Seglora Church at Skansen the view looks at the wooden church that was moved here from Västergötland. Walls and roof are oak shingles tarred red, laid in a diamond pattern, and a timber tower rises at one end. Grass and trees of the open-air museum surround it. It is an overcast late afternoon, about 16.1°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "The footpath in front of Seglora Church inside Skansen on Djurgården. The church was rebuilt here in 1916–1918. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.skansen.se/en/see-and-do/open-air-museum/houses-and-farmsteads/seglora-church/",
+        "https://en.wikipedia.org/wiki/Skansen"
+      ],
+      "anchors": [
+        "Seglora Church stands in the open-air museum at Skansen on Djurgården",
+        "Walls and roof are oak shingles tarred red, laid in a diamond pattern",
+        "A timber tower rises at one end of the church"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-009-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-009-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-009-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-010",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Strandvägen",
+      "place": "Östermalm",
+      "caption": "Strandvägen, Stockholm",
+      "scenario_label": "28 September 2026 · 17:57 Europe/Stockholm",
+      "composition": "Overcast late afternoon · the stone quay looking west along the boulevard, boats at the quay and the row of stone palaces · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Strandvägen in Östermalm, Stockholm, the stone quay, moored boats, and the row of stone apartment palaces, in overcast late-afternoon light",
+      "description": "From the stone quay of Strandvägen the view looks west along the boulevard. Boats are moored at the quay. Across the street, a continuous row of ornate late-19th-century stone apartment buildings, with bay windows and corner towers, lines the inland side. It is an overcast late afternoon, about 16.3°C, still before the 18:29 sunset, with a gray sky and no sun in the frame.",
+      "viewpoint": "On the stone quay, looking west along Strandvägen. Boats are moored at the quay. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Strandv%C3%A4gen",
+        "https://sv.wikipedia.org/wiki/Strandv%C3%A4gen"
+      ],
+      "anchors": [
+        "Strandvägen is the waterfront boulevard on Östermalm between Nybroplan and Djurgårdsbron",
+        "A stone quay with moored boats runs along the water",
+        "The inland side is a continuous row of ornate late-19th-century stone apartment buildings"
+      ],
+      "solar": "Daylight. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 17:57 scenario is about 32 minutes before sunset, and model is_day is 1, so this scene is day. The sky is fully overcast, so no sun disk is in the frame. Daylight 8s 360° aerial was not produced in this run (backfill).",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-010-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-010-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-010-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
