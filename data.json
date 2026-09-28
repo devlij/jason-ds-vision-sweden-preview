@@ -393,6 +393,355 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-038",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stureplan",
+      "place": "Östermalm",
+      "caption": "Stureplan, Stockholm",
+      "scenario_label": "28 September 2026 · 21:38 Europe/Stockholm",
+      "composition": "Overcast night · Stureplan looking at the concrete mushroom canopy · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stureplan in Östermalm, Stockholm, the concrete mushroom canopy among pale corner buildings, in overcast night light",
+      "description": "From the open square the view looks at Svampen, a low concrete canopy with a flat round roof on one thick stem, lit from underneath. Pale stone corner buildings with lit windows stand around the square. It is an overcast night, about 15.6°C, about 189 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Stureplan, looking at Svampen, the concrete mushroom canopy in the middle of the square. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stureplan",
+        "https://sv.wikipedia.org/wiki/Stureplan"
+      ],
+      "anchors": [
+        "Stureplan is the square where Birger Jarlsgatan, Kungsgatan, and Sturegatan meet in Östermalm",
+        "Svampen is the concrete mushroom canopy on a single stem in the middle of the square",
+        "Pale stone and plaster corner buildings ring the square"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:38 scenario is about 189 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-038-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-038-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-038-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-039",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Central Station",
+      "place": "Norrmalm",
+      "caption": "Central Station, Stockholm",
+      "scenario_label": "28 September 2026 · 21:38 Europe/Stockholm",
+      "composition": "Overcast night · Centralplan looking at the red-brick station facade and the clock pavilion · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm Central Station from Centralplan, the red-brick facade and clock pavilion, in overcast night light",
+      "description": "From Centralplan the view looks at the red-brick station. A central pavilion carries a round clock, and arched windows glow. It is an overcast night, about 15.5°C, about 189 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Centralplan, looking at the red-brick street facade of Stockholm Central Station. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stockholm_Central_Station",
+        "https://sv.wikipedia.org/wiki/Stockholms_centralstation"
+      ],
+      "anchors": [
+        "The station stands between Centralplan and the tracks in Norrmalm",
+        "The street facade is red brick with a central pavilion and a clock",
+        "Arched windows and pale stone trim mark the building"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:38 scenario is about 189 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-039-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-039-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-039-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-040",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Sofia Church",
+      "place": "Södermalm",
+      "caption": "Sofia Church, Stockholm",
+      "scenario_label": "28 September 2026 · 21:38 Europe/Stockholm",
+      "composition": "Overcast night · the Vita Bergen path looking up at the brick church and the lantern tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Sofia Church on Vita Bergen in Södermalm, Stockholm, a red-brick church with one lantern tower, in overcast night light",
+      "description": "From the park path on the slope of Vita Bergen the view looks up at Sofia Church, a red-brick church with one central lantern tower and tall windows glowing warm. Trees and the grassy slope sit in front of it. It is an overcast night, about 15.3°C, about 189 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the park path on the slope of Vita Bergen, looking up at Sofia Church and its central lantern tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Sofia_Church",
+        "https://sv.wikipedia.org/wiki/Sofia_kyrka"
+      ],
+      "anchors": [
+        "Sofia Church stands on the hill of Vita Bergen in eastern Södermalm",
+        "The church is red brick with one central lantern tower",
+        "The park slope and trees sit below the church"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:38 scenario is about 189 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-040-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-040-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-040-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-041",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Gustaf Vasa Church",
+      "place": "Vasastan",
+      "caption": "Gustaf Vasa Church, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · Odenplan looking at the Baroque church and the copper dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Gustaf Vasa Church at Odenplan in Vasastan, Stockholm, the pale church and copper dome, in overcast night light",
+      "description": "From Odenplan the view looks at Gustaf Vasa Church, a pale Baroque church with a columned portico and a broad copper dome. A few windows glow. It is an overcast night, about 15.6°C, about 190 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Odenplan, looking at Gustaf Vasa Church and the copper dome. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Gustaf_Vasa_Church",
+        "https://sv.wikipedia.org/wiki/Gustaf_Vasa_kyrka"
+      ],
+      "anchors": [
+        "The church stands on the north side of Odenplan in Vasastan",
+        "A broad copper dome rises over a pale Baroque body",
+        "A columned portico faces the square"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-041-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-041-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-041-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-042",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Oscar's Church",
+      "place": "Östermalm",
+      "caption": "Oscar's Church, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · Narvavägen looking at the brick church and the tall spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Oscar's Church on Narvavägen in Östermalm, Stockholm, the red-brick church and tall spire, in overcast night light",
+      "description": "From Narvavägen the view looks at Oscar's Church, a red-brick Gothic Revival church with one tall central spire and pointed gables. Street trees and lamps line the avenue. It is an overcast night, about 15.6°C, about 190 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Narvavägen, looking at the west front and the tall brick spire of Oscar's Church. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Oscar%27s_Church",
+        "https://sv.wikipedia.org/wiki/Oscarskyrkan"
+      ],
+      "anchors": [
+        "Oscarskyrkan stands on Narvavägen in Östermalm",
+        "The church is red brick in a Gothic Revival form",
+        "One tall central spire rises over the west front"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-042-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-042-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-042-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-043",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Medborgarplatsen",
+      "place": "Södermalm",
+      "caption": "Medborgarplatsen, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · the square looking at the civic hall and its two towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Medborgarplatsen in Södermalm, Stockholm, the brick civic hall with two towers, in overcast night light",
+      "description": "From the paved square the view looks at Medborgarhuset, a long brick civic hall with two symmetrical towers and rows of windows glowing warm. It is an overcast night, about 15.4°C, about 190 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Medborgarplatsen, looking at Medborgarhuset, the civic hall with two towers. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Medborgarplatsen",
+        "https://sv.wikipedia.org/wiki/Medborgarhuset"
+      ],
+      "anchors": [
+        "Medborgarplatsen is the civic square in eastern Södermalm",
+        "Medborgarhuset is the long brick hall on the square",
+        "Two symmetrical towers rise from that hall"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-043-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-043-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-043-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-044",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Maritime Museum",
+      "place": "Djurgården",
+      "caption": "Maritime Museum, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · the lawn looking at the long white museum · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Maritime Museum on Djurgården, Stockholm, the long white building from the lawn, in overcast night light",
+      "description": "From the lawn the view looks at Sjöhistoriska museet, a long white functionalist building with a flat roof and a band of large windows glowing warm. Dark trees stand at the edges. It is an overcast night, about 15.6°C, about 190 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the lawn in front of Sjöhistoriska museet, looking at the white museum. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.sjohistoriska.se/en",
+        "https://en.wikipedia.org/wiki/Maritime_Museum_(Stockholm)"
+      ],
+      "anchors": [
+        "Sjöhistoriska museet stands on the north shore of Djurgården",
+        "The building is a long white functionalist block with a flat roof",
+        "A band of large horizontal windows faces the lawn"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-044-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-044-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-044-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-045",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Mårten Trotzigs gränd",
+      "place": "Gamla Stan",
+      "caption": "Mårten Trotzigs gränd, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · the foot of the alley looking up the narrow stone stair · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Mårten Trotzigs gränd in Gamla Stan, Stockholm, the narrow stone stair between plaster walls, in overcast night light",
+      "description": "From the foot of Mårten Trotzigs gränd the view looks up a steep stone stair squeezed between tall plaster walls, one deep red and one ochre. An iron rail runs with the steps. It is an overcast night, about 15.4°C, about 190 minutes after the 18:29 sunset, with one lamp on and no sun in the sky.",
+      "viewpoint": "At the foot of Mårten Trotzigs gränd, looking up the narrow stone stair between the plaster walls. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/M%C3%A5rten_Trotzigs_Gr%C3%A4nd",
+        "https://sv.wikipedia.org/wiki/M%C3%A5rten_Trotzigs_gr%C3%A4nd"
+      ],
+      "anchors": [
+        "The alley runs between Västerlånggatan and Prästgatan in Gamla Stan",
+        "A steep stone stair fills the alley",
+        "The passage is only about a metre wide, between tall plaster walls"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-045-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-045-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-045-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-046",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Rosenbad",
+      "place": "Norrmalm",
+      "caption": "Rosenbad, Stockholm",
+      "scenario_label": "28 September 2026 · 21:39 Europe/Stockholm",
+      "composition": "Overcast night · the Strömgatan quay looking at the salmon-pink block and the corner tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Rosenbad in Stockholm from the Strömgatan quay, the salmon-pink block and corner tower, in overcast night light",
+      "description": "From the Strömgatan quay the view looks across a strip of dark water at Rosenbad, a salmon-pink block with ornate stone windows and a corner tower. Windows glow warm. It is an overcast night, about 15.4°C, about 190 minutes after the 18:29 sunset, with quay lamps on and no sun in the sky.",
+      "viewpoint": "On the Strömgatan quay, looking at the salmon-pink Rosenbad block and its corner tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Rosenbad",
+        "https://sv.wikipedia.org/wiki/Rosenbad"
+      ],
+      "anchors": [
+        "Rosenbad stands on the north bank of Norrström, beside Strömgatan",
+        "The block is salmon-pink terracotta in a Renaissance Revival form",
+        "A corner tower and ornate stone window surrounds face the water"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:39 scenario is about 190 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-046-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-046-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-046-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
