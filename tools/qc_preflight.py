@@ -22,7 +22,8 @@ FORBIDDEN = (
 )
 NEW_IDS = [f"SE-01-{n:03d}" for n in range(2, 11)]
 NIGHT_IDS = [f"SE-01-{n:03d}" for n in range(11, 20)]
-EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS]
+LATE_IDS = [f"SE-01-{n:03d}" for n in range(20, 29)]
+EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS]
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
 SE001_SHA = {
     "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
@@ -181,7 +182,14 @@ def main() -> None:
     elif "night scenes do not get an aerial" not in night_batch.lower():
         errors.append("night batch file missing the no-aerial note")
 
-    for entry_id in NIGHT_IDS:
+    late_batch_path = ROOT / "approvals" / "BATCH-SE-01-020-028.txt"
+    late_batch = late_batch_path.read_text() if late_batch_path.is_file() else ""
+    if not late_batch_path.is_file():
+        errors.append("missing approvals/BATCH-SE-01-020-028.txt")
+    elif "night scenes do not get an aerial" not in late_batch.lower():
+        errors.append("late batch file missing the no-aerial note")
+
+    for entry_id in [*NIGHT_IDS, *LATE_IDS]:
         scene = by_id.get(entry_id) or {}
         if scene.get("approval_status") != "Candidate":
             errors.append(f"{entry_id} approval_status is not Candidate")
@@ -205,20 +213,22 @@ def main() -> None:
             if minute < sunset[11:16]:
                 errors.append(f"{entry_id} retrieval is not after sunset")
         check_masters(errors, entry_id, note)
-        if night_batch and entry_id not in night_batch:
-            errors.append(f"night batch file missing {entry_id}")
+        batch = night_batch if entry_id in NIGHT_IDS else late_batch
+        batch_name = "night" if entry_id in NIGHT_IDS else "late"
+        if batch and entry_id not in batch:
+            errors.append(f"{batch_name} batch file missing {entry_id}")
         scene_line = ""
-        if night_batch:
-            for line in night_batch.splitlines():
+        if batch:
+            for line in batch.splitlines():
                 if line.startswith(entry_id + " "):
                     scene_line = line
                     break
             if not scene_line:
-                errors.append(f"night batch file missing a scene line for {entry_id}")
+                errors.append(f"{batch_name} batch file missing a scene line for {entry_id}")
             else:
-                idx = night_batch.find(scene_line)
-                nxt = night_batch.find("\nSE-01-", idx + len(scene_line))
-                block = night_batch[idx:nxt if nxt > idx else None]
+                idx = batch.find(scene_line)
+                nxt = batch.find("\nSE-01-", idx + len(scene_line))
+                block = batch[idx:nxt if nxt > idx else None]
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
@@ -231,7 +241,7 @@ def main() -> None:
         errors.append("GA4 id missing")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
-    for entry_id in [*NEW_IDS, *NIGHT_IDS]:
+    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:
             errors.append(f"{entry_id} missing from index.html")
