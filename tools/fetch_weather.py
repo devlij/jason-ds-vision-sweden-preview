@@ -111,6 +111,18 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-063", "Fåfängan", "Stockholm", 59.31625, 18.10060, "Europe/Stockholm"),
     ("SE-01-064", "Maria Magdalena Church", "Stockholm", 59.31845, 18.06655, "Europe/Stockholm"),
     # Pins below are public viewpoints, not surveyed tripod marks.
+    # SE-01-065–073 merged 2026-09-28 (Cosmo QC).
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    ("SE-01-065", "Järntorget", "Stockholm", 59.32274, 18.07307, "Europe/Stockholm"),
+    ("SE-01-066", "Skinnarviksberget", "Stockholm", 59.31980, 18.05020, "Europe/Stockholm"),
+    ("SE-01-067", "Thiel Gallery", "Stockholm", 59.32222, 18.14861, "Europe/Stockholm"),
+    ("SE-01-068", "Adolf Fredrik Church", "Stockholm", 59.33778, 18.06028, "Europe/Stockholm"),
+    ("SE-01-069", "Haga Palace", "Stockholm", 59.36315, 18.03390, "Europe/Stockholm"),
+    ("SE-01-070", "Årstabron", "Stockholm", 59.30917, 18.04389, "Europe/Stockholm"),
+    ("SE-01-071", "Swedish History Museum", "Stockholm", 59.33470, 18.09040, "Europe/Stockholm"),
+    ("SE-01-072", "Hornsbergs strand", "Stockholm", 59.34050, 18.00850, "Europe/Stockholm"),
+    ("SE-01-073", "Ersta Church", "Stockholm", 59.31735, 18.08840, "Europe/Stockholm"),
+    # SE-01-074–082 pins below.
     ("SE-01-074", "Karlberg Palace", "Stockholm", 59.34111, 18.02194, "Europe/Stockholm"),
     ("SE-01-075", "Västerlånggatan", "Stockholm", 59.32440, 18.06915, "Europe/Stockholm"),
     ("SE-01-076", "Söder Mälarstrand", "Stockholm", 59.32040, 18.05800, "Europe/Stockholm"),
