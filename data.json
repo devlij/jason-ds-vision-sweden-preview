@@ -3185,6 +3185,353 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-083",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Hallwyl Museum",
+      "place": "Norrmalm",
+      "caption": "Hallwyl Museum, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · Hamngatan looking toward the red sandstone street front · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Hallwyl Museum street facade on Hamngatan in Stockholm, red sandstone and a granite portal, on an overcast night",
+      "description": "From the Hamngatan sidewalk the view looks at the Hallwyl Museum, the closed street front of Hamngatan 4. The facade is red Gävle sandstone above a red granite base, and the central portal has a red granite surround. The tympanum over the door is blank stone. It is an overcast night, about 15.3°C, about 390 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the Hamngatan sidewalk, looking at the street facade and the central portal. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://hallwylskamuseet.se/en/visit/",
+        "https://en.wikipedia.org/wiki/Hallwyl_Museum"
+      ],
+      "anchors": [
+        "The palace stands at Hamngatan 4 and was built 1893–1898 for Wilhelmina and Walther von Hallwyl",
+        "Isak Gustaf Clason designed the street front in red Gävle sandstone with a red granite base and portal surround",
+        "The courtyard is behind that closed street front and is not the viewpoint"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 390 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-083-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-083-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-083-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-084",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Ulriksdal Palace",
+      "place": "Solna",
+      "caption": "Ulriksdal Palace, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · the park lawns looking toward the yellow Baroque front · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Ulriksdal Palace in Solna, a pale yellow Baroque front seen from the park, on an overcast night",
+      "description": "From the park lawns the view looks toward Ulriksdal Palace on Edsviken. The corps de logis is a symmetrical Baroque block in pale yellow plaster, with grey-white window surrounds and a dark roof. It is an overcast night, about 15.2°C, about 391 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the park lawns in front of the palace, looking toward the garden facade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/ulriksdal-palace.html",
+        "https://en.wikipedia.org/wiki/Ulriksdal_Palace"
+      ],
+      "anchors": [
+        "Ulriksdal Palace stands on Edsviken in Solna, north of central Stockholm",
+        "The corps de logis is a symmetrical Baroque block; the present yellow limewash and grey-white trim follow the 1910s scheme",
+        "The palace chapel is a separate pink-and-grey building on a headland, and the Orangery is a separate wing"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 391 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-084-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-084-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-084-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-085",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Drottningholm Palace",
+      "place": "Lovön",
+      "caption": "Drottningholm Palace, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · the parterre looking toward the ochre garden facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Drottningholm Palace from the baroque parterre, ochre walls and copper roofs, on an overcast night",
+      "description": "From the baroque parterre the view looks toward the garden facade of Drottningholm Palace. The block is ochre yellow with white stone trim, and the roofs read as copper. Clipped hedges and a gravel walk sit in front of the wings. It is an overcast night, about 14.7°C, about 391 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the baroque garden parterre, looking toward the garden facade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html",
+        "https://en.wikipedia.org/wiki/Drottningholm_Palace"
+      ],
+      "anchors": [
+        "Drottningholm Palace stands on Lovön, in Ekerö, west of central Stockholm",
+        "The garden facade is the Baroque block associated with Nicodemus Tessin the Elder, ochre with white trim and copper roofs",
+        "The parterre and clipped hedges lie on the garden axis in front of that facade"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 391 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-085-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-085-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-085-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-086",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Klara Church",
+      "place": "Norrmalm",
+      "caption": "Klara Church, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · the street looking up at the brick tower and copper spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Klara Church in Norrmalm, Stockholm, a red-brick tower and copper spire, on an overcast night",
+      "description": "From the street beside the church the view looks up at Klara Church. The tower is red brick with a tall copper spire, and the nave is brick beside it. It is an overcast night, about 15.0°C, about 390 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the street beside Klara Church, looking up at the tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Klara_Church",
+        "https://sv.wikipedia.org/wiki/Klara_kyrka"
+      ],
+      "anchors": [
+        "Klara Church stands in Norrmalm, west of Stockholm Central Station",
+        "The landmark is the tall brick tower and copper spire above a brick nave",
+        "The station hall is a different building and is not the subject"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 390 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-086-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-086-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-086-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-087",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Nybrokajen",
+      "place": "Norrmalm",
+      "caption": "Nybrokajen, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · the granite quay looking along the moored boats · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Nybrokajen in Stockholm, the granite quay and moored boats on Nybroviken, on an overcast night",
+      "description": "From the stone edge of Nybrokajen the view looks along the quay and the moored boats on Nybroviken. The quay is granite, with bollards and lamps, and the water is dark. It is an overcast night, about 15.2°C, about 390 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Nybrokajen, looking along the quay edge and the boats. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Nybrokajen",
+        "https://en.wikipedia.org/wiki/Nybroviken"
+      ],
+      "anchors": [
+        "Nybrokajen is the quay on the city side of Nybroviken, south of Nybroplan",
+        "Tour and archipelago boats moor along the granite edge",
+        "The Royal Dramatic Theatre stands at Nybroplan and is not the subject of this frame"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 390 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-087-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-087-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-087-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-088",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Sankt Eriksbron",
+      "place": "Kungsholmen",
+      "caption": "Sankt Eriksbron, Stockholm",
+      "scenario_label": "29 September 2026 · 00:17 Europe/Stockholm",
+      "composition": "Overcast night · the Kungsholmen shore looking at the steel girder bridge · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Sankt Eriksbron in Stockholm, a steel plate-girder bridge over Barnhusviken, on an overcast night",
+      "description": "From the Kungsholmen shore the view looks at Sankt Eriksbron crossing Barnhusviken. The span is a steel plate-girder bridge with a concrete road deck and a lower deck under it, and the abutments are granite. It is an overcast night, about 15.2°C, about 391 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the Kungsholmen shore beside Barnhusviken, looking at the side of the bridge. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Sankt_Eriksbron",
+        "https://sv.wikipedia.org/wiki/Sankt_Eriksbron"
+      ],
+      "anchors": [
+        "Sankt Eriksbron crosses Barnhusviken and joins Kungsholmen to Vasastan",
+        "The present bridge was inaugurated in 1937 as a steel plate-girder span with a concrete deck",
+        "A lower level under the roadway was reserved for the metro; the land abutments are granite"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 00:17 scenario is about 391 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-088-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-088-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-088-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-089",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Skeppsholmen Church",
+      "place": "Skeppsholmen",
+      "caption": "Skeppsholmen Church, Stockholm",
+      "scenario_label": "29 September 2026 · 00:18 Europe/Stockholm",
+      "composition": "Overcast night · the churchyard path looking toward the octagon and copper dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Skeppsholmen Church, a pale octagonal temple with a copper dome, on an overcast night",
+      "description": "From the churchyard path the view looks at Skeppsholmen Church. The body is an octagonal neoclassical temple in pale plaster on a grey rusticated base, with a copper dome and a lantern, and a columned portico. It is an overcast night, about 15.1°C, about 389 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the churchyard path, looking at the portico and the octagonal body. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.sfv.se/vara-fastigheter/sok/sverige/stockholms-lan/skepps-och-kastellholmen/skeppsholmskyrkan/",
+        "https://en.wikipedia.org/wiki/Skeppsholmen_Church"
+      ],
+      "anchors": [
+        "Skeppsholmen Church, officially Karl Johans kyrka, was designed by Fredrik Blom and inaugurated in 1842",
+        "The body is an octagon in pale plaster on a grey rusticated base, under a copper dome and lantern",
+        "Porticos project from the octagon; Moderna Museet and af Chapman are different subjects on the same island"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:18 scenario is about 389 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-089-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-089-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-089-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-090",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Österlånggatan",
+      "place": "Gamla Stan",
+      "caption": "Österlånggatan, Stockholm",
+      "scenario_label": "29 September 2026 · 00:18 Europe/Stockholm",
+      "composition": "Overcast night · the cobbles looking north between the plastered houses · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Österlånggatan in Gamla Stan, Stockholm, a narrow cobbled street at night",
+      "description": "From the cobbles of Österlånggatan the view looks north along the narrow street. Tall plastered houses in ochre, faded red, and pale yellow stand close on both sides. It is an overcast night, about 15.1°C, about 389 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "In Österlånggatan, looking north along the street. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/%C3%96sterl%C3%A5nggatan",
+        "https://en.wikipedia.org/wiki/Gamla_stan"
+      ],
+      "anchors": [
+        "Österlånggatan runs north–south through eastern Gamla Stan, parallel to Skeppsbron",
+        "The street is narrow and cobbled, lined with tall plastered merchant houses",
+        "Skeppsbron is the quay one block east, and Stortorget is a different square"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:18 scenario is about 389 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-090-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-090-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-090-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-091",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Wenner-Gren Center",
+      "place": "Vasastan",
+      "caption": "Wenner-Gren Center, Stockholm",
+      "scenario_label": "29 September 2026 · 00:18 Europe/Stockholm",
+      "composition": "Overcast night · Sveaplan looking up at the tapering tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Wenner-Gren Center at Sveaplan in Stockholm, a tapering tower on an overcast night",
+      "description": "From Sveaplan the view looks up at the Wenner-Gren Center. The Pylon is a tower that narrows as it rises, with corrugated metal on the short sides and colored glass on the long sides. A lower semicircular wing sits at the base. It is an overcast night, about 15.4°C, about 389 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "At Sveaplan, looking up at the tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Wenner-Gren_Center",
+        "https://sv.wikipedia.org/wiki/Wenner-Gren_Center"
+      ],
+      "anchors": [
+        "Wenner-Gren Center stands at Sveaplan, at the north end of Sveavägen in Vasastan",
+        "Sune Lindström and Alf Bydén designed three volumes: the tapering Pylon tower, the semicircular Helicon, and the box-shaped Tetragon",
+        "The tower narrows with height; the short sides are corrugated metal and the long sides are colored glass"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 00:18 scenario is about 389 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-091-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-091-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-091-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
