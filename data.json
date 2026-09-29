@@ -3532,6 +3532,350 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-119",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kristineberg Palace",
+      "place": "Kristineberg",
+      "caption": "Kristineberg Palace, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · courtyard looking at the pale pink manor and its two pavilions · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kristineberg Palace on Kungsholmen in Stockholm, a pale pink manor on a partly cloudy night",
+      "description": "From the courtyard the view looks at Kristineberg Palace. The main house is pale pink plaster, two storeys on a high basement, with a broken roof and a projecting center. Two low stone pavilions stand by the gables. It is a partly cloudy night, about 14.0°C, about 104 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the courtyard in front of the main house at Kristineberg, looking at the pale pink facade and the two pavilions. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Kristinebergs_slott",
+        "https://www.stadsholmen.se/kristinebergs-slott-5/"
+      ],
+      "anchors": [
+        "Kristinebergs slott stands in Kristineberg on Kungsholmen",
+        "The main house was built around 1750 for the merchant Schröder: two storeys on a high basement, nine window bays, a broken roof, and pale pink plaster",
+        "Two low stone pavilions from the 1840s stand by the gables"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 104 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-119-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-119-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-119-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-120",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "DN Tower",
+      "place": "Marieberg",
+      "caption": "DN Tower, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · street level looking up at the tiled tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the DN Tower in Marieberg, Stockholm, a tiled high-rise on a partly cloudy night",
+      "description": "From Rålambsvägen the view looks up at the DN Tower. The shaft is a tall slab of light grey-blue and white tile, with a lower wing at its foot. It is a partly cloudy night, about 14.0°C, about 104 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "At street level on Rålambsvägen in Marieberg, looking up at the tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/DN-skrapan",
+        "https://www.wikidata.org/wiki/Q9200752"
+      ],
+      "anchors": [
+        "DN-skrapan stands at Rålambsvägen 17 in Marieberg, on southern Kungsholmen",
+        "Paul Hedqvist designed it; it was inaugurated in 1964, with 26 floors and a height of 84 metres",
+        "The facade is divided into bays of light grey-blue and white ceramic tile, and a lower wing stands beside the tower"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 104 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-120-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-120-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-120-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-121",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Aula Medica",
+      "place": "Solna",
+      "caption": "Aula Medica, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · Solnavägen looking at the leaning glass front · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Aula Medica at Karolinska Institutet in Solna, a leaning glass auditorium on a partly cloudy night",
+      "description": "From Solnavägen the view looks at Aula Medica. The building is a leaning wedge, its skin a field of triangular glass panes, with a broad stair along the slope. It is a partly cloudy night, about 14.1°C, about 104 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Solnavägen, looking at the leaning glass front. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Karolinska_Institutets_aula",
+        "https://www.akademiskahus.se/en/Campus-Real-Estate/Our-buildings/Aula-Medica/"
+      ],
+      "anchors": [
+        "Aula Medica stands at Nobels väg 6 on Campus Solna, along Solnavägen",
+        "Wingårdh Arkitektkontor designed it, and it opened in 2013",
+        "The facade is a field of triangular glass panes, and the volume leans out over the road"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 104 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-121-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-121-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-121-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-122",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Norra tornen",
+      "place": "Hagastaden",
+      "caption": "Norra tornen, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · Torsplan looking up at the two pixelated towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Norra tornen at Torsplan in Stockholm, two pixelated concrete towers on a partly cloudy night",
+      "description": "From Torsplan the view looks up at Norra tornen. Two concrete towers rise with protruding cubic rooms; the east tower is the taller. It is a partly cloudy night, about 14.2°C, about 104 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "At Torsplan, looking up at the two towers. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Norra_Tornen",
+        "https://www.architonic.com/en/project/oma-norra-tornen/20078273"
+      ],
+      "anchors": [
+        "Norra tornen stand at Torsplan, on the edge of Vasastan and Hagastaden",
+        "OMA designed the pair; Innovationen is the taller east tower and Helix is the west tower",
+        "The facades are stacks of protruding cubic rooms in ribbed concrete"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 104 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-122-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-122-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-122-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-123",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Svindersvik",
+      "place": "Nacka",
+      "caption": "Svindersvik, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · the lawn by Svindersviken looking at the summer house · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Svindersvik in Nacka, a small symmetrical summer house by the water on a partly cloudy night",
+      "description": "From the lawn the view looks at Svindersvik. The main house is a small symmetrical two-storey block with a central balcony, a lower kitchen wing beside it, and a brick pavilion nearer the water. It is a partly cloudy night, about 14.1°C, about 103 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the lawn by the south shore of Svindersviken, looking at the main house. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Svindersvik",
+        "https://www.svindersviksommarnoje.se/om-svindersvik-sommarnoje/"
+      ],
+      "anchors": [
+        "Svindersvik stands on the south shore of Svindersviken in Nacka",
+        "Carl Hårleman designed the main house in the 1740s for Claes Grill",
+        "The main house is a small strictly symmetrical two-storey brick building; a kitchen wing and a brick pavilion stand with it"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 103 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic",
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-123-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-123-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-123-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-124",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Årsta Castle",
+      "place": "Haninge",
+      "caption": "Årsta Castle, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Overcast night · the court looking at the white manor · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Årsta Castle in Haninge, a white baroque manor on an overcast night",
+      "description": "From the court the view looks at Årsta Castle. The house is white plaster, two storeys, under a steep hipped roof, with low wings along the court. It is an overcast night, about 13.3°C, about 103 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the court in front of the main house at Årsta in Österhaninge, looking at the white manor. This is not the railway bridge Årstabron in Stockholm's Årsta district. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/%C3%85rsta_Castle",
+        "https://sv.wikipedia.org/wiki/%C3%85rsta_slott"
+      ],
+      "anchors": [
+        "Årsta slott stands in Österhaninge, Haninge Municipality, by Blista fjärd",
+        "The present house was built from 1660 to 1667 for Claes Hansson Bielkenstierna and Barbro Åkesdotter (Natt och Dag)",
+        "It is a two-storey stone manor with a steep hipped roof, and the park-side entrance sits in a stair pavilion"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 103 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-124-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-124-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-124-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-125",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Brännkyrka Church",
+      "place": "Örby",
+      "caption": "Brännkyrka Church, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · the churchyard looking at the west tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Brännkyrka Church at Örby in Stockholm, a medieval west tower on a partly cloudy night",
+      "description": "From the churchyard the view looks at Brännkyrka Church. A broad west tower with a metal spire holds the door, and the nave roof runs into the tower. The walls are light brown plaster. It is a partly cloudy night, about 13.5°C, about 104 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "In the churchyard on Götalandsvägen at Örby slott, looking at the west tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Br%C3%A4nnkyrka_kyrka",
+        "https://stockholmslansmuseum.se/medeltida-kyrkor/brannkyrka-kyrka-2/"
+      ],
+      "anchors": [
+        "Brännkyrka kyrka stands at Götalandsvägen 189–193 in Örby slott, southern Stockholm",
+        "The medieval church is grey stone and brick under light brown plaster, with a broad west tower",
+        "The tower has hip-like roof slopes where the nave roof meets it, a form rare in this diocese, and the spire's present shape dates from 1890"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 104 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-125-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-125-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-125-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-126",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Grand Hotel Saltsjöbaden",
+      "place": "Saltsjöbaden",
+      "caption": "Grand Hotel Saltsjöbaden, Stockholm",
+      "scenario_label": "29 September 2026 · 05:03 Europe/Stockholm",
+      "composition": "Partly cloudy night · the ground below the hotel looking at the bay front · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Grand Hotel Saltsjöbaden, a castle-like hotel above a bay on a partly cloudy night",
+      "description": "From the ground below the hotel the view looks at the Grand Hotel Saltsjöbaden. The long pale building has domed towers and cross wings with stepped gables, above a dark bay. It is a partly cloudy night, about 13.7°C, about 102 minutes before the 06:46 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "From the ground below the hotel, looking up at the bay front. This is not the Grand Hôtel on Södra Blasieholmshamnen. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Grand_Hotel_Saltsj%C3%B6baden",
+        "https://en.wikipedia.org/wiki/Grand_Hotel_Saltsj%C3%B6baden"
+      ],
+      "anchors": [
+        "Grand Hotel Saltsjöbaden stands at Hotellvägen in Saltsjöbaden, Nacka",
+        "Erik Josephson designed it for K. A. Wallenberg, and it opened in 1893",
+        "The building is castle-like, with domed towers and cross wings that have stepped gables"
+      ],
+      "solar": "Night. Model sunrise 06:46 and sunset 18:25 Europe/Stockholm on 29 September 2026. The 05:03 scenario is about 102 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic",
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-126-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-126-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-126-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-127",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Artipelag",
+      "place": "Värmdö",
+      "caption": "Artipelag, Stockholm",
+      "scenario_label": "29 September 2026 · 05:04 Europe/Stockholm",
+      "composition": "Partly cloudy night · the rock in front of the hall looking toward the bay · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Artipelag on Värmdö, a low timber hall with a planted roof on a partly cloudy night",
+      "description": "From the rock the view looks at Artipelag. The hall is low, with dark tarred timber walls, a green planted roof, and glass toward the bay, set among pines. It is a partly cloudy night, about 13.6°C, about 102 minutes before the 06:46 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the rock in front of the hall at Hålludden, looking toward the glass and the bay. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Artipelag",
+        "https://www.nyrens.se/projekt/artipelag/"
+      ],
+      "anchors": [
+        "Artipelag stands at Hålludden on Värmdö, facing Baggensfjärden",
+        "Johan Nyrén designed it, and it opened in 2012",
+        "The walls are tarred timber, the roof is planted with sedum, and glass faces the bay"
+      ],
+      "solar": "Night. Model sunrise 06:46 and sunset 18:25 Europe/Stockholm on 29 September 2026. The 05:04 scenario is about 102 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-127-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-127-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-127-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
