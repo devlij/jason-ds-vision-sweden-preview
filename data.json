@@ -3185,6 +3185,352 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-092",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Tranebergsbron",
+      "place": "Kungsholmen",
+      "caption": "Tranebergsbron, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · the Kungsholmen shore looking at the concrete arches · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Tranebergsbron from the Kungsholmen shore, Stockholm, pale concrete arches over the water, on an overcast night",
+      "description": "From the shore the view looks at Tranebergsbron. Pale concrete arches span the dark water, with the roadway and lamps high above. It is an overcast night, about 14.4°C, about 173 minutes before the 06:48 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the Kungsholmen shore of Tranebergssund, looking at the concrete arches. A surveyed tripod mark was not pinned. This is not Västerbron and not Sankt Eriksbron.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Tranebergsbron",
+        "https://sv.wikipedia.org/wiki/Tranebergsbron"
+      ],
+      "anchors": [
+        "Tranebergsbron crosses Tranebergssund between Kungsholmen and Traneberg in Bromma",
+        "The 1934 bridge is a double concrete arch with a 181-metre main span; Paul Hedqvist and David Dahl were the architects",
+        "A steel arch was added on the south side and the bridge was reopened in 2005; the concrete arches remain the subject"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 173 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-092-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-092-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-092-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-093",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Museum of Science and Technology",
+      "place": "Gärdet",
+      "caption": "Museum of Science and Technology, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · the lawn looking at the pale entrance facade and its glass wall · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Museum of Science and Technology on Gärdet, Stockholm, a pale functionalist facade with a tall glass entrance wall, on an overcast night",
+      "description": "From the lawn the view looks at Tekniska museet. The facade is pale render, with a two-storey glass wall over the entrance and a set-back top floor. A copper-vaulted hall sits to one side. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the lawn in Museiparken, looking at the 1936 entrance facade. A surveyed tripod mark was not pinned. This is not the Maritime Museum and not the Nordic Museum.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Tekniska_museet",
+        "https://www.tekniskamuseet.se/"
+      ],
+      "anchors": [
+        "Tekniska museet stands at Museivägen 7 in Museiparken on Gärdet",
+        "Ragnar Hjorth designed the 1936 functionalist block, with pale rendered walls and a two-storey glass wall at the entrance",
+        "A machine hall with a vaulted copper roof sits beside the main block"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-093-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-093-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-093-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-094",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Berwaldhallen",
+      "place": "Östermalm",
+      "caption": "Berwaldhallen, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · the park path looking at the low pavilion by the water · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Berwaldhallen, Stockholm, a low glass and concrete pavilion set into the rock beside the water, on an overcast night",
+      "description": "From the park path the view looks at Berwaldhallen. Only a low pavilion of glass, concrete, and rock shows above the ground, among trees, with dark water beside it. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On the park path by Djurgårdsbrunnsviken, looking at the low pavilion. A surveyed tripod mark was not pinned. This is not Konserthuset at Hötorget.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Berwaldhallen",
+        "https://www.berwaldhallen.se/en/about-berwaldhallen"
+      ],
+      "anchors": [
+        "Berwaldhallen stands at Dag Hammarskjölds väg 3, by Djurgårdsbrunnsviken",
+        "Erik Ahnborg and Sune Lindström designed the hall, which opened in 1979",
+        "About two-thirds of the building is sunk into the granite, so the part above the park is a low hexagon of glass, concrete, and rock"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-094-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-094-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-094-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-095",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Blå tornet",
+      "place": "Norrmalm",
+      "caption": "Blå tornet, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · Drottninggatan looking up at the yellow corner tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Blå tornet at Drottninggatan 85, Stockholm, a yellow Art Nouveau corner tower with a green roof, on an overcast night",
+      "description": "From the street the view looks up at Blå tornet. The corner tower is yellow plaster, with Art Nouveau windows and a green roof. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Drottninggatan at the corner of Tegnérgatan, looking up at the corner tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Bl%C3%A5_tornet",
+        "https://en.wikipedia.org/wiki/Strindberg_Museum"
+      ],
+      "anchors": [
+        "Blå tornet stands at Drottninggatan 85, on the corner of Tegnérgatan",
+        "Hagström & Ekman designed the Art Nouveau block, built 1906–1907, with a dominant corner tower",
+        "The facade is yellow plaster under a green roof. August Strindberg gave the house its name; the walls are not blue"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-095-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-095-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-095-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-096",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Filmhuset",
+      "place": "Gärdet",
+      "caption": "Filmhuset, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · Borgvägen looking along the concrete facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Filmhuset on Gärdet, Stockholm, a long raw-concrete block with a circular window, on an overcast night",
+      "description": "From Borgvägen the view looks along Filmhuset. The block is raw concrete, with window strips and a circular window at one end, and a ramp up to the entrance. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Borgvägen, looking along the concrete facade toward the circular window. A surveyed tripod mark was not pinned. This is not Kulturhuset at Sergels Torg.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Filmhuset",
+        "https://www.filminstitutet.se/en/about-us/filmhuset/about-the-film-house/"
+      ],
+      "anchors": [
+        "Filmhuset stands at Borgvägen 1 on Gärdet",
+        "Peter Celsing designed the raw-concrete block, built 1968–1970 and taken into use in 1971",
+        "The window strips were meant to recall the sprocket holes of a film strip, and a circular window closes the north end"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-096-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-096-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-096-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-097",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Great Synagogue",
+      "place": "Norrmalm",
+      "caption": "Great Synagogue, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · Wahrendorffsgatan looking at the pale street facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Great Synagogue on Wahrendorffsgatan, Stockholm, a pale closed facade with lancet windows and a rose window, on an overcast night",
+      "description": "From the street the view looks at the Great Synagogue. The mass is pale plastered brick, with tall lancet windows, a rose window, and a heavy cornice. It is an overcast night, about 14.4°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Wahrendorffsgatan, looking at the street facade. A surveyed tripod mark was not pinned. This is not the Hallwyl Museum on Hamngatan.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Great_Synagogue_of_Stockholm",
+        "https://stockholmskallan.stockholm.se/teman/Stockholmsplatser/stora-synagogan/"
+      ],
+      "anchors": [
+        "Stockholms stora synagoga stands at Wahrendorffsgatan 3A, between Kungsträdgården and Berzelii park",
+        "Fredrik Wilhelm Scholander designed it, and it was built 1867–1870",
+        "The exterior is a closed mass of plastered brick with bracketed cornices, lancet windows, and a rose window"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-097-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-097-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-097-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-098",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Central Post Office",
+      "place": "Norrmalm",
+      "caption": "Central Post Office, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · Vasagatan looking at the red-brick facade and its tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Central Post Office on Vasagatan, Stockholm, a red-brick Art Nouveau block with a short central tower, on an overcast night",
+      "description": "From Vasagatan the view looks at Centralposthuset. The walls are red brick on a sandstone base, with a short tower over the entrance and smaller towers at the corners. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "On Vasagatan, looking at the street facade and the central tower. A surveyed tripod mark was not pinned. This is not Stockholm Central Station.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Central_Post_Office_Building,_Stockholm",
+        "https://www.wikidata.org/wiki/Q3354383"
+      ],
+      "anchors": [
+        "Centralposthuset stands at Vasagatan 28–34",
+        "Ferdinand Boberg designed it; construction ran 1898–1903",
+        "Red brick sits on a red sandstone base, with a short central tower, two corner towers, and a slate roof"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-098-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-098-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-098-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-099",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Guldbron",
+      "place": "Slussen",
+      "caption": "Guldbron, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · the water side looking along the gold span · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Guldbron at Slussen, Stockholm, a wide dull-gold steel bridge over dark water, on an overcast night",
+      "description": "From the water the view looks along Guldbron. A wide steel girder, painted a dull gold, crosses the dark water, with lamps along the deck. It is an overcast night, about 14.5°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "From the water side of Söderström, looking along the gold span. A surveyed tripod mark was not pinned. This is not Katarinahissen.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Guldbron",
+        "https://sv.wikipedia.org/wiki/Guldbron"
+      ],
+      "anchors": [
+        "Guldbron, formally Slussbron, crosses Söderström between Gamla Stan and Södermalm",
+        "Spencer de Grey of Foster + Partners designed the steel girder; it opened on 25 October 2020",
+        "The span is about 140 metres long and 45 metres wide, painted a dull gold, and it rises toward Södermalm"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-099-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-099-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-099-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-100",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Danvikshem",
+      "place": "Nacka",
+      "caption": "Danvikshem, Stockholm",
+      "scenario_label": "29 September 2026 · 03:55 Europe/Stockholm",
+      "composition": "Overcast night · the water below the cliff looking up at the pale block · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Danvikshem on the cliff at Nacka, a pale national-romantic block with a central tower above dark water, on an overcast night",
+      "description": "From the water the view looks up at Danvikshem. Pale wings run out from a central block and a tower, on a wooded cliff. It is an overcast night, about 14.3°C, about 172 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "From the water below Finnbodaberget, looking up at the main block. A surveyed tripod mark was not pinned. This is not Waldemarsudde and not Ersta Church.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Danvikshem",
+        "https://www.wikidata.org/wiki/Q10466778"
+      ],
+      "anchors": [
+        "Danvikshem stands on Finnbodaberget in Nacka, above the harbour entrance",
+        "Aron Johansson designed the national-romantic complex, built 1912–1915",
+        "A central projecting block holds the chapel, and its tower first served as a water tower"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 03:55 scenario is about 172 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-100-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-100-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-100-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
