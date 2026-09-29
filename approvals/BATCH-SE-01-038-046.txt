@@ -1,0 +1,104 @@
+Sweden Stockholm batch SE-01-038 through SE-01-046
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-037 are not in this checkout. They were not edited.
+
+Every new scene is genuine night: model is_day 0, after sunset 18:29 Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (21:00–21:59).
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-038 Stureplan (Östermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:38:52+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:38 Europe/Stockholm
+  SHA-256 16:9: 2c050bf6a0507696e00098dfc71f50829b8a0fbe4045abfda4a1bd4edcf6b696
+  SHA-256 4:5: af9bcf11bdf0e4fcb912bfe0311bd30a3921c4270d066a12103bffbe8287bd9a
+  SHA-256 9:16: 84919b19cad98ddcbe854fd7da96ec501ed70d7d8ee7cff35b13a5a4ec939be8
+
+SE-01-039 Central Station (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:38:55+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:38 Europe/Stockholm
+  SHA-256 16:9: f2190a7cae980fbec1330b9e3c2b23fff2380f6e84fb4d4117755a85f2befa96
+  SHA-256 4:5: 508bffd01e0fca9be5948c9936a1d369b7d0d612d92c38f9be7aa78ee7700efa
+  SHA-256 9:16: e1ef475252ab9bab0371da751e2ae3d23ae044f7b17865ee8c46a638b76a0ccb
+
+SE-01-040 Sofia Church (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:38:57+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:38 Europe/Stockholm
+  SHA-256 16:9: e4d3da4f3e55c32324011c66152411ec0248aabcc02831e88a4e01f12cb14204
+  SHA-256 4:5: 84ba0d2bad531c8f1d1259b162efe92a8b478ecd37f463d53369b4c6c6eb1bd0
+  SHA-256 9:16: b0b4d69d982f5d517d82b71ef0fa1afaa689a80c30e500be586102eafc40b170
+
+SE-01-041 Gustaf Vasa Church (Vasastan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:00+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: 2cf55a78a6979ccdd427ce6302b5b1aa17ca9bdecf4b82b4fa8b6c0a750e914f
+  SHA-256 4:5: dbf7401eeb226210c436fe1bc90ce5f071b4080d7f4ee1a8c3124109781bf779
+  SHA-256 9:16: 3da897ad0b980b5ad411279e3eaf0b38f1b2bba8437395a5117951183fa76b1c
+
+SE-01-042 Oscar's Church (Östermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:03+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: 779fbeaef8ca428b2b297370b291bb27402b0ec5200974498a0d8959b6cc96db
+  SHA-256 4:5: 7214c1c5baab9ae60fd3679d48ab8883b2dafde0bbaa88c3fe5e85fbe7f33a63
+  SHA-256 9:16: 93dc99765dd62fe78c73f8220a359ab3c18b34844f0f2080ff780dc7b1ab9285
+
+SE-01-043 Medborgarplatsen (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:05+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: 1a62b9a116bbd934642f367172179d95175196a264ff59de037a4220da2b91a3
+  SHA-256 4:5: fcd8383bb65af9b72092a8f5b60a202f73f89884f6698d1913c88f19b88bc3c2
+  SHA-256 9:16: 35a5a05e79c8b9922ebee39b71da1cd2d1eb79ee4075679779833c27a53f7b5a
+
+SE-01-044 Maritime Museum (Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:08+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: 0cdf58bd23b35d623c30930e3fd33826bd49e185850582bc3fda6e61f67a4420
+  SHA-256 4:5: e9c38e1f841de1e55f0fe93a24ca057ab1199176586424573028a15a192e5c5f
+  SHA-256 9:16: d5e9eb7cbf4a26e8f0fdc9bafd45eb3c34f01e240b26892cbb999ff1127629ca
+
+SE-01-045 Mårten Trotzigs gränd (Gamla Stan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:11+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: 945a0a5a243d182918f3b732a6a6a113e186c5f75a8ed621668b30b6a6077536
+  SHA-256 4:5: 6a80672bf8d58b460f50ba6cf01d36bc712430577c063c43f11c82bbf7063702
+  SHA-256 9:16: 92f55a378fd8b54b1f28110ca06f4428f88741711adcec9c5eb5e4fd0977a62d
+
+SE-01-046 Rosenbad (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T21:39:40+02:00
+  model time: 2026-09-28T21:30
+  scenario: 28 September 2026 · 21:39 Europe/Stockholm
+  SHA-256 16:9: d9f4f380364037ed19de3d63bacb984c43600902b9207f0022d278e644adf35c
+  SHA-256 4:5: ae29ea748277c6125819edf0036b631a978f7e2782d22a2305f022410256a3aa
+  SHA-256 9:16: 4202186f71f0c2dc4b39d1ba88bc9eff9b06a4bdfeb191319dbe6fca483c91c2

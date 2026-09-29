@@ -74,7 +74,19 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-035", "Woodland Cemetery", "Stockholm", 59.27550, 18.09820, "Europe/Stockholm"),
     ("SE-01-036", "Koppartälten", "Stockholm", 59.36420, 18.03220, "Europe/Stockholm"),
     ("SE-01-037", "Engelbrekt Church", "Stockholm", 59.34390, 18.06680, "Europe/Stockholm"),
-    # SE-01-038–073 live on open drafts and are not in this checkout.
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    # SE-01-038–046 merged 2026-09-28 (Cosmo QC).
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    ("SE-01-038", "Stureplan", "Stockholm", 59.33680, 18.07315, "Europe/Stockholm"),
+    ("SE-01-039", "Central Station", "Stockholm", 59.33015, 18.05690, "Europe/Stockholm"),
+    ("SE-01-040", "Sofia Church", "Stockholm", 59.31255, 18.08540, "Europe/Stockholm"),
+    ("SE-01-041", "Gustaf Vasa Church", "Stockholm", 59.34240, 18.04820, "Europe/Stockholm"),
+    ("SE-01-042", "Oscar's Church", "Stockholm", 59.33485, 18.09320, "Europe/Stockholm"),
+    ("SE-01-043", "Medborgarplatsen", "Stockholm", 59.31455, 18.07205, "Europe/Stockholm"),
+    ("SE-01-044", "Maritime Museum", "Stockholm", 59.33240, 18.11540, "Europe/Stockholm"),
+    ("SE-01-045", "Mårten Trotzigs gränd", "Stockholm", 59.32295, 18.07270, "Europe/Stockholm"),
+    ("SE-01-046", "Rosenbad", "Stockholm", 59.32890, 18.06490, "Europe/Stockholm"),
+    # SE-01-047–073 live on open drafts and are not in this checkout.
     # Pins below are public viewpoints, not surveyed tripod marks.
     ("SE-01-074", "Karlberg Palace", "Stockholm", 59.34111, 18.02194, "Europe/Stockholm"),
     ("SE-01-075", "Västerlånggatan", "Stockholm", 59.32440, 18.06915, "Europe/Stockholm"),
