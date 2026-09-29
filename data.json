@@ -2135,6 +2135,357 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-047",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Katarinahissen",
+      "place": "Södermalm",
+      "caption": "Katarinahissen, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · the quay at Slussen looking up at the open steel lattice elevator tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Katarinahissen at Slussen in Stockholm, the open steel lattice elevator tower against the Södermalm cliff, at night",
+      "description": "From the quay at Slussen the view looks up at Katarinahissen, an open steel lattice elevator tower standing against the cliff of Södermalm. Footbridges leave the top of the tower. It is an overcast night, about 15.5°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the quay at Slussen, looking up at the open steel lattice elevator tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Katarina_elevator",
+        "https://sv.wikipedia.org/wiki/Katarinahissen"
+      ],
+      "anchors": [
+        "Katarinahissen is the public elevator at Slussen, an open steel lattice tower about 38 metres high",
+        "Footbridges leave the top of the tower toward Mosebacke torg",
+        "The tower stands against the cliff of Södermalm, with the quay below"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-047-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-047-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-047-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-048",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Fotografiska",
+      "place": "Södermalm",
+      "caption": "Fotografiska, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · the quay looking at the long red-brick customs house · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Fotografiska in the former customs house on Stadsgårdskajen, Stockholm, a long red-brick warehouse at night",
+      "description": "From the stone quay the view looks at Fotografiska in the former customs house, a long red-brick warehouse with a granite base and tall arched windows lit from inside. Dark water lies in front of the quay. It is an overcast night, about 15.4°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the stone quay at Stadsgårdskajen, looking at the long brick facade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Fotografiska",
+        "https://sv.wikipedia.org/wiki/Stora_Tullhuset"
+      ],
+      "anchors": [
+        "Fotografiska occupies Stora Tullhuset on Stadsgårdskajen",
+        "The building is a long red-brick warehouse with a granite base and tall arched windows",
+        "The quay runs along the water in front of the facade"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-048-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-048-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-048-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-049",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Gröna Lund",
+      "place": "Djurgården",
+      "caption": "Gröna Lund, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · Allmänna Gränd looking at the timber front and the gate, a ride lattice behind · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Gröna Lund street front on Allmänna Gränd, Djurgården, Stockholm, timber buildings and a gate at night",
+      "description": "From Allmänna Gränd the view looks at the Gröna Lund street front, a row of dark timber buildings and a wooden gate. A steel ride lattice rises behind the roofs. It is an overcast night, about 15.4°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Allmänna Gränd, looking at the timber street front and the entrance gate. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Gr%C3%B6na_Lund",
+        "https://sv.wikipedia.org/wiki/Gr%C3%B6na_Lund"
+      ],
+      "anchors": [
+        "Gröna Lund fronts Allmänna Gränd on Djurgården",
+        "The street side is a row of older timber buildings and a wooden entrance gate",
+        "Ride structures rise behind the timber front"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-049-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-049-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-049-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-050",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Storkyrkan",
+      "place": "Gamla Stan",
+      "caption": "Storkyrkan, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · Trångsund looking at the brick flank and the copper-spired tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Storkyrkan from Trångsund in Gamla Stan, Stockholm, the brick church and tower at night",
+      "description": "From Trångsund the view looks at the long brick flank of Storkyrkan and the tower with its dark copper spire. Old houses frame the cobbled square. It is an overcast night, about 15.3°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Trångsund, looking at the south brick flank and the tower of Storkyrkan. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Storkyrkan",
+        "https://sv.wikipedia.org/wiki/Storkyrkan"
+      ],
+      "anchors": [
+        "Storkyrkan is the medieval brick cathedral in Gamla Stan, west of the palace quarter",
+        "Trångsund is the narrow square along the church's south side",
+        "A brick tower with a copper spire rises above the nave"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-050-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-050-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-050-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-051",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Nordiska Kompaniet",
+      "place": "Norrmalm",
+      "caption": "Nordiska Kompaniet, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · Hamngatan looking at the granite block and the copper corner tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Nordiska Kompaniet on Hamngatan in Stockholm, the granite facade and copper corner tower at night",
+      "description": "From Hamngatan the view looks at Nordiska Kompaniet, a light-gray granite block with a copper roof and a rounded copper corner tower. The windows are lit. It is an overcast night, about 15.2°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Hamngatan, looking at the granite facade and the copper corner tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Nordiska_Kompaniet",
+        "https://sv.wikipedia.org/wiki/Nordiska_Kompaniet"
+      ],
+      "anchors": [
+        "Nordiska Kompaniet stands on Hamngatan at the corner toward Regeringsgatan",
+        "The 1915 building is light-gray granite with a copper roof",
+        "A rounded copper corner tower carries a clock"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-051-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-051-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-051-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-052",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Södra Teatern",
+      "place": "Södermalm",
+      "caption": "Södra Teatern, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · Mosebacke torg looking at the pale stucco theatre facade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Södra Teatern from Mosebacke torg in Stockholm, the pale stucco facade at night",
+      "description": "From Mosebacke torg the view looks at Södra Teatern, a pale stucco facade with symmetrical windows and a central entrance reached by steps. It is an overcast night, about 15.3°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Mosebacke torg, looking at the theatre's street facade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/S%C3%B6dra_Teatern",
+        "https://sv.wikipedia.org/wiki/S%C3%B6dra_Teatern"
+      ],
+      "anchors": [
+        "Södra Teatern stands on Mosebacke torg",
+        "The street facade is a mid-19th-century neoclassical block of pale stucco",
+        "A central entrance with steps faces the square"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-052-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-052-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-052-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-053",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Liljevalchs",
+      "place": "Djurgården",
+      "caption": "Liljevalchs, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · Djurgårdsvägen looking at the light red gallery, the copper roof, and the column · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Liljevalchs konsthall on Djurgårdsvägen, Djurgården, Stockholm, the gallery facade and the column at night",
+      "description": "From Djurgårdsvägen the view looks at Liljevalchs, a light red gallery with white plaster details, a curved copper roof, and an entrance portico. A tall granite column with a standing figure is in front. It is an overcast night, about 15.4°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On Djurgårdsvägen, looking at the gallery facade and the column in front of the entrance. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Liljevalchs_konsthall",
+        "https://sv.wikipedia.org/wiki/Liljevalchs_konsthall"
+      ],
+      "anchors": [
+        "Liljevalchs konsthall stands on Djurgårdsvägen on Djurgården",
+        "The facade is light red with white plaster details, exposed concrete pilasters, and a curved copper roof",
+        "A tall granite column with a figure stands in front of the entrance portico"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-053-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-053-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-053-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-054",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stockholm Observatory",
+      "place": "Vasastan",
+      "caption": "Observatory, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · the park path looking up at the pale observatory and its dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the old Stockholm Observatory on Observatoriekullen, the pale building and dome at night",
+      "description": "From the path in Observatorielunden the view looks up at the old Stockholm Observatory, a long pale-yellow building with a dome on the roof, and trees along the path. It is an overcast night, about 15.5°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the park path in Observatorielunden, looking up at the observatory on the hill. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stockholm_Observatory",
+        "https://sv.wikipedia.org/wiki/Stockholms_gamla_observatorium"
+      ],
+      "anchors": [
+        "The 18th-century observatory stands on Observatoriekullen in Vasastan",
+        "The building is a long pale-yellow block",
+        "A dome rises from the roof"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-054-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-054-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-054-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-055",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Djurgårdsbron",
+      "place": "Östermalm",
+      "caption": "Djurgårdsbron, Stockholm",
+      "scenario_label": "28 September 2026 · 22:01 Europe/Stockholm",
+      "composition": "Overcast night · the Östermalm abutment looking across the iron bridge, columns and candelabra · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Djurgårdsbron in Stockholm at night, the iron bridge, granite columns, and candelabra lamps",
+      "description": "From the Östermalm abutment the view looks across Djurgårdsbron toward Djurgården. Granite columns with standing figures mark the bridgeheads, and lit candelabra stand along the cast-iron railings. Dark water is under the spans. It is an overcast night, about 15.3°C, about 212 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "On the Östermalm abutment, looking across the bridge toward Djurgården. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Djurg%C3%A5rdsbron",
+        "https://sv.wikipedia.org/wiki/Djurg%C3%A5rdsbron"
+      ],
+      "anchors": [
+        "Djurgårdsbron is the 1897 iron bridge from Östermalm to Djurgården",
+        "Four statues stand on granite columns at the bridgeheads",
+        "Cast-iron railings and candelabra lamps line the deck"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 22:01 scenario is about 212 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-055-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-055-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-055-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
