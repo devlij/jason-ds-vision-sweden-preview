@@ -3185,6 +3185,354 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-101",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kungstornen",
+      "place": "Norrmalm",
+      "caption": "Kungstornen, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · Kungsgatan between the two 1920s towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kungstornen on Kungsgatan, Stockholm, two pale 1920s office towers flanking the street, in overcast pre-dawn light",
+      "description": "From the sidewalk the view looks along Kungsgatan between the two towers. Both are pale plaster office towers with rectangular window grids and stepped crowns. Lower buildings line the street under them. It is an overcast pre-dawn, about 14.3°C, about 150 minutes before the 06:47 sunrise, with street lamps on and no sun in the sky.",
+      "viewpoint": "On the sidewalk of Kungsgatan just east of Malmskillnadsbron, looking along the street at the two towers. A surveyed tripod mark was not pinned. This is not Hötorget and not the Concert Hall.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Kungstornen",
+        "https://sv.wikipedia.org/wiki/Kungstornen"
+      ],
+      "anchors": [
+        "Norra Kungstornet, by Sven Wallander, was completed in 1924 and stands on the north side of Kungsgatan",
+        "Södra Kungstornet, by Ivar Callmander, was completed in 1925 on the south side and is slightly taller",
+        "The pair flanks Kungsgatan immediately east of Malmskillnadsbron"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-101-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-101-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-101-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-102",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "City Museum",
+      "place": "Södermalm",
+      "caption": "City Museum, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · Södra stadshuset from Ryssgården · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm City Museum in Södra stadshuset at Ryssgården, a white baroque building, in overcast pre-dawn light",
+      "description": "From Ryssgården the view looks at Södra stadshuset. The block is white plaster, baroque, with a dark roof and wings around a courtyard, and a stair down from the square. It is an overcast pre-dawn, about 14.2°C, about 150 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "In Ryssgården, looking at Södra stadshuset, the building that houses Stadsmuseet. A surveyed tripod mark was not pinned. This is not Guldbron and not Katarinahissen.",
+      "references": [
+        "https://stadsmuseet.stockholm/om-stadsmuseet/stadsmuseets-byggnad/",
+        "https://sv.wikipedia.org/wiki/Stadsmuseet_i_Stockholm"
+      ],
+      "anchors": [
+        "Södra stadshuset was drawn by Nicodemus Tessin the Elder and completed around 1680",
+        "The building has a main range and wings toward the old Russian merchants’ yard, Ryssgården",
+        "Stadsmuseet opened in the building in 1942"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-102-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-102-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-102-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-103",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Havrekvarnen",
+      "place": "Kvarnholmen",
+      "caption": "Havrekvarnen, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the functionalist mill and silos at Kvarnholmen · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Havrekvarnen on Kvarnholmen, a pale functionalist mill with concrete silos by the water, in overcast pre-dawn light",
+      "description": "From the quay the view looks at Havrekvarnen. The mill is a pale concrete block with bands of windows, and cylindrical silos stand beside it, with dark water in front. It is an overcast pre-dawn, about 14.2°C, about 150 minutes before the 06:47 sunrise, with a few lamps on and no sun in the sky.",
+      "viewpoint": "On the quay path at Kvarnholmen, looking at the mill block and the silos, with Saltsjön in the foreground. A surveyed tripod mark was not pinned. This is not Danvikshem.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Havrekvarnen",
+        "https://kvarnholmen.com/havrekvarnen/"
+      ],
+      "anchors": [
+        "Havrekvarnen was built in 1927–1928 for Kooperativa Förbundet on Kvarnholmen in Nacka",
+        "Artur von Schmalensee designed the functionalist concrete mill",
+        "A row of cylindrical silos stands on the east side of the block"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-103-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-103-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-103-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-104",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Spånga Church",
+      "place": "Spånga",
+      "caption": "Spånga Church, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the fieldstone west tower of Spånga Church · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Spånga Church in western Stockholm, a grey fieldstone church with a broad west tower, in overcast pre-dawn light",
+      "description": "From the churchyard path the view looks at Spånga Church. The church is grey fieldstone. The west tower is as wide as the nave and carries a dark hooded spire. It is an overcast pre-dawn, about 13.9°C, about 151 minutes before the 06:48 sunrise, with a path lamp on and no sun in the sky.",
+      "viewpoint": "On the gravel path in the churchyard, looking at the west tower and the south side of the nave. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Sp%C3%A5nga_kyrka",
+        "https://stockholmslansmuseum.se/medeltida-kyrkor/spanga-kyrka/"
+      ],
+      "anchors": [
+        "The tower and the western part of the nave are fieldstone from the middle of the 12th century",
+        "The west tower is as wide as the nave",
+        "The present tower hood dates from 1825"
+      ],
+      "solar": "Night. Model sunrise 06:48 and sunset 18:27 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 151 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-104-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-104-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-104-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-105",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Vaxholm Fortress",
+      "place": "Vaxholm",
+      "caption": "Vaxholm Fortress, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the granite fortress across the strait from the town quay · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Vaxholm Fortress on its island, seen from the town quay across dark water, in overcast pre-dawn light",
+      "description": "From the town quay the view looks across dark water at Vaxholm Fortress. The fort is a low mass of granite on its own islet, with thick walls and a few lit openings. It is an overcast pre-dawn, about 14.0°C, about 149 minutes before the 06:46 sunrise, with a quay lamp on and no sun in the sky.",
+      "viewpoint": "On the quay at Strandgatan in Vaxholm town, looking across the strait at the granite fortress on the islet Vaxholmen. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Vaxholm_Fortress",
+        "https://sv.wikipedia.org/wiki/Vaxholms_kastell"
+      ],
+      "anchors": [
+        "The fortress occupies the islet Vaxholmen in the strait between Vaxön and Rindö",
+        "The present granite works were built from 1833 to 1863 under Carl Fredrik Meijer",
+        "The outer walls are granite more than two metres thick"
+      ],
+      "solar": "Night. Model sunrise 06:46 and sunset 18:25 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 149 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic",
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-105-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-105-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-105-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-106",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Tyresö Palace",
+      "place": "Tyresö",
+      "caption": "Tyresö Palace, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the long palace front from the garden lawn · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Tyresö Palace, a long pale country palace with a dark hipped roof, seen from the lawn in overcast pre-dawn light",
+      "description": "From the lawn the view looks at Tyresö Palace. The palace is long and low, pale plaster, with a dark hipped roof and slightly higher corner pavilions. Trees stand at the sides of the lawn. It is an overcast pre-dawn, about 13.6°C, about 149 minutes before the 06:46 sunrise, with a few lamps on and no sun in the sky.",
+      "viewpoint": "On the garden lawn, looking at the long palace front. A surveyed tripod mark was not pinned. This is not the Royal Palace.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Tyres%C3%B6_Palace",
+        "https://sv.wikipedia.org/wiki/Tyres%C3%B6_slott"
+      ],
+      "anchors": [
+        "Gabriel Oxenstierna began the palace in the 1620s and it was completed in 1636",
+        "The long pale front has a dark hipped roof and no central dome",
+        "Isak Gustaf Clason rebuilt the exterior for Claes Lagergren around the turn of the 20th century, after 17th-century drawings"
+      ],
+      "solar": "Night. Model sunrise 06:46 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 149 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-106-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-106-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-106-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-107",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Centralbadet",
+      "place": "Norrmalm",
+      "caption": "Centralbadet, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the Jugend bathhouse from the park · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Centralbadet in Stockholm, a low Art Nouveau bathhouse in a small park, in overcast pre-dawn light",
+      "description": "From the park the view looks at Centralbadet. The bathhouse is low, pale stucco, with a curved gable, arched windows, and trees close around it. It is an overcast pre-dawn, about 14.3°C, about 150 minutes before the 06:47 sunrise, with park lamps on and no sun in the sky.",
+      "viewpoint": "In Centralbadsparken, looking at the entrance front of the bathhouse. A surveyed tripod mark was not pinned. This is not Blå tornet and not the Central Post Office.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Centralbadet",
+        "https://centralbadet.se/om-oss/historik/"
+      ],
+      "anchors": [
+        "Wilhelm Klemming designed the bathhouse in 1902–1904 and it opened on 1 August 1904",
+        "The exterior is Jugend, with a curved gable and plant ornament, entered from the park by Drottninggatan",
+        "The building is low, a bathhouse in a garden, not a palace"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-107-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-107-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-107-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-108",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "KTH Main Building",
+      "place": "Norra Djurgården",
+      "caption": "KTH Main Building, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the red-brick main building from the forecourt · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the KTH main building in Stockholm, a symmetrical red-brick university block, in overcast pre-dawn light",
+      "description": "From the forecourt the view looks at the KTH main building. The facade is red brick and symmetrical, with tall windows and a central entrance. It is an overcast pre-dawn, about 14.3°C, about 150 minutes before the 06:47 sunrise, with lamps on and no sun in the sky.",
+      "viewpoint": "In the forecourt on the Valhallavägen side, looking at the brick front of the main building. A surveyed tripod mark was not pinned. This is not Stockholm Olympic Stadium and not Engelbrekt Church.",
+      "references": [
+        "https://en.wikipedia.org/wiki/KTH_Main_Building",
+        "https://sv.wikipedia.org/wiki/KTH:s_huvudbyggnad"
+      ],
+      "anchors": [
+        "Erik Lallerstedt designed the main building and it was inaugurated on 19 October 1917",
+        "The building is red brick, symmetrical, with a central entrance bay",
+        "It stands on the campus north of Valhallavägen"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-108-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-108-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-108-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-109",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Army Museum",
+      "place": "Östermalm",
+      "caption": "Army Museum, Stockholm",
+      "scenario_label": "29 September 2026 · 04:17 Europe/Stockholm",
+      "composition": "Overcast pre-dawn · the tyghus from the Artillerigården courtyard · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Army Museum at Artillerigården, Stockholm, a long pale yellow arsenal, in overcast pre-dawn light",
+      "description": "From the courtyard the view looks at the Army Museum. The tyghus is a long pale yellow plaster block of three storeys, with regular windows and wings to the sides. An iron fence sits low in the foreground. It is an overcast pre-dawn, about 14.4°C, about 150 minutes before the 06:47 sunrise, with courtyard lamps on and no sun in the sky.",
+      "viewpoint": "In the courtyard of Artillerigården, looking at the tyghus facade, with the iron fence low in the foreground. A surveyed tripod mark was not pinned. This is not Hedvig Eleonora Church.",
+      "references": [
+        "https://www.sfv.se/vara-fastigheter/sverige/stockholms-lan/museer/armemuseum-pa-artillerigarden",
+        "https://sv.wikipedia.org/wiki/Arm%C3%A9museum"
+      ],
+      "anchors": [
+        "Carl Johan Cronstedt designed the tyghus and its wings, built from 1763 to 1777",
+        "An added storey in 1884 gave the tyghus the three-storey front it has now",
+        "An iron fence closes the courtyard toward Riddargatan"
+      ],
+      "solar": "Night. Model sunrise 06:47 and sunset 18:26 Europe/Stockholm on 29 September 2026. The 04:17 scenario is about 150 minutes before sunrise, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-109-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-109-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-109-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
