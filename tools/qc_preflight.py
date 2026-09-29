@@ -36,7 +36,22 @@ LATE6_IDS = [f"SE-01-{n:03d}" for n in range(65, 74)]
 # SE-01-074–082 merged 2026-09-28 (Cosmo QC).
 BATCH_IDS = [f"SE-01-{n:03d}" for n in range(74, 83)]
 BATCH83_IDS = [f"SE-01-{n:03d}" for n in range(83, 92)]
-EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *BATCH83_IDS]
+BATCH119_IDS = [f"SE-01-{n:03d}" for n in range(119, 128)]
+# data.json on main is append order, not numeric order: 074–082 sit before 029–073.
+ON_DISK_IDS = [
+    "SE-01-001",
+    *NEW_IDS,
+    *NIGHT_IDS,
+    *LATE_IDS,
+    *BATCH_IDS,
+    *LATE2_IDS,
+    *LATE3_IDS,
+    *LATE4_IDS,
+    *LATE5_IDS,
+    *LATE6_IDS,
+    *BATCH83_IDS,
+]
+EXPECTED_IDS = [*ON_DISK_IDS, *BATCH119_IDS]
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
 SE001_SHA = {
     "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
@@ -107,6 +122,10 @@ def check_note(errors: list[str], entry_id: str, candidate: bool) -> str:
         errors.append(f"missing approvals/{entry_id}.md")
         return ""
     text = note_path.read_text()
+    # Cosmo already approved SE-01-029–082 on main. Those notes stay Approved.
+    # A new scene must not take that path.
+    if candidate and entry_id in {f"SE-01-{n:03d}" for n in range(29, 83)} and "approval_status: Approved" in text:
+        candidate = False
     if candidate:
         if "approval_status: Candidate" not in text:
             errors.append(f"{entry_id} approval note is not Candidate")
@@ -123,7 +142,7 @@ def check_note(errors: list[str], entry_id: str, candidate: bool) -> str:
     return text
 
 
-def check_weather(errors: list[str], entry_id: str, stamps: set[str]) -> dict | None:
+def check_weather(errors: list[str], entry_id: str, stamps: dict[str, str]) -> dict | None:
     path = ROOT / "evidence" / "weather" / f"{entry_id}.json"
     if not path.is_file():
         errors.append(f"missing weather {entry_id}")
@@ -132,9 +151,10 @@ def check_weather(errors: list[str], entry_id: str, stamps: set[str]) -> dict | 
     if weather.get("timezone") != "Europe/Stockholm":
         errors.append(f"{entry_id} weather timezone is not Europe/Stockholm")
     stamp = weather.get("retrieval_timestamp") or ""
-    if stamp in stamps:
+    previous = stamps.get(stamp)
+    if previous is not None and previous != entry_id:
         errors.append(f"{entry_id} retrieval second collided: {stamp}")
-    stamps.add(stamp)
+    stamps[stamp] = entry_id
     hour = stamp[11:13]
     scenario = weather.get("scenario_label") or ""
     if "·" not in scenario or not scenario.split("·", 1)[1].strip().startswith(hour):
@@ -180,7 +200,7 @@ def main() -> None:
     weather_001_path = ROOT / "evidence" / "weather" / "SE-01-001.json"
     if sha256(weather_001_path) != SE001_WEATHER_SHA:
         errors.append("SE-01-001 weather file changed; do not re-fetch it")
-    stamps: set[str] = set()
+    stamps: dict[str, str] = {}
     weather_001 = check_weather(errors, "SE-01-001", stamps)
     if weather_001:
         if weather_001.get("retrieval_timestamp") != SE001_RETRIEVAL:
@@ -344,6 +364,60 @@ def main() -> None:
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
+    batch119_path = ROOT / "approvals" / "BATCH-SE-01-119-127.txt"
+    batch119 = batch119_path.read_text() if batch119_path.is_file() else ""
+    if not batch119_path.is_file():
+        errors.append("missing approvals/BATCH-SE-01-119-127.txt")
+    elif "night scenes do not get an aerial" not in batch119.lower():
+        errors.append("119 batch file missing the no-aerial note")
+
+    for entry_id in BATCH119_IDS:
+        scene = by_id.get(entry_id) or {}
+        if scene.get("approval_status") != "Candidate":
+            errors.append(f"{entry_id} approval_status is not Candidate")
+        if scene.get("format_9x16_approval_status") != "Candidate":
+            errors.append(f"{entry_id} 9:16 approval is not Candidate")
+        if scene.get("format_16x9_approval_status") == "Approved":
+            errors.append(f"{entry_id} 16:9 was self-approved")
+        if scene.get("format_4x5_approval_status") == "Approved":
+            errors.append(f"{entry_id} 4:5 was self-approved")
+        if scene.get("motion"):
+            errors.append(f"{entry_id} motion is set without an aerial file")
+        note = check_note(errors, entry_id, candidate=True)
+        if note and "night scenes do not get an aerial" not in note.lower():
+            errors.append(f"{entry_id} approval note missing the night aerial refusal")
+        weather = check_weather(errors, entry_id, stamps)
+        if weather:
+            if weather.get("is_day") != 0 or weather.get("daynight") != "night":
+                errors.append(f"{entry_id} weather is not genuine night")
+            sunrise = (weather.get("sunrise") or "")[11:16]
+            sunset = (weather.get("sunset") or "")[11:16]
+            minute = (weather.get("retrieval_timestamp") or "")[11:16]
+            if not (minute < sunrise or minute >= sunset):
+                errors.append(f"{entry_id} retrieval is inside the daylight window")
+        check_masters(errors, entry_id, note)
+        for fmt in ("16x9", "4x5", "9x16"):
+            path = ROOT / "assets" / "sweden" / "Stockholm" / f"{entry_id.lower()}-{fmt}.png"
+            if path.is_file():
+                comment = read_text_chunks(path).get("Comment", ("", ""))[1]
+                if "embedded 2026-09-29." not in comment:
+                    errors.append(f"{entry_id} {fmt} Art. 50 comment is not the Stockholm build day")
+        if batch119 and entry_id not in batch119:
+            errors.append(f"119 batch file missing {entry_id}")
+        scene_line = ""
+        if batch119:
+            for line in batch119.splitlines():
+                if line.startswith(entry_id + " "):
+                    scene_line = line
+                    break
+            if not scene_line:
+                errors.append(f"119 batch file missing a scene line for {entry_id}")
+            else:
+                idx = batch119.find(scene_line)
+                nxt = batch119.find("\nSE-01-", idx + len(scene_line))
+                block = batch119[idx:nxt if nxt > idx else None]
+                if "aerial: no" not in block.lower():
+                    errors.append(f"{entry_id} batch line is not aerial no")
 
     night_batch_path = ROOT / "approvals" / "BATCH-SE-01-011-019.txt"
     night_batch = night_batch_path.read_text() if night_batch_path.is_file() else ""
@@ -710,7 +784,9 @@ def main() -> None:
         errors.append("lightbox interval is not the 4000ms value on main")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
-    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *BATCH83_IDS]:
+    # 029–091 are already Approved in the published page. Only still-Candidate
+    # scenes, including this batch, are rejected if the page marks them Approved.
+    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *BATCH119_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:
             start = html.find(f'"entry_id":"{entry_id}"')
