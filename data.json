@@ -1438,6 +1438,354 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-029",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Högalid Church",
+      "place": "Södermalm",
+      "caption": "Högalid Church, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the east park path looking toward the choir and the two octagonal towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Högalid Church on Södermalm, Stockholm, the dark red brick choir flanked by two octagonal towers, in overcast night light",
+      "description": "From the park path east of Högalid Church the view looks west at the choir. The church is dark red brick on a granite base. Two octagonal towers flank the east end, each finished with a copper bell-shaped cupola. It is an overcast night, about 15.5°C, about 182 minutes after the 18:30 sunset, with path lamps on and no sun in the sky.",
+      "viewpoint": "The park path east of Högalid Church, looking west at the choir and the two towers. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/H%C3%B6galid_Church",
+        "https://www.svenskakyrkan.se/hogalid/om-hogalidskyrkan"
+      ],
+      "anchors": [
+        "Högalid Church stands on the hill of Högalid on Södermalm",
+        "The choir is at the east end and is flanked by two octagonal brick towers",
+        "The towers carry copper cupolas; the main entrance is the separate west front"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 182 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-029-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-029-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-029-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-030",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Royal Dramatic Theatre",
+      "place": "Nybroplan",
+      "caption": "Royal Dramatic Theatre, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · Nybroplan looking at the white marble façade, the copper roof, and the pale dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Royal Dramatic Theatre at Nybroplan, Stockholm, the white marble façade and pale dome, in overcast night light",
+      "description": "From the open square of Nybroplan the view looks at the Royal Dramatic Theatre. The façade is white marble, with a long sculpted frieze and gilded canopies over the entrances. A copper roof and a pale gray dome rise above the square. It is an overcast night, about 15.4°C, about 183 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Nybroplan, looking at the theatre’s main façade. The Margaretha Krook statue near Nybrogatan is outside this frame. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Royal_Dramatic_Theatre",
+        "https://www.dramaten.se/"
+      ],
+      "anchors": [
+        "The Royal Dramatic Theatre stands at Nybroplan",
+        "The façade is Ekeberg marble, with gilded canopies at the entrances",
+        "The roof is copper and the dome is pale tiled, distinct from the Royal Opera at Gustav Adolfs torg"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-030-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-030-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-030-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-031",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Köpmantorget",
+      "place": "Gamla Stan",
+      "caption": "Köpmantorget, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the cobbled square looking at the Saint George column · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Köpmantorget in Gamla Stan, Stockholm, the bronze Saint George group on a granite column, in overcast night light",
+      "description": "From the cobbles of Köpmantorget the view looks at the Saint George monument. A bronze knight on a rearing horse, a dragon, and a standing woman stand on a tall granite column. Narrow old-town houses close the square. It is an overcast night, about 15.4°C, about 183 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "In Köpmantorget itself, looking at the column. This is the east-end square of Köpmangatan, not Stortorget. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Saint_George_and_the_Dragon_(Notke)",
+        "https://sv.wikipedia.org/wiki/K%C3%B6pmantorget"
+      ],
+      "anchors": [
+        "Köpmantorget is the small square at the east end of Köpmangatan in Gamla Stan",
+        "A bronze copy of Bernt Notke’s Saint George group stands on a tall granite column",
+        "The group is the knight, the dragon, and the standing woman, not the original inside Storkyrkan"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-031-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-031-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-031-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-032",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Kastellet",
+      "place": "Kastellholmen",
+      "caption": "Kastellet, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the grass path looking at the red-brick citadel and its stair turret · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kastellet on Kastellholmen, Stockholm, the red-brick round tower and stair turret, in overcast night light",
+      "description": "From the grass path on Kastellholmen the view looks at Kastellet. The citadel is red pressed brick on a gray-stone base, with crenellated wings and a round tower. A tall round stair turret rises beside the tower. The flagpole is bare. It is an overcast night, about 15.4°C, about 183 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "The public path on Kastellholmen, looking at the citadel. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Kastellet,_Stockholm",
+        "https://sv.wikipedia.org/wiki/Kastellet,_Stockholm"
+      ],
+      "anchors": [
+        "Kastellet is the citadel on the islet of Kastellholmen",
+        "The present building is red pressed brick, built 1846–1848 to Fredrik Blom’s design, with a round stair turret",
+        "Crenellated wings sit on a gray-stone base"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-032-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-032-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-032-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-033",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Royal Library",
+      "place": "Humlegården",
+      "caption": "Royal Library, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the south lawn looking at the plastered Neo-Renaissance façade · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Royal Library in Humlegården, Stockholm, the pale plastered façade and central risalit, in overcast night light",
+      "description": "From the south lawn of Humlegården the view looks north at the Royal Library. The façade is pale plaster in a Neo-Renaissance design, with a rusticated ground floor, a granite entrance portal, and a central risalit with a higher attic. Park trees frame the lawn. It is an overcast night, about 15.6°C, about 183 minutes after the 18:29 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "The public lawn south of the library in Humlegården, looking north at the main façade. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.kb.se/eng/about-us/history.html",
+        "https://sv.wikipedia.org/wiki/Kungliga_biblioteket"
+      ],
+      "anchors": [
+        "The National Library stands in Humlegården, designed by Gustaf Dahl and opened in 1878",
+        "The façade is plastered, with a rusticated ground floor and a granite portal",
+        "A central risalit rises higher than the wings; this is not the cylindrical Public Library in Vasastan"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-033-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-033-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-033-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-034",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Västerbron",
+      "place": "Kungsholmen",
+      "caption": "Västerbron, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the Rålambshovsparken shore looking at the steel arch over the water · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Västerbron from Rålambshovsparken, Stockholm, the pale steel arch over the water, in overcast night light",
+      "description": "From the shore lawn of Rålambshovsparken the view looks at Västerbron. A pale steel arch spans the dark water, with lamps along the deck, and a second arch continues beyond. Park trees stand in the foreground. It is an overcast night, about 15.6°C, about 182 minutes after the 18:30 sunset, with lamps on and no sun in the sky.",
+      "viewpoint": "The public shore of Rålambshovsparken on Kungsholmen, looking at the northern arch of Västerbron. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/V%C3%A4sterbron",
+        "https://sv.wikipedia.org/wiki/V%C3%A4sterbron"
+      ],
+      "anchors": [
+        "Västerbron is the steel arch bridge between Kungsholmen and Södermalm, opened in 1935",
+        "Two arches carry the span, with Långholmen between them",
+        "The north end meets the shore at Rålambshovsparken"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 182 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-034-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-034-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-034-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-035",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Woodland Cemetery",
+      "place": "Enskede",
+      "caption": "Woodland Cemetery, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the open lawn looking toward the granite cross · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the granite cross at the Woodland Cemetery in Stockholm, standing on the open lawn among pines, in overcast night light",
+      "description": "From the open lawn at the Woodland Cemetery the view looks toward the granite cross. The cross is a tall plain shaft of dark granite on the grass. Pines stand at the edges of the lawn, and a low white chapel portico sits far behind. It is an overcast night, about 14.9°C, about 183 minutes after the 18:29 sunset, with only a few lamps and no sun in the sky.",
+      "viewpoint": "The public lawn in front of the Woodland Crematorium, looking toward Asplund’s granite cross. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://skogskyrkogarden.stockholm/en/explore/the-granite-cross/",
+        "https://whc.unesco.org/en/list/558/"
+      ],
+      "anchors": [
+        "The granite cross, designed by Gunnar Asplund and raised in 1939, stands on the lawn in front of the Woodland Crematorium",
+        "The crematorium group behind it is the chapels of Faith, Hope, and the Holy Cross",
+        "Tall pines edge the open lawn of Skogskyrkogården"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-035-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-035-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-035-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-036",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Koppartälten",
+      "place": "Hagaparken",
+      "caption": "Koppartälten, Haga",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the pelouse looking at the three painted copper tents · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the copper tents in Haga Park, the cobalt-blue and ochre tent façades seen from the lawn, in overcast night light",
+      "description": "From the great lawn in Haga Park the view looks at the three copper tents. The façades are painted copper shaped like Roman military tents, cobalt blue with ochre drapery. The middle tent is taller, with a conical roof and a spire, and the two side tents are lower. It is an overcast night, about 15.7°C, about 182 minutes after the 18:30 sunset, with path lamps on and no sun in the sky.",
+      "viewpoint": "On the pelouse, the open lawn east of the tents, looking at the tent façades. A surveyed tripod mark was not pinned. The park is in Solna municipality.",
+      "references": [
+        "https://www.sfv.se/vara-fastigheter/sverige/stockholms-lan/slottparkerkungsgardar/haga/koppartalten-i-hagaparken",
+        "https://sv.wikipedia.org/wiki/Koppart%C3%A4lten"
+      ],
+      "anchors": [
+        "Koppartälten stand at the northwest end of the pelouse in Hagaparken, Solna",
+        "Louis Jean Desprez designed the three tent façades in 1787–1790",
+        "The middle tent is taller, with a spire; the side tents are lower; the painted copper faces the lawn"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:30 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 182 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-036-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-036-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-036-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-037",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Engelbrekt Church",
+      "place": "Lärkstaden",
+      "caption": "Engelbrekt Church, Stockholm",
+      "scenario_label": "28 September 2026 · 21:32 Europe/Stockholm",
+      "composition": "Overcast night · the foot of the rock looking up at the brick tower and copper spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Engelbrekt Church in Lärkstaden, Stockholm, the brick church and copper spire on the rock, in overcast night light",
+      "description": "From the foot of the rock in Lärkstaden the view looks up at Engelbrekt Church. The church is dark red-brown brick on exposed bedrock, with hand-cut granite walls below. One tall tower stands to the side, finished with an octagonal copper spire. It is an overcast night, about 15.6°C, about 183 minutes after the 18:29 sunset, with street lamps on and no sun in the sky.",
+      "viewpoint": "At the foot of the rock below Engelbrekt Church, looking up at the tower. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Engelbrektskyrkan",
+        "https://www.svenskakyrkan.se/engelbrekt/engelbrektskyrkan"
+      ],
+      "anchors": [
+        "Engelbrekt Church stands on the old mill hill in Lärkstaden, completed in 1914 to Lars Israel Wahlman’s design",
+        "The brick tower is set in the angle between the south and west arms, not on the centerline",
+        "The spire is octagonal and copper-clad; the clock faces use gilded winged motifs instead of numerals"
+      ],
+      "solar": "Night. Model sunrise 06:45 and sunset 18:29 Europe/Stockholm on 28 September 2026. The 21:32 scenario is about 183 minutes after sunset, and model is_day is 0, so this scene is night. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban",
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-037-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-037-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-037-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }
