@@ -36,10 +36,18 @@ DESCRIPTION = (
 )
 COPYRIGHT = "Jason D\u0027s Vision \u2014 AI-generated content"
 SOFTWARE = "Jason D\u0027s Vision library pipeline"
-COMMENT = (
+COMMENT_PREFIX = (
     "EU AI Act Art. 50 transparency note: this image is AI-generated content. "
-    "Machine-readable disclosure embedded 2026-09-28."
+    "Machine-readable disclosure embedded "
 )
+
+
+def comment_for(day: str) -> str:
+    return COMMENT_PREFIX + day + "."
+
+
+# Historical bake day for masters already on main. New scenes pass their own day.
+COMMENT = comment_for("2026-09-28")
 
 # On-image signature keeps the curly apostrophe (U+2019).
 BRAND = "Jason D\u2019s Vision"
@@ -103,17 +111,17 @@ def _itxt_chunk(key: str, value: str) -> bytes:
     return _chunk(b"iTXt", data)
 
 
-def art50_chunks() -> list[bytes]:
+def art50_chunks(comment: str = COMMENT) -> list[bytes]:
     return [
         _itxt_chunk("Title", TITLE),
         _text_chunk("Description", DESCRIPTION),
         _itxt_chunk("Copyright", COPYRIGHT),
         _text_chunk("Software", SOFTWARE),
-        _text_chunk("Comment", COMMENT),
+        _text_chunk("Comment", comment),
     ]
 
 
-def inject_art50(path: Path) -> None:
+def inject_art50(path: Path, comment: str = COMMENT) -> None:
     """Insert the five Art. 50 chunks before IEND without touching IDAT."""
     data = path.read_bytes()
     if data[:8] != PNG_SIG:
@@ -134,7 +142,7 @@ def inject_art50(path: Path) -> None:
                 i = end
                 continue
         if ctype == b"IEND":
-            out.extend(art50_chunks())
+            out.extend(art50_chunks(comment))
             out.append(data[i:end])
             inserted = True
             i = end
@@ -187,6 +195,14 @@ def expected_art50() -> dict[str, tuple[str, str]]:
 def assert_art50(path: Path) -> None:
     chunks = read_text_chunks(path)
     for key, val in expected_art50().items():
+        if key == "Comment":
+            got = chunks.get(key)
+            if got is None or got[0] != "tEXt" or not got[1].startswith(COMMENT_PREFIX) or not got[1].endswith("."):
+                raise SystemExit(f"metadata mismatch {path} {key}: {got!r}")
+            day = got[1][len(COMMENT_PREFIX) : -1]
+            if len(day) != 10 or day[4] != "-" or day[7] != "-" or not day.replace("-", "").isdigit():
+                raise SystemExit(f"metadata mismatch {path} {key}: {got!r}")
+            continue
         if chunks.get(key) != val:
             raise SystemExit(f"metadata mismatch {path} {key}: {chunks.get(key)!r}")
 
@@ -351,10 +367,10 @@ def _photo_for(fmt: str, paths: dict[str, Path]) -> Image.Image:
     return fit(Image.open(primary), tw, th)
 
 
-def save_master(im: Image.Image, path: Path, photo: Image.Image) -> None:
+def save_master(im: Image.Image, path: Path, photo: Image.Image, comment: str = COMMENT) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     im.save(path, format="PNG", compress_level=9)
-    inject_art50(path)
+    inject_art50(path, comment)
     with Image.open(path) as saved:
         saved.load()
         if saved.size != im.size:
@@ -379,6 +395,7 @@ def composite_one(
     source: Path | None = None,
     source_4x5: Path | None = None,
     source_9x16: Path | None = None,
+    comment_day: str = "2026-09-28",
 ) -> tuple[Path, Path, Path]:
     if "Scenario:" in scenario_label:
         raise SystemExit(f"{entry_id} scenario_label should not include the Scenario prefix")
@@ -399,7 +416,7 @@ def composite_one(
         finished = draw_label_bar(photo, caption, scenario_label)
         if finished.size != CANVAS[fmt]:
             raise SystemExit(f"{entry_id} {fmt} canvas {finished.size}")
-        save_master(finished, outs[fmt], photo)
+        save_master(finished, outs[fmt], photo, comment_for(comment_day))
     return outs["16x9"], outs["4x5"], outs["9x16"]
 
 
@@ -412,6 +429,7 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--source-4x5", type=Path, dest="source_4x5")
     parser.add_argument("--source-9x16", type=Path, dest="source_9x16")
+    parser.add_argument("--comment-day", default="2026-09-28", help="Europe/Stockholm build day baked into the Art. 50 Comment chunk")
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args(argv)
     outs = composite_one(
@@ -422,6 +440,7 @@ def main(argv: list[str] | None = None) -> None:
         source=args.source,
         source_4x5=args.source_4x5,
         source_9x16=args.source_9x16,
+        comment_day=args.comment_day,
     )
     for path in outs:
         with Image.open(path) as im:
