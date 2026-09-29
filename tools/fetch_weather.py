@@ -98,7 +98,18 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("SE-01-053", "Liljevalchs", "Stockholm", 59.32510, 18.09645, "Europe/Stockholm"),
     ("SE-01-054", "Stockholm Observatory", "Stockholm", 59.34155, 18.05475, "Europe/Stockholm"),
     ("SE-01-055", "Djurgårdsbron", "Stockholm", 59.33265, 18.09355, "Europe/Stockholm"),
-    # SE-01-056–073 live on open drafts and are not in this checkout.
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    # SE-01-056–064 merged 2026-09-28 (Cosmo QC).
+    # Pins below are public viewpoints, not surveyed tripod marks.
+    ("SE-01-056", "Grand Hôtel", "Stockholm", 59.32970, 18.07520, "Europe/Stockholm"),
+    ("SE-01-057", "Rosendal Palace", "Stockholm", 59.32860, 18.11740, "Europe/Stockholm"),
+    ("SE-01-058", "Kungsholms Church", "Stockholm", 59.33020, 18.04330, "Europe/Stockholm"),
+    ("SE-01-059", "Bromma Church", "Stockholm", 59.35420, 17.92210, "Europe/Stockholm"),
+    ("SE-01-060", "Avicii Arena", "Stockholm", 59.29410, 18.08320, "Europe/Stockholm"),
+    ("SE-01-061", "Hedvig Eleonora Church", "Stockholm", 59.33560, 18.07970, "Europe/Stockholm"),
+    ("SE-01-062", "Skeppsholmsbron", "Stockholm", 59.32865, 18.07850, "Europe/Stockholm"),
+    ("SE-01-063", "Fåfängan", "Stockholm", 59.31625, 18.10060, "Europe/Stockholm"),
+    ("SE-01-064", "Maria Magdalena Church", "Stockholm", 59.31845, 18.06655, "Europe/Stockholm"),
     # Pins below are public viewpoints, not surveyed tripod marks.
     ("SE-01-074", "Karlberg Palace", "Stockholm", 59.34111, 18.02194, "Europe/Stockholm"),
     ("SE-01-075", "Västerlånggatan", "Stockholm", 59.32440, 18.06915, "Europe/Stockholm"),

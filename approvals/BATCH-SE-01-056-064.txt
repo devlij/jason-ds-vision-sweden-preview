@@ -1,0 +1,135 @@
+Sweden Stockholm batch SE-01-056 through SE-01-064
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-055 are not in this checkout. They were not edited.
+SHA-256 of SE-01-001 through SE-01-010 matches main:
+SE-01-001 SHA-256 16x9 1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3
+SE-01-001 SHA-256 4x5 25810ce465b775fd5fad674cbeb5123eb55a5c76147893a6ed4d80f0d216944c
+SE-01-001 SHA-256 9x16 f155a695f8e90d56250cfeef2504e9152b7aa0776db05ebb65e8d0c055636a9a
+SE-01-002 SHA-256 16x9 e4bb4f3d4f3825730cdd52ce5c2332d75683e2e49c2d7e64ff3ed2a853203d59
+SE-01-002 SHA-256 4x5 0fa79324d33a87ced491a6b1338734692be991d95ab733b4ed55f32ab4effb24
+SE-01-002 SHA-256 9x16 96d1fffb4b3c02b498003e5c81df735220bff28605a9fd177472235c418124e2
+SE-01-003 SHA-256 16x9 cd88ff6f31e5201490f2bf4486eeee84a877d6d5abdad7403b2b2cc08ac7b960
+SE-01-003 SHA-256 4x5 9329bbdc87d43a5f3024a4fd2a263dd50390e12f96167a95042584d472b6aee0
+SE-01-003 SHA-256 9x16 0b3c2098ef44e0a9a100aa5e229ada7203bb0fe40acddacdc8a348b0f5d341bd
+SE-01-004 SHA-256 16x9 55cd86a2de111ae3e39e36169796dec4b9e9493b740ab39fc7ceedc29518b7a6
+SE-01-004 SHA-256 4x5 df68b733476933266a7d1a11ad2254d3f8496ba02fbc9f0f5a6a20c87fb39ace
+SE-01-004 SHA-256 9x16 1731f84870a83eefcdddd67cff0795746dccfc37199f72a6c2229cedb81e9801
+SE-01-005 SHA-256 16x9 08702cb07898ec1ef6e368eea04130341f4f38345414d30390bc97098154ee59
+SE-01-005 SHA-256 4x5 121e88ab166a7ebfe3ca3352430a2d277a4868fabb3644d294b8af05b0b303da
+SE-01-005 SHA-256 9x16 025ded58810e98dc00b586a399fca3c2cf5a476c7cc578bfb0a25f1f601affd0
+SE-01-006 SHA-256 16x9 519ec77d3920c1277d9f5be54ced9806aa5838a607d730d34842815396398b6c
+SE-01-006 SHA-256 4x5 642e8ae5d79b7aa828dedd99ff662a480533e1f0fd3f8e3fd26aa106cecd741d
+SE-01-006 SHA-256 9x16 b3e33ee6b049aecdb91c903678a7ba45f3539cacce631541185ed7f215b24a69
+SE-01-007 SHA-256 16x9 3abcb61d26db8a15a650b239986a6fd068af001b37dff8550c94e2a94d899cbc
+SE-01-007 SHA-256 4x5 949c0ea3fa0333364ed4bfe85610f6144a7fa78143f608fc85162f69c1275bab
+SE-01-007 SHA-256 9x16 337e2176432c003eb0cc66c6a481c3b689745ce7f644cdf2b4549d5024d7a1cb
+SE-01-008 SHA-256 16x9 b6f5f0c06f046e16518995bc59bf5253c755712223ed6e5dbcd4eb77168ec649
+SE-01-008 SHA-256 4x5 443e596ce2506c7d99c6d13e5fde785d2d464b17ffb6aa15a8fde095ecb128db
+SE-01-008 SHA-256 9x16 4fe9800cf7608b9aeb372636c8050b94587553ca56c6801a0df47238f8924b68
+SE-01-009 SHA-256 16x9 93467088835352ee60685948850331c31a13899fb9b0779fe5fb9cafa5b56b20
+SE-01-009 SHA-256 4x5 f0b52c297e80a294fd03f0554083b12ef5a0bfdc09647e51ea45dd9d302a9aa2
+SE-01-009 SHA-256 9x16 7e181a57a0cf3a0476c55bfee5f0a2f826073e56cf2b6b0931cb4ed0a161dc9a
+SE-01-010 SHA-256 16x9 56dc778e7c100239b123411d1f178440d5874f3f26dc4b31c772f71923a65385
+SE-01-010 SHA-256 4x5 e641dfb00686c45514d2a8086aac8666e2a74fc59fba51f187228711f8895887
+SE-01-010 SHA-256 9x16 baadcb2e68e1f8967085f38bd88560ce0fd2f1cb4149aee90d0040775ed79c49
+
+Every new scene is genuine night: model is_day 0, after sunset Europe/Stockholm.
+WMO code 3, cloud cover 100%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (22:00–22:59).
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-056 Grand Hôtel (Södra Blasieholmshamnen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:43+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: 405588084e490a46a47ae1d54be690f8761490ab8c6242254d95c2cb20966a30
+  SHA-256 4:5: 78ee9db1d1bd7ec0df0315e2b9fde3b34fb1f74b59a6a73f9966e301ffaace57
+  SHA-256 9:16: 79410ebe2b32e26bd94a2ff2e0366f1fab8a61a00c51f76346c12abae26f63df
+
+SE-01-057 Rosendal Palace (Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:46+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: cc58b3661d36f47720a57afc9c217f01beccec6f34c972b4ed31d69eae9a4eac
+  SHA-256 4:5: d07f44fbf3dbf5f19c1777cb590e0461c2e803433ab3f6c01cbf90c77c81134a
+  SHA-256 9:16: 504a8cff69f6eaa7a124a244e4c234ac90fa171fd7b8d15788c1f865acc15ca5
+
+SE-01-058 Kungsholms Church (Kungsholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:49+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: 1bd44e2017e83ccb86dd1f0d8041c78bb1057895fae809b416596621e662f8b1
+  SHA-256 4:5: 8e064d043610c8613eda87485f980f6560fe4e6f3f7acf6d7f845e9f04fc40b6
+  SHA-256 9:16: 8e67796b6356d1fbf9636d77821efe71fe16488f24b9d137dde2847a9cf14895
+
+SE-01-059 Bromma Church (Bromma)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:51+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: 9b5b2d9a5060ac6c3e5d79b07d590c040cddfc52f242598f62b7cdc86294a9f6
+  SHA-256 4:5: f3bb662a997328ac47e6fea35bdbba412fdc33883c6377c73ac2ad6187e528d0
+  SHA-256 9:16: 96ac772092fdf1d6640d4535d64c1bb58265fc26947a7503019b66871a9ecdbd
+
+SE-01-060 Avicii Arena (Johanneshov)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:54+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: 2285e40b650cd38aed7dc4cb9d9a4e5bc95148a2d0b497929345ca0bc55065e8
+  SHA-256 4:5: c9e015f60f7cc36d4deacb13f1c37d064025be751be04496a5e7e487e7fd3180
+  SHA-256 9:16: 79825b8c2ada2d5e3b65129577768c5e18d5f78995174217fb5aaf4fd422b0c8
+
+SE-01-061 Hedvig Eleonora Church (Storgatan)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:20:57+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:20 Europe/Stockholm
+  SHA-256 16:9: 806ecf3638c188ebe4b2796ba853cb295ec6f47dcc6ee02a217383ba90da876a
+  SHA-256 4:5: 23181bb345211190fb9b90f7abe2b6661f5c2b1d05629cdc0a1ae114cce6feb7
+  SHA-256 9:16: ba60cf0d9552c415d32947842d949bf436156c8d0b9035294acf6fed299f6716
+
+SE-01-062 Skeppsholmsbron (Blasieholmen abutment)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:21:00+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:21 Europe/Stockholm
+  SHA-256 16:9: 796c5e4e04d39ab81d2f813a6af6a906e271a031d48590d01d386ca0035ae1cd
+  SHA-256 4:5: 36f7338db1041366dd75d5bd9e558a752b0110c04b9d2d5128da75725e94ef3d
+  SHA-256 9:16: 1321db3d7c527f9555684dcc814ffbf53538a215034bc1254ae365f8762c8d3e
+
+SE-01-063 Fåfängan (eastern Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:21:02+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:21 Europe/Stockholm
+  SHA-256 16:9: 3f89aa2f0997f4a32d3f238686c3dca0c99efac90f4375bc6275e0b7cb85820a
+  SHA-256 4:5: e93f653951773a5bf18534fae0c04056941873bd697004bf482dda99709db09e
+  SHA-256 9:16: 848de8e5d753e9feb9f904666f5eb3bfddaca3652838f7c9178a6776046c576f
+
+SE-01-064 Maria Magdalena Church (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-28T22:21:05+02:00
+  model time: 2026-09-28T22:15
+  scenario: 28 September 2026 · 22:21 Europe/Stockholm
+  SHA-256 16:9: 6aacff012e229f5e3d138743a36b6b901053c618200b7e1ddcf1fbad3b6ff17f
+  SHA-256 4:5: 301fde7779bc8f480246de4a51cfa137ac78d3b413aff4bad1220c3c159b958d
+  SHA-256 9:16: fb124e1a3274ad00b7b345385290beacb1d0cf309713c282dec89babdbc2ace0
