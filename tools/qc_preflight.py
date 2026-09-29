@@ -35,7 +35,21 @@ LATE5_IDS = [f"SE-01-{n:03d}" for n in range(56, 65)]
 LATE6_IDS = [f"SE-01-{n:03d}" for n in range(65, 74)]
 # SE-01-074–082 merged 2026-09-28 (Cosmo QC).
 BATCH_IDS = [f"SE-01-{n:03d}" for n in range(74, 83)]
-EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS]
+# SE-01-110–118 are this checkout. SE-01-083–109 stay on open drafts #11, #12, and #13.
+PARTA_IDS = [f"SE-01-{n:03d}" for n in range(110, 119)]
+# Cosmo already flipped these notes and the published index. data.json stays Candidate.
+COSMO_IDS = {f"SE-01-{n:03d}" for n in list(range(29, 74)) + list(range(74, 83))}
+# Main's scene order is the merge order, not numeric order. Do not reorder 001–082.
+EXPECTED_IDS = (
+    ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS]
+    + BATCH_IDS
+    + LATE2_IDS
+    + LATE3_IDS
+    + LATE4_IDS
+    + LATE5_IDS
+    + LATE6_IDS
+    + PARTA_IDS
+)
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
 SE001_SHA = {
     "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
@@ -107,10 +121,16 @@ def check_note(errors: list[str], entry_id: str, candidate: bool) -> str:
         return ""
     text = note_path.read_text()
     if candidate:
-        if "approval_status: Candidate" not in text:
-            errors.append(f"{entry_id} approval note is not Candidate")
-        if re.search(r"approval_status:\s*Approved", text):
-            errors.append(f"{entry_id} approval note self-approved")
+        cosmo = (
+            entry_id in COSMO_IDS
+            and "Approved by Cosmo QC" in text
+            and re.search(r"(?m)^approval_status:\s*Approved\s*$", text) is not None
+        )
+        if not cosmo:
+            if "approval_status: Candidate" not in text:
+                errors.append(f"{entry_id} approval note is not Candidate")
+            if re.search(r"approval_status:\s*Approved", text):
+                errors.append(f"{entry_id} approval note self-approved")
     low = text.lower()
     for phrase in FORBIDDEN:
         if phrase in low:
@@ -536,63 +556,6 @@ def main() -> None:
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
-    night_batch_path = ROOT / "approvals" / "BATCH-SE-01-011-019.txt"
-    night_batch = night_batch_path.read_text() if night_batch_path.is_file() else ""
-    if not night_batch_path.is_file():
-        errors.append("missing approvals/BATCH-SE-01-011-019.txt")
-    elif "night scenes do not get an aerial" not in night_batch.lower():
-        errors.append("night batch file missing the no-aerial note")
-
-    late_batch_path = ROOT / "approvals" / "BATCH-SE-01-020-028.txt"
-    late_batch = late_batch_path.read_text() if late_batch_path.is_file() else ""
-    if not late_batch_path.is_file():
-        errors.append("missing approvals/BATCH-SE-01-020-028.txt")
-    elif "night scenes do not get an aerial" not in late_batch.lower():
-        errors.append("late batch file missing the no-aerial note")
-
-    for entry_id in [*NIGHT_IDS, *LATE_IDS]:
-        scene = by_id.get(entry_id) or {}
-        if scene.get("approval_status") != "Candidate":
-            errors.append(f"{entry_id} approval_status is not Candidate")
-        if scene.get("format_9x16_approval_status") != "Candidate":
-            errors.append(f"{entry_id} 9:16 approval is not Candidate")
-        if scene.get("format_16x9_approval_status") == "Approved":
-            errors.append(f"{entry_id} 16:9 was self-approved")
-        if scene.get("format_4x5_approval_status") == "Approved":
-            errors.append(f"{entry_id} 4:5 was self-approved")
-        if scene.get("motion"):
-            errors.append(f"{entry_id} motion is set without an aerial file")
-        note = check_note(errors, entry_id, candidate=True)
-        if note and "night scenes do not get an aerial" not in note.lower():
-            errors.append(f"{entry_id} approval note missing the night aerial refusal")
-        weather = check_weather(errors, entry_id, stamps)
-        if weather:
-            if weather.get("is_day") != 0 or weather.get("daynight") != "night":
-                errors.append(f"{entry_id} weather is not genuine night")
-            sunset = weather.get("sunset") or ""
-            minute = (weather.get("retrieval_timestamp") or "")[11:16]
-            if minute < sunset[11:16]:
-                errors.append(f"{entry_id} retrieval is not after sunset")
-        check_masters(errors, entry_id, note)
-        batch = night_batch if entry_id in NIGHT_IDS else late_batch
-        batch_name = "night" if entry_id in NIGHT_IDS else "late"
-        if batch and entry_id not in batch:
-            errors.append(f"{batch_name} batch file missing {entry_id}")
-        scene_line = ""
-        if batch:
-            for line in batch.splitlines():
-                if line.startswith(entry_id + " "):
-                    scene_line = line
-                    break
-            if not scene_line:
-                errors.append(f"{batch_name} batch file missing a scene line for {entry_id}")
-            else:
-                idx = batch.find(scene_line)
-                nxt = batch.find("\nSE-01-", idx + len(scene_line))
-                block = batch[idx:nxt if nxt > idx else None]
-                if "aerial: no" not in block.lower():
-                    errors.append(f"{entry_id} batch line is not aerial no")
-
     batch65_path = ROOT / "approvals" / "BATCH-SE-01-065-073.txt"
     batch65 = batch65_path.read_text() if batch65_path.is_file() else ""
     if not batch65_path.is_file():
@@ -641,6 +604,57 @@ def main() -> None:
                 if "aerial: no" not in block.lower():
                     errors.append(f"{entry_id} batch line is not aerial no")
 
+    batch110_path = ROOT / "approvals" / "BATCH-SE-01-110-118.txt"
+    batch110 = batch110_path.read_text() if batch110_path.is_file() else ""
+    if not batch110_path.is_file():
+        errors.append("missing approvals/BATCH-SE-01-110-118.txt")
+    elif "night scenes do not get an aerial" not in batch110.lower():
+        errors.append("110 batch file missing the no-aerial note")
+
+    for entry_id in PARTA_IDS:
+        scene = by_id.get(entry_id) or {}
+        if scene.get("approval_status") != "Candidate":
+            errors.append(f"{entry_id} approval_status is not Candidate")
+        if scene.get("format_9x16_approval_status") != "Candidate":
+            errors.append(f"{entry_id} 9:16 approval is not Candidate")
+        if scene.get("format_16x9_approval_status") == "Approved":
+            errors.append(f"{entry_id} 16:9 was self-approved")
+        if scene.get("format_4x5_approval_status") == "Approved":
+            errors.append(f"{entry_id} 4:5 was self-approved")
+        if scene.get("motion"):
+            errors.append(f"{entry_id} motion is set without an aerial file")
+        note = check_note(errors, entry_id, candidate=True)
+        if note and "night scenes do not get an aerial" not in note.lower():
+            errors.append(f"{entry_id} approval note missing the night aerial refusal")
+        weather = check_weather(errors, entry_id, stamps)
+        if weather:
+            minute = (weather.get("retrieval_timestamp") or "")[11:16]
+            sunrise = (weather.get("sunrise") or "9999-99-99T99:99")[11:16]
+            sunset = (weather.get("sunset") or "")[11:16]
+            before_sunrise = minute < sunrise
+            after_sunset = bool(sunset) and minute >= sunset
+            if weather.get("is_day") != 0 or weather.get("daynight") != "night":
+                errors.append(f"{entry_id} weather is not genuine night")
+            if not (before_sunrise or after_sunset):
+                errors.append(f"{entry_id} retrieval is inside the daylight window")
+        check_masters(errors, entry_id, note)
+        if batch110 and entry_id not in batch110:
+            errors.append(f"110 batch file missing {entry_id}")
+        scene_line = ""
+        if batch110:
+            for line in batch110.splitlines():
+                if line.startswith(entry_id + " "):
+                    scene_line = line
+                    break
+            if not scene_line:
+                errors.append(f"110 batch file missing a scene line for {entry_id}")
+            else:
+                idx = batch110.find(scene_line)
+                nxt = batch110.find("\nSE-01-", idx + len(scene_line))
+                block = batch110[idx:nxt if nxt > idx else None]
+                if "aerial: no" not in block.lower():
+                    errors.append(f"{entry_id} batch line is not aerial no")
+
     html = (ROOT / "index.html").read_text()
     if "Download 9:16" in html.split("const SCENES")[0]:
         errors.append("static markup exposes a 9:16 download")
@@ -650,16 +664,19 @@ def main() -> None:
         errors.append("GA4 id missing")
     if "var INTERVAL=4000;" not in html:
         errors.append("lightbox interval is not the 4000ms value on main")
+    template_html = (ROOT / "tools" / "gallery_template.html").read_text()
+    if "var INTERVAL=4000;" not in template_html:
+        errors.append("gallery template interval is not 4000")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
-    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS]:
+    for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *PARTA_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:
             errors.append(f"{entry_id} missing from index.html")
             continue
         end = html.find('"entry_id":', start + 10)
         chunk = html[start:end if end > start else start + 2500]
-        if '"approval_status": "Approved"' in chunk:
+        if '"approval_status": "Approved"' in chunk and entry_id not in COSMO_IDS:
             errors.append(f"{entry_id} is Approved in index.html")
         if '"format_9x16_approval_status": "Approved"' in chunk:
             errors.append(f"{entry_id} 9:16 is Approved in index.html")
