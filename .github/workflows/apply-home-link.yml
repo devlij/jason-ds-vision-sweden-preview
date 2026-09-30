@@ -1,0 +1,51 @@
+name: apply-home-link
+on:
+  push:
+    branches: [cursor/gallery-home-button-c714]
+    paths: ['.github/workflows/apply-home-link.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cursor/gallery-home-button-c714
+          fetch-depth: 0
+      - name: Restore gallery HTML from main and insert Home
+        run: |
+          set -euo pipefail
+          git checkout 019e8bf9bfbcb958a75cbd444964454e5770d304 -- index.html tools/gallery_template.html
+          python3 << 'PY'
+          from pathlib import Path
+          css_old = "    .country-switch a { color: var(--accent); text-decoration: none; }\n    .country-switch a:hover { text-decoration: underline; }"
+          css_new = "    .country-switch a { color: var(--accent); text-decoration: none; }\n    .home-link{font-weight:700}\n    .country-switch a:hover { text-decoration: underline; }"
+          nav_old = '    <nav class="country-switch" aria-label="Country galleries">\n      <a href="https://germany.jdvision.org/">'
+          nav_new = '    <nav class="country-switch" aria-label="Country galleries">\n      <a class="home-link" href="https://jdvision.org/">&#8962; Home</a>\n      <span class="sep" aria-hidden="true">|</span>\n      <a href="https://germany.jdvision.org/">'
+          for rel in ("index.html", "tools/gallery_template.html"):
+              path = Path(rel)
+              text = path.read_text(encoding="utf-8")
+              if text.count(css_old) != 1 or text.count(nav_old) != 1:
+                  raise SystemExit(f"patch anchors missing in {rel}")
+              text = text.replace(css_old, css_new, 1).replace(nav_old, nav_new, 1)
+              if not text.rstrip().endswith("</html>"):
+                  raise SystemExit(f"{rel} is truncated")
+              if text.count('class="home-link"') != 1 or text.count(".home-link{font-weight:700}") != 1:
+                  raise SystemExit(f"{rel} home markup missing")
+              nav = text[text.find('<nav class="country-switch"'):text.find("</nav>", text.find('<nav class="country-switch"'))]
+              inner = nav.split(">", 1)[1].lstrip()
+              home = '<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'
+              if not inner.startswith(home):
+                  raise SystemExit(f"{rel} home link is not first")
+              path.write_text(text, encoding="utf-8")
+          phase = Path("tools/gallery_phase1.py").read_text(encoding="utf-8")
+          if "def _assert_home_link" not in phase or '.home-link{font-weight:700}' not in phase:
+              raise SystemExit("phase-1 preserve list is missing the home link")
+          PY
+          git add index.html tools/gallery_template.html
+          git rm -f .github/workflows/apply-home-link.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add Home link to the gallery header."
+          git push origin HEAD:cursor/gallery-home-button-c714
