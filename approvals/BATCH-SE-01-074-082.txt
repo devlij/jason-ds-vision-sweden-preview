@@ -134,5 +134,7 @@ SE-01-082 Natural History Museum (Frescati)
   model time: 2026-09-28T23:30
   scenario: 28 September 2026 · 23:37 Europe/Stockholm
   SHA-256 16:9: fc02653f711dc98f93693ed9c14c0ec42c5bdabad9f333be126f3f115d3df414
-  SHA-256 4:5: f7ca1a8c41ed016a684fb4609608d80cefd8c5b0fdeae4f1a4059138cf7c7f68
+  SHA-256 4:5: f5553beb8255c570749f10c52d6fd6f2839aa8e7738141a8e207f48f95f287a8
   SHA-256 9:16: c5fc1e749c804dece6309624aded94364b34df5bcc56891b51a194b202313488
+
+Rework 2026-09-30 (wo-sweden-3hold-rework-2026-09-30): Natural History Museum (SE-01-082) 4:5 master was reworked. The corrupted plate, the wrong caption, and the 23:39 timestamp were replaced with a clean center crop of the night 16:9 photo. Caption is Natural History Museum, Stockholm. Scenario is 28 September 2026 · 23:37 Europe/Stockholm. 16:9 and 9:16 were not rewritten. Status remains Candidate. Not a Cosmo QC pass. Resolution: reworked.

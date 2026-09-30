@@ -61,7 +61,7 @@ SE-01-057 Rosendal Palace (Djurgården)
   model time: 2026-09-28T22:15
   scenario: 28 September 2026 · 22:20 Europe/Stockholm
   SHA-256 16:9: cc58b3661d36f47720a57afc9c217f01beccec6f34c972b4ed31d69eae9a4eac
-  SHA-256 4:5: d07f44fbf3dbf5f19c1777cb590e0461c2e803433ab3f6c01cbf90c77c81134a
+  SHA-256 4:5: c1c3be53c2854b35b4321f9dc35473e6ca5fbd75e134d600f21637d021563e82
   SHA-256 9:16: 504a8cff69f6eaa7a124a244e4c234ac90fa171fd7b8d15788c1f865acc15ca5
 
 SE-01-058 Kungsholms Church (Kungsholmen)
@@ -131,5 +131,7 @@ SE-01-064 Maria Magdalena Church (Södermalm)
   model time: 2026-09-28T22:15
   scenario: 28 September 2026 · 22:21 Europe/Stockholm
   SHA-256 16:9: 6aacff012e229f5e3d138743a36b6b901053c618200b7e1ddcf1fbad3b6ff17f
-  SHA-256 4:5: 301fde7779bc8f480246de4a51cfa137ac78d3b413aff4bad1220c3c159b958d
+  SHA-256 4:5: 550d2824415b9853023765623751d25b3ae33e63ff6eee3075b131b4cf4b3870
   SHA-256 9:16: fb124e1a3274ad00b7b345385290beacb1d0cf309713c282dec89babdbc2ace0
+
+Rework 2026-09-30 (wo-sweden-3hold-rework-2026-09-30): Rosendal Palace (SE-01-057) and Maria Magdalena Church (SE-01-064) 4:5 masters were reworked. Each new 4:5 plate is a center crop of that scene's 16:9 photo so the formats agree on the defining architecture (two-tier colonnaded front; tower with four corner pinnacles). 16:9 and 9:16 were not rewritten. Status remains Candidate. Not a Cosmo QC pass. Resolution: reworked.
