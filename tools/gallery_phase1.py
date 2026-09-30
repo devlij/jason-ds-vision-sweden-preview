@@ -221,7 +221,7 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
     order = ["Germany", "Italy", "France", "Greece", "Spain", "Norway", "Denmark", "Switzerland", "Sweden"]
     positions = [nav.find(name) for name in order]
     if any(pos < 0 for pos in positions) or positions != sorted(positions):
-        raise SystemExit(f"switcher order is not Germany\u2192Sweden: {positions}")
+        raise SystemExit(f"switcher order is not Germany→Sweden: {positions}")
     _assert_home_link(nav)
     if "linear-gradient(#fff,#fff) center/45% 22%" not in html:
         raise SystemExit("Swiss flag chip is missing the white cross")
