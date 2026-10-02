@@ -1,0 +1,73 @@
+{
+  "work_order": "wo-sweden-360-2026-10-02",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 1,
+  "entry_id": "SE-01-002",
+  "caption": "Vasa Museum, Stockholm",
+  "disposition": "shipped",
+  "method": "static-ambient",
+  "variant": "ambient",
+  "attempted_method": "lateral-sweep",
+  "fallback_method": "static-ambient",
+  "fallback_ran": true,
+  "orbit": "abandoned",
+  "camera": "locked",
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": true,
+  "weather": {
+    "is_day": 1,
+    "daynight": "day",
+    "retrieval_timestamp": "2026-09-28T17:56:57+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "repo_path": "assets/sweden/Stockholm/se-01-002-4x5.png",
+    "github_blob": "825ab80a6fe9e3bc787e2e2f8399616b30703f56",
+    "sha256": "0fa79324d33a87ced491a6b1338734692be991d95ab733b4ed55f32ab4effb24",
+    "bytes": 710624,
+    "download_url": "https://raw.githubusercontent.com/devlij/jason-ds-vision-sweden-preview/main/assets/sweden/Stockholm/se-01-002-4x5.png",
+    "crop": "864:1080:0:0",
+    "dimensions_before_crop": "864x1270",
+    "weather": {
+      "is_day": 1,
+      "daynight": "day",
+      "retrieval_timestamp": "2026-09-28T17:56:57+02:00",
+      "sunrise": "2026-09-28T06:45",
+      "sunset": "2026-09-28T18:29"
+    },
+    "caption": "Vasa Museum, Stockholm"
+  },
+  "prompt_lateral_sweep": "Animate this daytime still into a smooth slow cinematic lateral sweep — the camera glides gently while the main subject stays centered and fully framed in EVERY frame from the first frame to the last. No traveling away from the subject, no zooming past it, no orbit that leaves it behind. Approximately 10 seconds. Gentle continuous motion, no cuts, photorealistic, same daylight look as the still. Vertical 4:5 format.",
+  "prompt_static_ambient": "Animate with subtle ambient motion only — gentle water ripple, foliage sway, cloud drift. Camera remains static, subject perfectly framed. Approximately 10 seconds. No camera movement, no cuts, photorealistic. Vertical 4:5 format.",
+  "coverage": {
+    "sky": 0.5188,
+    "water": 0.0,
+    "foliage": 0.0083,
+    "flags": 0.0
+  },
+  "life": 0.5271,
+  "mean_v": 141.04,
+  "top_v": 200.88,
+  "architecture_drift": 0.047,
+  "attempts": 1,
+  "output": {
+    "file": "assets/se-01-002-motion-10s-4x5.mp4",
+    "poster": "assets/se-01-002-motion-10s-4x5-poster.jpg",
+    "probe": {
+      "width": 864,
+      "height": 1080,
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "nb_frames": 240,
+      "avg_frame_rate": "24/1",
+      "duration": 10.0,
+      "faststart": true,
+      "sha256": "1dd37967c716f4aff33a0fff3c0626346006134741cdb8882ab0f6e2ad185998",
+      "bytes": 764093
+    }
+  },
+  "gallery_button": "wired ▶ 360° via SE_MOTION",
+  "hold_reason": null
+}

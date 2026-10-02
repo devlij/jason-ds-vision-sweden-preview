@@ -1,0 +1,73 @@
+{
+  "work_order": "wo-sweden-360-2026-10-02",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 1,
+  "entry_id": "SE-01-008",
+  "caption": "Riddarholmen, Stockholm",
+  "disposition": "shipped",
+  "method": "static-ambient",
+  "variant": "ambient",
+  "attempted_method": "lateral-sweep",
+  "fallback_method": "static-ambient",
+  "fallback_ran": true,
+  "orbit": "abandoned",
+  "camera": "locked",
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": true,
+  "weather": {
+    "is_day": 1,
+    "daynight": "day",
+    "retrieval_timestamp": "2026-09-28T17:57:12+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "repo_path": "assets/sweden/Stockholm/se-01-008-4x5.png",
+    "github_blob": "ff22a407ea9bbe6e2d6d796562bf86241c24f562",
+    "sha256": "443e596ce2506c7d99c6d13e5fde785d2d464b17ffb6aa15a8fde095ecb128db",
+    "bytes": 888622,
+    "download_url": "https://raw.githubusercontent.com/devlij/jason-ds-vision-sweden-preview/main/assets/sweden/Stockholm/se-01-008-4x5.png",
+    "crop": "864:1080:0:0",
+    "dimensions_before_crop": "864x1270",
+    "weather": {
+      "is_day": 1,
+      "daynight": "day",
+      "retrieval_timestamp": "2026-09-28T17:57:12+02:00",
+      "sunrise": "2026-09-28T06:45",
+      "sunset": "2026-09-28T18:29"
+    },
+    "caption": "Riddarholmen, Stockholm"
+  },
+  "prompt_lateral_sweep": "Animate this daytime still into a smooth slow cinematic lateral sweep — the camera glides gently while the main subject stays centered and fully framed in EVERY frame from the first frame to the last. No traveling away from the subject, no zooming past it, no orbit that leaves it behind. Approximately 10 seconds. Gentle continuous motion, no cuts, photorealistic, same daylight look as the still. Vertical 4:5 format.",
+  "prompt_static_ambient": "Animate with subtle ambient motion only — gentle water ripple, foliage sway, cloud drift. Camera remains static, subject perfectly framed. Approximately 10 seconds. No camera movement, no cuts, photorealistic. Vertical 4:5 format.",
+  "coverage": {
+    "sky": 0.5433,
+    "water": 0.0,
+    "foliage": 0.0051,
+    "flags": 0.0
+  },
+  "life": 0.5484,
+  "mean_v": 153.17,
+  "top_v": 211.38,
+  "architecture_drift": 0.046,
+  "attempts": 1,
+  "output": {
+    "file": "assets/se-01-008-motion-10s-4x5.mp4",
+    "poster": "assets/se-01-008-motion-10s-4x5-poster.jpg",
+    "probe": {
+      "width": 864,
+      "height": 1080,
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "nb_frames": 240,
+      "avg_frame_rate": "24/1",
+      "duration": 10.0,
+      "faststart": true,
+      "sha256": "3c98f004b7a99a53cec50ad71c8c5d24951438b3173d6ed472523e2110c276de",
+      "bytes": 801422
+    }
+  },
+  "gallery_button": "wired ▶ 360° via SE_MOTION",
+  "hold_reason": null
+}
