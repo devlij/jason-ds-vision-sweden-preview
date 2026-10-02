@@ -109,13 +109,34 @@ def load_scenes() -> list[dict]:
     return prepared
 
 
+_WOTD_FIELDS = ("word", "word_en", "phrase", "phrase_en")
+
+
+def usable_wotd(data: object) -> list:
+    """Pass through a Cosmo 365-item dictionary. Anything else is a no-op.
+
+    D026 stays blocked-pending-Cosmo until tools/sv.json is that dictionary.
+    Never invent Swedish words or phrases.
+    """
+    if not isinstance(data, list) or len(data) != 365:
+        return []
+    for entry in data:
+        if not isinstance(entry, dict):
+            return []
+        for field in _WOTD_FIELDS:
+            value = entry.get(field)
+            if not isinstance(value, str) or not value.strip():
+                return []
+    return data
+
+
 def load_wotd() -> list:
     if not WOTD.is_file():
         return []
     data = json.loads(WOTD.read_text())
     if not isinstance(data, list):
         raise SystemExit("tools/sv.json must be a JSON array. Do not invent entries.")
-    return data
+    return usable_wotd(data)
 
 
 def narr_manifest(scenes: list[dict]) -> dict:
