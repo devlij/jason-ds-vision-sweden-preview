@@ -96,6 +96,27 @@ def build_meta(scenes: list[dict]) -> dict[str, list]:
     return meta
 
 
+_WOTD_FIELDS = ("word", "word_en", "phrase", "phrase_en")
+
+
+def usable_wotd(data: object) -> list:
+    """Pass through a Cosmo 365-item dictionary. Anything else is a no-op.
+
+    D026 stays blocked-pending-Cosmo until tools/sv.json is that dictionary.
+    Never invent Swedish words or phrases.
+    """
+    if not isinstance(data, list) or len(data) != 365:
+        return []
+    for entry in data:
+        if not isinstance(entry, dict):
+            return []
+        for field in _WOTD_FIELDS:
+            value = entry.get(field)
+            if not isinstance(value, str) or not value.strip():
+                return []
+    return data
+
+
 def load_scenes() -> list[dict]:
     payload = json.loads(DATA.read_text())
     rows = payload["scenes"] if isinstance(payload, dict) else payload
@@ -115,7 +136,7 @@ def load_wotd() -> list:
     data = json.loads(WOTD.read_text())
     if not isinstance(data, list):
         raise SystemExit("tools/sv.json must be a JSON array. Do not invent entries.")
-    return data
+    return usable_wotd(data)
 
 
 def narr_manifest(scenes: list[dict]) -> dict:
@@ -188,6 +209,11 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         "avocado_v2:MAI_01",
         "lbFormat",
         "https://jdvision.org/transparency.html",
+        "lb-formats",
+        "Download 16:9",
+        "Download 4:5",
+        "lb-close",
+        "https://jdvision.org/",
     )
     missing = [token for token in required if token not in html]
     if missing:
@@ -199,14 +225,50 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
     nav = html[nav_start:nav_end] if nav_start >= 0 else ""
     if nav.count(">Sweden<") != 1 or nav.count('aria-current="page"') != 1:
         raise SystemExit("country switcher must mark Sweden once as the current page")
-    if "jason-ds-vision-sweden-preview" in nav:
+    if "jason-ds-vision-sweden-preview" in nav or 'href="https://sweden.jdvision.org/"' in nav:
         raise SystemExit("country switcher must not link this page to itself")
-    if nav.find(">Sweden<") < nav.find("Switzerland"):
-        raise SystemExit("Sweden must be last in the switcher")
-    order = ["Germany", "Italy", "France", "Greece", "Spain", "Norway", "Denmark", "Switzerland", "Sweden"]
+    if "Home</a>" not in nav or 'href="https://jdvision.org/"' not in nav:
+        raise SystemExit("country switcher must include Home")
+    if "Belgium" in nav or "Austria" in nav:
+        raise SystemExit("country switcher must not list Belgium or Austria")
+    order = [
+        "Home",
+        "Germany",
+        "Italy",
+        "France",
+        "Spain",
+        "Greece",
+        "Norway",
+        "Denmark",
+        "Netherlands",
+        "Finland",
+        "Sweden",
+        "Ireland",
+        "United Kingdom",
+        "Switzerland",
+    ]
     positions = [nav.find(name) for name in order]
     if any(pos < 0 for pos in positions) or positions != sorted(positions):
-        raise SystemExit(f"switcher order is not Germany→Sweden: {positions}")
+        raise SystemExit(f"switcher order is not Home→Switzerland: {list(zip(order, positions))}")
+    live = {
+        "Germany": "https://germany.jdvision.org/",
+        "Italy": "https://italy.jdvision.org/",
+        "France": "https://france.jdvision.org/",
+        "Spain": "https://spain.jdvision.org/",
+        "Greece": "https://greece.jdvision.org/",
+        "Norway": "https://norway.jdvision.org/",
+        "Denmark": "https://denmark.jdvision.org/",
+        "Netherlands": "https://netherlands.jdvision.org/",
+        "Finland": "https://devlij.github.io/jason-ds-vision-finland-preview/",
+        "Ireland": "https://ireland.jdvision.org/",
+        "United Kingdom": "https://uk.jdvision.org/",
+        "Switzerland": "https://devlij.github.io/jason-ds-vision-switzerland-preview/",
+    }
+    for name, url in live.items():
+        if url not in nav:
+            raise SystemExit(f"switcher missing {name} at {url}")
+    if "jason-ds-vision-norway-preview" in nav or "jason-ds-vision-denmark-preview" in nav:
+        raise SystemExit("Norway and Denmark must use jdvision.org hosts")
     if "linear-gradient(#fff,#fff) center/45% 22%" not in html:
         raise SystemExit("Swiss flag chip is missing the white cross")
     if 'class="day-tab"' in html.split("const SCENES")[0] and "day-tab" in html.split("<script>")[0]:

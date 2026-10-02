@@ -8,9 +8,9 @@ All scenes ship as **Candidate** until Cosmo QC. This seed does not approve anyt
 
 ## What is here
 
-Phase-1 gallery shell, matching the Spain / Netherlands A7 page: GA4 `G-PDJ4WSS725`, canonical `https://sweden.jdvision.org/`, Open Graph, Twitter card, robots, sitemap, JSON-LD, Swedish flag band (`#006AA7` / `#FECC02`, 6px), nine-country switcher with Sweden last and current, word-of-day band, search and region / day-night / mood filters, related scenes, copy-link, and a lightbox (navigation above the image, controls below, 6 second slideshow).
+Phase-1 gallery shell, matching the Spain / Netherlands A7 page: GA4 `G-PDJ4WSS725`, canonical `https://sweden.jdvision.org/`, Open Graph, Twitter card, robots, sitemap, JSON-LD, Swedish flag band (`#006AA7` / `#FECC02`, 6px), country switcher (Home plus every live gallery, Sweden current and not a link), word-of-day band, search and region / day-night / mood filters, related scenes, copy-link, and a lightbox (16:9 and 4:5 tabs and download links, counter navigation, close, 4 second slideshow). The lightbox keeps both formats available and the chosen format persists across previous, next, and the slideshow.
 
-`tools/sv.json` is an empty array. The band is structure only. Cosmo delivers the Swedish entries later.
+`tools/sv.json` is an empty array, not a 365-item dictionary (`word`, `word_en`, `phrase`, `phrase_en`). **D026 is blocked-pending-Cosmo.** No Swedish words or phrases were invented. The template wires the band to that file and rotates by day-of-year only when the file is already that 365-item dictionary (local kicker `Dagens ord · Word of the day`, bold word, italic phrase, English glosses, `Day N of 365`). Until then the band stays hidden.
 
 9:16 masters can sit on disk. The 9:16 tab and download stay hidden until `format_9x16_approval_status` is set to `Approved` by Jason. Narration controls appear only for Aria or Warm, model `avocado_v2:MAI_01`, status Approved, and an mp3 file. There is no day/night toggle on the card. A motion control is rendered only when a motion file exists.
 
