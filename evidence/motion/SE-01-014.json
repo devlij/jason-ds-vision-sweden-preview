@@ -1,0 +1,29 @@
+{
+  "work_order": "wo-sweden-360-2026-10-02",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 2,
+  "entry_id": "SE-01-014",
+  "caption": "Royal Opera, Stockholm",
+  "disposition": "skipped",
+  "method": null,
+  "attempted_method": null,
+  "orbit": "abandoned",
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": false,
+  "night_only": true,
+  "weather": {
+    "is_day": 0,
+    "daynight": "night",
+    "retrieval_timestamp": "2026-09-28T20:00:30+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "path": "assets/sweden/Stockholm/se-01-014-4x5.png",
+    "opened": false,
+    "reason": "night-only master; crop and encode were not run"
+  },
+  "output": null,
+  "gallery_button": "not wired; no clip shipped; data.json motion left null"
+}
