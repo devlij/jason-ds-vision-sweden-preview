@@ -4,12 +4,14 @@
   "pack": 1,
   "entry_id": "SE-01-009",
   "caption": "Skansen, Stockholm",
-  "disposition": "HOLD",
-  "method": "HOLD",
+  "disposition": "shipped",
+  "method": "static-ambient",
+  "variant": "ambient",
   "attempted_method": "lateral-sweep",
   "fallback_method": "static-ambient",
-  "fallback_ran": false,
+  "fallback_ran": true,
   "orbit": "abandoned",
+  "camera": "locked",
   "approval_status": "Candidate",
   "cosmo_qc": null,
   "daytime": true,
@@ -21,29 +23,51 @@
     "sunset": "2026-09-28T18:29"
   },
   "source": {
-    "via": "GitHub API",
-    "repo": "devlij/jason-ds-vision-sweden-preview",
-    "ref": "main",
-    "path": "assets/sweden/Stockholm/se-01-009-4x5.png",
-    "git_blob_sha": "c2b5a07261c905e9e392593c5f459cab0f5382cf",
-    "size_bytes": 1291482,
-    "html_url": "https://github.com/devlij/jason-ds-vision-sweden-preview/blob/main/assets/sweden/Stockholm/se-01-009-4x5.png",
+    "repo_path": "assets/sweden/Stockholm/se-01-009-4x5.png",
+    "github_blob": "c2b5a07261c905e9e392593c5f459cab0f5382cf",
+    "sha256": "f0b52c297e80a294fd03f0554083b12ef5a0bfdc09647e51ea45dd9d302a9aa2",
+    "bytes": 1291482,
+    "download_url": "https://raw.githubusercontent.com/devlij/jason-ds-vision-sweden-preview/main/assets/sweden/Stockholm/se-01-009-4x5.png",
+    "crop": "864:1080:0:0",
     "dimensions_before_crop": "864x1270",
-    "crop": "crop=864:1080:0:0",
-    "dimensions_after_crop": "864x1080",
-    "crop_verified_on": "SE-01-002"
+    "weather": {
+      "is_day": 1,
+      "daynight": "day",
+      "retrieval_timestamp": "2026-09-28T17:57:14+02:00",
+      "sunrise": "2026-09-28T06:45",
+      "sunset": "2026-09-28T18:29"
+    },
+    "caption": "Skansen, Stockholm"
   },
-  "prompt_lateral_sweep": "Animate this daytime still into a smooth slow cinematic lateral sweep \u2014 the camera glides gently while the main subject stays centered and fully framed in EVERY frame from the first frame to the last. No traveling away from the subject, no zooming past it, no orbit that leaves it behind. Approximately 10 seconds. Gentle continuous motion, no cuts, photorealistic, same daylight look as the still. Vertical 4:5 format.",
-  "prompt_static_ambient": "Animate with subtle ambient motion only \u2014 gentle water ripple, foliage sway, cloud drift. Camera remains static, subject perfectly framed. Approximately 10 seconds. No camera movement, no cuts, photorealistic. Vertical 4:5 format.",
-  "attempts": [
-    {
-      "n": 1,
-      "method": "lateral-sweep",
-      "result": "i2v_unavailable",
-      "detail": "i2v unavailable. media.generate_video is not in this runtime, and POST https://api.x.ai/v1/videos/generations returned 401 unauthenticated:no-credentials (no XAI_API_KEY). Static-ambient uses the same i2v runtime, so it was not submitted. No orbit and no synthetic camera move was encoded. Max attempts not burned on a missing generator."
+  "prompt_lateral_sweep": "Animate this daytime still into a smooth slow cinematic lateral sweep — the camera glides gently while the main subject stays centered and fully framed in EVERY frame from the first frame to the last. No traveling away from the subject, no zooming past it, no orbit that leaves it behind. Approximately 10 seconds. Gentle continuous motion, no cuts, photorealistic, same daylight look as the still. Vertical 4:5 format.",
+  "prompt_static_ambient": "Animate with subtle ambient motion only — gentle water ripple, foliage sway, cloud drift. Camera remains static, subject perfectly framed. Approximately 10 seconds. No camera movement, no cuts, photorealistic. Vertical 4:5 format.",
+  "coverage": {
+    "sky": 0.4121,
+    "water": 0.0,
+    "foliage": 0.1941,
+    "flags": 0.0
+  },
+  "life": 0.6062,
+  "mean_v": 137.5,
+  "top_v": 219.21,
+  "architecture_drift": 0.085,
+  "attempts": 1,
+  "output": {
+    "file": "assets/se-01-009-motion-10s-4x5.mp4",
+    "poster": "assets/se-01-009-motion-10s-4x5-poster.jpg",
+    "probe": {
+      "width": 864,
+      "height": 1080,
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "nb_frames": 240,
+      "avg_frame_rate": "24/1",
+      "duration": 10.0,
+      "faststart": true,
+      "sha256": "66d1ac5aa9f6a967e97cd7deb95fa658824254b47d7adc223d66727383f4e93b",
+      "bytes": 1409583
     }
-  ],
-  "output": null,
-  "gallery_button": "not wired; no clip shipped; data.json motion left null",
-  "hold_reason": "i2v unavailable. media.generate_video is not in this runtime, and POST https://api.x.ai/v1/videos/generations returned 401 unauthenticated:no-credentials (no XAI_API_KEY). Static-ambient uses the same i2v runtime, so it was not submitted. No orbit and no synthetic camera move was encoded. Max attempts not burned on a missing generator."
+  },
+  "gallery_button": "wired ▶ 360° via SE_MOTION",
+  "hold_reason": null
 }
