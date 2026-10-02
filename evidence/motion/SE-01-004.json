@@ -1,0 +1,49 @@
+{
+  "work_order": "wo-sweden-360-2026-10-02",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 1,
+  "entry_id": "SE-01-004",
+  "caption": "Stortorget, Stockholm",
+  "disposition": "HOLD",
+  "method": "HOLD",
+  "attempted_method": "lateral-sweep",
+  "fallback_method": "static-ambient",
+  "fallback_ran": false,
+  "orbit": "abandoned",
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": true,
+  "weather": {
+    "is_day": 1,
+    "daynight": "day",
+    "retrieval_timestamp": "2026-09-28T17:57:02+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "via": "GitHub API",
+    "repo": "devlij/jason-ds-vision-sweden-preview",
+    "ref": "main",
+    "path": "assets/sweden/Stockholm/se-01-004-4x5.png",
+    "git_blob_sha": "ad2c7bd106e01349fc867a9552e77d78691a6104",
+    "size_bytes": 919375,
+    "html_url": "https://github.com/devlij/jason-ds-vision-sweden-preview/blob/main/assets/sweden/Stockholm/se-01-004-4x5.png",
+    "dimensions_before_crop": "864x1270",
+    "crop": "crop=864:1080:0:0",
+    "dimensions_after_crop": "864x1080",
+    "crop_verified_on": "SE-01-002"
+  },
+  "prompt_lateral_sweep": "Animate this daytime still into a smooth slow cinematic lateral sweep \u2014 the camera glides gently while the main subject stays centered and fully framed in EVERY frame from the first frame to the last. No traveling away from the subject, no zooming past it, no orbit that leaves it behind. Approximately 10 seconds. Gentle continuous motion, no cuts, photorealistic, same daylight look as the still. Vertical 4:5 format.",
+  "prompt_static_ambient": "Animate with subtle ambient motion only \u2014 gentle water ripple, foliage sway, cloud drift. Camera remains static, subject perfectly framed. Approximately 10 seconds. No camera movement, no cuts, photorealistic. Vertical 4:5 format.",
+  "attempts": [
+    {
+      "n": 1,
+      "method": "lateral-sweep",
+      "result": "i2v_unavailable",
+      "detail": "i2v unavailable. media.generate_video is not in this runtime, and POST https://api.x.ai/v1/videos/generations returned 401 unauthenticated:no-credentials (no XAI_API_KEY). Static-ambient uses the same i2v runtime, so it was not submitted. No orbit and no synthetic camera move was encoded. Max attempts not burned on a missing generator."
+    }
+  ],
+  "output": null,
+  "gallery_button": "not wired; no clip shipped; data.json motion left null",
+  "hold_reason": "i2v unavailable. media.generate_video is not in this runtime, and POST https://api.x.ai/v1/videos/generations returned 401 unauthenticated:no-credentials (no XAI_API_KEY). Static-ambient uses the same i2v runtime, so it was not submitted. No orbit and no synthetic camera move was encoded. Max attempts not burned on a missing generator."
+}
