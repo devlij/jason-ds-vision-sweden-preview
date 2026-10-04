@@ -710,6 +710,39 @@ def main() -> None:
         errors.append("lightbox interval is not the 4000ms value on main")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
+    nav_start = html.find('<nav class="country-switch"')
+    nav_end = html.find("</nav>", nav_start)
+    nav = html[nav_start:nav_end] if nav_start >= 0 else ""
+    switcher_urls = (
+        "https://jdvision.org/",
+        "https://germany.jdvision.org/",
+        "https://italy.jdvision.org/",
+        "https://france.jdvision.org/",
+        "https://spain.jdvision.org/",
+        "https://greece.jdvision.org/",
+        "https://norway.jdvision.org/",
+        "https://denmark.jdvision.org/",
+        "https://netherlands.jdvision.org/",
+        "https://devlij.github.io/jason-ds-vision-finland-preview/",
+        "https://ireland.jdvision.org/",
+        "https://uk.jdvision.org/",
+        "https://devlij.github.io/jason-ds-vision-switzerland-preview/",
+    )
+    for url in switcher_urls:
+        if url not in nav:
+            errors.append(f"country switcher missing {url}")
+    if "Belgium" in nav or "Austria" in nav:
+        errors.append("country switcher lists Belgium or Austria")
+    if 'href="https://sweden.jdvision.org/"' in nav:
+        errors.append("Sweden switcher entry must stay a non-link")
+    if "jason-ds-vision-norway-preview" in html or "jason-ds-vision-denmark-preview" in html:
+        errors.append("Norway or Denmark switcher still uses a github.io preview URL")
+    if "lb-formats" not in html or 'data-lb-dl="16x9"' not in html or 'data-lb-dl="4x5"' not in html:
+        errors.append("lightbox is missing 16:9/4:5 tabs or download links")
+    if 'id="wotd" lang="sv" hidden' not in html:
+        errors.append("word-of-day band must stay hidden until tools/sv.json is a 365-item dictionary")
+    if 'id="wotd-data">[]</script>' not in html:
+        errors.append("empty tools/sv.json must publish an empty word-of-day payload")
     for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *BATCH83_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:
