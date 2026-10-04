@@ -388,7 +388,7 @@
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            ${s.scenario_label ? `<p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>` : ""}
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">

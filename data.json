@@ -4917,6 +4917,477 @@
       "motion": null,
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-128",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "T-Centralen",
+      "place": "Norrmalm",
+      "caption": "T-Centralen metro station, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the blue-line platform looking along the cave · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the T-Centralen blue-line cave in Stockholm, blue rock vaults and white leaf paintings, at night",
+      "description": "From the blue-line platform the view looks along T-Centralen. The station is a rock cave washed in blue, with white leaf-vine paintings on the vaults and white silhouettes of workers on the rock. It is after dark above ground. The platform is lit, and there is no sun in the frame.",
+      "viewpoint": "On the blue-line platform, looking along the cave. A surveyed tripod mark was not pinned. This is the 1975 blue-line station, not the 1957 platforms.",
+      "references": [
+        "https://sl.se/aktuellt/puls/utforska-konsten-langs-bla-linjen",
+        "https://en.wikipedia.org/wiki/T-Centralen_metro_station"
+      ],
+      "anchors": [
+        "T-Centralen is the central interchange of the Stockholm metro",
+        "The blue-line cave opened in 1975 and was decorated by Per Olof Ultvedt",
+        "The vaults are blue, with white leaf-vine paintings, and white silhouettes of the workers who built the station"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-128-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-128-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-128-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-129",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stadion metro station",
+      "place": "Östermalm",
+      "caption": "Stadion metro station, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the island platform under the painted rainbow · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stadion metro station in Stockholm, a blue cave with a painted rainbow over the platform, at night",
+      "description": "From the island platform the view looks along Stadion metro station. The bedrock is painted bright blue, and a rainbow is painted across the vault. It is after dark above ground. The platform is lit, and there is no sun in the frame.",
+      "viewpoint": "On the island platform, looking along the blue cave and the painted rainbow. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Stadion_metro_station",
+        "https://www.visitstockholm.com/o/stadion-subway-station/"
+      ],
+      "anchors": [
+        "Stadion is a red-line cave station in Östermalm, near Stockholms stadion",
+        "It opened on 30 September 1973",
+        "Enno Hallek and Åke Pallarp painted the bedrock blue, with a rainbow across the vault"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-129-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-129-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-129-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-130",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Rådhuset metro station",
+      "place": "Kungsholmen",
+      "caption": "Rådhuset metro station, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the platform in the pink cave · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Rådhuset metro station in Stockholm, a salmon-pink cave with archaeological fragments, at night",
+      "description": "From the platform the view looks along Rådhuset metro station. The bedrock is salmon pink, with baskets, a chimney base, a woodpile, and an old stone portal set into the rock. It is after dark above ground. The platform is lit, and there is no sun in the frame.",
+      "viewpoint": "On the platform, looking along the pink cave. A surveyed tripod mark was not pinned. This is the metro station, not the court house above it.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/R%C3%A5dhuset_(tunnelbanestation)",
+        "https://stockholmartwalk.se/guide-to-the-art-of-stockholms-subway/the-history-of-the-art-at-radhuset-metro-station/?lang=en"
+      ],
+      "anchors": [
+        "Rådhuset is a blue-line cave under the court house on Kungsholmen",
+        "It opened in 1975 and was decorated by Sigvard Olsson",
+        "The bedrock is salmon pink, with imagined finds: baskets, a chimney base, firewood, and an old portal"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-130-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-130-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-130-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-131",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Solna centrum metro station",
+      "place": "Solna",
+      "caption": "Solna centrum metro station, Solna",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the platform under the red cave and the spruce forest · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Solna centrum metro station, a red cave with a green spruce forest along the platform, at night",
+      "description": "From the platform the view looks along Solna centrum. The cave ceiling is intense red, and a dark green spruce forest runs along the wall. It is after dark above ground. The platform is lit, and there is no sun in the frame.",
+      "viewpoint": "On the platform, looking along the red cave and the painted spruce forest. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Solna_centrum_metro_station",
+        "https://stockholmartwalk.se/guide-to-the-art-of-stockholms-subway/the-history-of-the-art-at-solna-centrum-metro-station/?lang=en"
+      ],
+      "anchors": [
+        "Solna centrum is a cave station in Solna",
+        "It opened on 31 August 1975",
+        "Anders Åberg and Karl-Olov Björk painted a red cave ceiling and a long green spruce forest along the walls"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-131-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-131-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-131-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-132",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Riddarholmen Church",
+      "place": "Riddarholmen",
+      "caption": "Riddarholmen Church, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · beside the church, looking at the brick and the iron spire · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Riddarholmen Church in Stockholm, red-brown brick and an openwork iron spire, at night",
+      "description": "From beside the church the view looks at Riddarholmskyrkan. The body is red-brown brick. The spire is a tall openwork cast-iron lattice, with night sky showing through the cage. It is after dark, with lamps at the base and no sun in the sky. This is the church, not the island view of SE-01-008.",
+      "viewpoint": "Close to the church, looking at the brick body and the openwork iron spire. A surveyed tripod mark was not pinned. This is not the south-quay island view used for SE-01-008.",
+      "references": [
+        "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-riddarholmen-church.html",
+        "https://en.wikipedia.org/wiki/Riddarholmen_Church"
+      ],
+      "anchors": [
+        "Riddarholmskyrkan is the brick burial church on the island of Riddarholmen",
+        "The spire is a tall openwork cast-iron lattice, not a solid stone spire",
+        "This frame is the church close up, not the island-and-water view of SE-01-008"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-132-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-132-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-132-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-133",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stockholm Court House",
+      "place": "Kungsholmen",
+      "caption": "Stockholm Court House, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · Scheelegatan looking at the pale tower · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stockholm Court House on Kungsholmen, a pale slurried-brick block with a heavy entrance tower, at night",
+      "description": "From Scheelegatan the view looks at Stockholms rådhus. The walls are pale slurried brick, and a heavy plain tower marks the entrance. It is after dark, with street lamps and a few lit windows, and no sun in the sky. This is not Stockholm City Hall.",
+      "viewpoint": "On Scheelegatan, looking at the entrance tower. A surveyed tripod mark was not pinned. This is not the red waterfront City Hall.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/Stockholms_r%C3%A5dhus",
+        "https://stockholmslansmuseum.se/besoksmal/stockholms-radhus/"
+      ],
+      "anchors": [
+        "Stockholms rådhus stands at Scheelegatan 7 on Kungsholmen",
+        "Carl Westman designed it, and it was completed in 1915",
+        "The facade is pale slurried brick with a heavy entrance tower, not the red waterfront City Hall"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic",
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-133-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-133-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-133-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-134",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Hötorgsskraporna",
+      "place": "Norrmalm",
+      "caption": "Hötorgsskraporna, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · Hötorget looking along the five towers · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Hötorgsskraporna in Stockholm, five glass office slabs in a row, at night",
+      "description": "From Hötorget the view looks along Hötorgsskraporna. Five glass and aluminum slabs of the same height stand in a row, their windows lit. It is after dark, and there is no sun in the sky. This is not the Concert Hall.",
+      "viewpoint": "At Hötorget, looking along the row of five towers. A surveyed tripod mark was not pinned. This is not the Concert Hall colonnade.",
+      "references": [
+        "https://sv.wikipedia.org/wiki/H%C3%B6torgsskraporna",
+        "https://en.wikipedia.org/wiki/H%C3%B6torgsskraporna"
+      ],
+      "anchors": [
+        "Five office slabs stand in a row along Sveavägen between Hötorget and Sergels torg",
+        "They were built from 1955 to 1962, each by a different architect, with glass and aluminum curtain walls",
+        "This frame is the five towers, not the Concert Hall at Hötorget"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-134-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-134-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-134-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-135",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "New Slussen waterfront",
+      "place": "Slussen",
+      "caption": "New Slussen waterfront, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the new terraces looking toward the lock and the water · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the new Slussen waterfront in Stockholm, stone terraces stepping down to dark water, at night",
+      "description": "From the new promenade the view looks along the rebuilt Slussen waterfront. Pale stone terraces step down toward dark water, with a modern lock and glass pavilions. It is after dark, lamps are on, and there is no sun in the sky. This frame is not Katarinahissen and not Guldbron.",
+      "viewpoint": "On the new waterfront promenade, looking along the terraces and the lock. A surveyed tripod mark was not pinned. This is not Katarinahissen and not Guldbron.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Slussen",
+        "https://sv.wikipedia.org/wiki/Slussen"
+      ],
+      "anchors": [
+        "The new Slussen is the rebuilt interchange between Södermalm and Gamla Stan",
+        "Terraces and a new lock meet the water between Mälaren and Saltsjön",
+        "This frame is the waterfront decks, not Katarinahissen and not Guldbron"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "coastal",
+        "urban"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-135-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-135-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-135-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-136",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Victoria House",
+      "place": "Frescati",
+      "caption": "Bergius Botanic Garden, Stockholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · beside the pond looking at the glowing dome · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Victoria House in Bergius Botanic Garden, Stockholm, a lit cast-iron glass dome beside a dark pond, at night",
+      "description": "From beside the pond the view looks at Victoria House in Bergius Botanic Garden. The greenhouse is a circular cast-iron and glass dome, glowing from within, with the dark water in front of it. It is after dark, and there is no sun in the sky.",
+      "viewpoint": "Beside the garden pond, looking at the dome of Victoria House. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://www.bergianska.se/enheter/bergianska-tradgarden/i-tradgard-och-vaxthus/victoriahuset",
+        "https://en.wikipedia.org/wiki/Bergianska_tr%C3%A4dg%C3%A5rden"
+      ],
+      "anchors": [
+        "Bergianska trädgården lies at Frescati, beside Brunnsviken",
+        "Victoriahuset is the cast-iron dome greenhouse built in 1900 for the giant water lily",
+        "The dome stands beside the garden pond"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-136-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-136-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-136-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-137",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Chinese Pavilion",
+      "place": "Drottningholm",
+      "caption": "Chinese Pavilion, Drottningholm",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the courtyard looking at the red pavilion · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Kina slott at Drottningholm, lacquer-red panels and an undulating green roof, at night",
+      "description": "From the courtyard the view looks at Kina slott. The pavilion has lacquer-red wall panels in pale marbled frames and a low undulating green roof, with smaller pavilions at the sides. It is after dark, with lamps on and no sun in the sky. This is the pavilion, not Drottningholm Palace.",
+      "viewpoint": "In the courtyard, looking at the pavilion. A surveyed tripod mark was not pinned. This is not Drottningholm Palace (SE-01-085).",
+      "references": [
+        "https://www.sfv.se/vara-fastigheter/sverige/stockholms-lan/slottparkerkungsgardar/drottningholm/kina-slott",
+        "https://en.wikipedia.org/wiki/Chinese_Pavilion_at_Drottningholm"
+      ],
+      "anchors": [
+        "Kina slott stands in the park at Drottningholm, apart from the palace",
+        "Carl Fredrik Adelcrantz designed the brick pavilion, completed in 1769, for Lovisa Ulrika",
+        "The walls are lacquer-red panels in marbled frames under an undulating green roof, not the ochre palace of SE-01-085"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-137-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-137-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-137-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-138",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Stora gatan",
+      "place": "Sigtuna",
+      "caption": "Stora gatan, Sigtuna",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · looking along the low wooden houses · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Stora gatan in Sigtuna, low red and ochre wooden houses on a narrow street, at night",
+      "description": "From the street the view looks along Stora gatan in Sigtuna. Low wooden houses, painted red, ochre, and pale yellow, line the narrow way, with warm windows and street lamps. It is after dark, and there is no sun in the sky.",
+      "viewpoint": "On Stora gatan, looking along the row of low wooden houses. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Sigtuna",
+        "https://sv.wikipedia.org/wiki/Sigtuna"
+      ],
+      "anchors": [
+        "Sigtuna is one of Sweden's oldest towns, on Lake Mälaren",
+        "Stora gatan is the main street, lined with low wooden houses",
+        "The houses are small, painted, and one or two storeys"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-138-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-138-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-138-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
+    },
+    {
+      "entry_id": "SE-01-139",
+      "country": "Sweden",
+      "region": "Stockholm County",
+      "city": "Stockholm",
+      "folder": "Stockholm",
+      "site": "Skokloster Castle",
+      "place": "Skokloster",
+      "caption": "Skokloster Castle, Skokloster",
+      "scenario_label": "",
+      "daynight": "night",
+      "composition": "Night · the lakeside looking at the four-towered palace · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Skokloster Castle, a pale Baroque palace with four corner towers above dark water, at night",
+      "description": "From the lakeside the view looks at Skokloster Castle. The palace is pale, square in plan, with a tower at each corner and dark copper caps, above dark water. It is after dark, a few windows are lit, and there is no sun in the sky.",
+      "viewpoint": "From the lakeside, looking at the main front and the four corner towers. A surveyed tripod mark was not pinned.",
+      "references": [
+        "https://en.wikipedia.org/wiki/Skokloster_Castle",
+        "https://skoklostersslott.se/en/the-history-of-skokloster-castle/from-monastery-to-castle/"
+      ],
+      "anchors": [
+        "Skokloster Castle stands on Skofjärden, part of Lake Mälaren",
+        "Carl Gustaf Wrangel had it built from 1654, and the exterior was finished in 1668",
+        "The plan is a square with a tower at each corner; Caspar Vogel prepared the basic design"
+      ],
+      "solar": "Night. After dark in Europe/Stockholm. No time stamp and no weather reading were recorded for this best-effort plate. No sun in the frame. Night scenes do not get an aerial.",
+      "moods": [
+        "historic",
+        "coastal"
+      ],
+      "approval_status": "Candidate",
+      "format_16x9_approval_status": "Candidate",
+      "format_4x5_approval_status": "Candidate",
+      "format_9x16_approval_status": "Candidate",
+      "file_16x9": "assets/sweden/Stockholm/se-01-139-16x9.png",
+      "file_4x5": "assets/sweden/Stockholm/se-01-139-4x5.png",
+      "file_9x16": "assets/sweden/Stockholm/se-01-139-9x16.png",
+      "motion": null,
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license"
     }
   ]
 }

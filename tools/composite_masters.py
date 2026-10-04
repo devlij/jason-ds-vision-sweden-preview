@@ -270,8 +270,11 @@ def layout_fonts(width: int, caption: str, scenario: str) -> tuple[dict[str, Ima
         gap = max(4, int(round(6 * scale)))
         margin = max(20, int(round(width * 0.028)))
         col_gap = max(16, int(round(width * 0.018)))
+        left_lines = [(caption, fonts["cap"]), (DISCLOSURE, fonts["disc"])]
+        if scenario:
+            left_lines = [(caption, fonts["cap"]), (scenario, fonts["sc"]), (DISCLOSURE, fonts["disc"])]
         left_w, left_h = _stack_size(
-            [(caption, fonts["cap"]), (scenario, fonts["sc"]), (DISCLOSURE, fonts["disc"])],
+            left_lines,
             gap,
         )
         right_w, right_h = _stack_size(
@@ -297,15 +300,16 @@ def draw_label_bar(photo: Image.Image, caption: str, scenario_label: str) -> Ima
     draw = ImageDraw.Draw(canvas)
     draw.rectangle((0, ph, pw - 1, ph + HAIRLINE - 1), fill=HAIR)
 
-    fonts, gap = layout_fonts(pw, caption, f"Scenario: {scenario_label}")
+    scenario = f"Scenario: {scenario_label}" if scenario_label else ""
+    fonts, gap = layout_fonts(pw, caption, scenario)
     margin = max(20, int(round(pw * 0.028)))
     col_gap = max(16, int(round(pw * 0.018)))
-    scenario = f"Scenario: {scenario_label}"
     left = [
         (caption, fonts["cap"], INK),
-        (scenario, fonts["sc"], INK_SCENARIO),
         (DISCLOSURE, fonts["disc"], INK_DISCLOSURE),
     ]
+    if scenario:
+        left.insert(1, (scenario, fonts["sc"], INK_SCENARIO))
     right = [
         (BRAND, fonts["brand"], INK),
         (SIGNATURE_NAME, fonts["name"], INK),
