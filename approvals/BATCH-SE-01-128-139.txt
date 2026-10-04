@@ -1,0 +1,117 @@
+Sweden Stockholm batch SE-01-128 through SE-01-139
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-127 were not regenerated.
+These twelve plates are best-effort night scenes. It is after dark in Europe/Stockholm.
+No Open-Meteo retrieval was made. No weather reading was invented. No time stamp is on the plates.
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+SE-01-128 T-Centralen (Norrmalm)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 9f07703636cd7d609662b6e9fab624eeb30147b242300f2c5cc527a5ff41963e
+  SHA-256 4:5: dae121b22b6f19efeeede91fb8e7c68876bc9191f146997461f939db3ed5f8a2
+  SHA-256 9:16: 89ad21ae4aae4e0c212efec79009860b8319202b632b261cbf8322d7b0c60898
+
+SE-01-129 Stadion metro station (Östermalm)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 51bb8089b4aadacc5f0b1814623d062698975432f85fe6f525a32c834d8c68ce
+  SHA-256 4:5: c1b324b606cc840bdd47272b206338840e93e7ccc11486ee18797fecbb0921c4
+  SHA-256 9:16: 0b133e9f797382dd0bdc455832e76e440c7a0ca2c7c10c0805698970281e205c
+
+SE-01-130 Rådhuset metro station (Kungsholmen)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: d7ccc24eb65648827f0b4e408d9a5817c5fb5a71c78ca69ff3575de5631ed547
+  SHA-256 4:5: 75c2a2288ac3ef37b55f0704994cdf5ce791711484a5fa06f1eecc7aba32b1b2
+  SHA-256 9:16: 1b8574fbd8eb4712f6e2a28be8306061a860b4ec82a767edcaa2c1d115a73ad7
+
+SE-01-131 Solna centrum metro station (Solna)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 3d6aa4258ce8b7bb5cedb41f0f63951a2d8e2547e1ec1f6079caee9df281927f
+  SHA-256 4:5: 5167070614d15f2690508cf7930d2765f2b0794486074c5c8a479be80d5e5ca5
+  SHA-256 9:16: 3c50a3d82373d07cd74be48bc99c53c4a86c293cc92e1e5bac0ce2af01fe4eb0
+
+SE-01-132 Riddarholmen Church (Riddarholmen)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 8516448bd9a526db64bf714aac1492c312d58c45cdbebd8e666feab691f4258d
+  SHA-256 4:5: a8f871a55cbd27ee7650b2f275f5321830054f743700033757c4d0b0de618658
+  SHA-256 9:16: 58074582e074493f77b5d47c6cc3274cc1c16369687cdc36ce138a77ecff235a
+
+SE-01-133 Stockholm Court House (Kungsholmen)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 617f8a82f219603d5b21115e5e79dbd9347dc583c07b09100ed660a98db2fda6
+  SHA-256 4:5: 08f3185d5198c7f6e4d71976746e6efead1bd6f42be836f1f1f5a1e1744fd701
+  SHA-256 9:16: f33781140b9aebff6510025f8faf8a64e70233959b0d52b7f801ca757415cf26
+
+SE-01-134 Hötorgsskraporna (Norrmalm)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 0597ee8436d11be358315c2540b3acec231cb16d3538535beb68dfcd7be59c92
+  SHA-256 4:5: cb3e00f562fd44d3248804a9a8b3bb4dd83d1335ee663aa7e7094a6fa7a09985
+  SHA-256 9:16: f859b18b42f2511a755cf01e92e291ad0e7833f45778c443b57e1d7d00703daa
+
+SE-01-135 New Slussen waterfront (Slussen)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: dd65dde5b17e2e46811fb0898c8fed666fdc66b5f33d4ee5392ed47bf318c9df
+  SHA-256 4:5: 36dcdbd2ec101099865d5dfe79f1f35c2d3d597461e6b444d0076edd52dbb0ab
+  SHA-256 9:16: c03287b8aa7a7295d13e2ef4fd96ddf87d140e4c6eb5cffb43ba22b9d568762e
+
+SE-01-136 Victoria House (Frescati)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: f287a804bd2a52a974c86f436bf2e3f2fbc358942dc2c28289e00326f2bb3129
+  SHA-256 4:5: 3964f02eda38e64fa19de20d95d710d3da8ac0ced88e5ca551c661c8dd9f25a8
+  SHA-256 9:16: 40259855a48d2d2d04fe65e04f02f5401ce007c18caf71ddae844168733a65c0
+
+SE-01-137 Chinese Pavilion (Drottningholm)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: 2b7f8b5968331fe53aab752dd9818c3b17dc777525528e7a642bd467318cb9a6
+  SHA-256 4:5: fc9e5562dc1f3bd40dba9a9e118b66ec334f1ea84118a869f3c6beabe80dedba
+  SHA-256 9:16: 8f17b9dea47dc43290540e2a8dc1058b21f81d824f0bd79951d8e98ffc7baa73
+
+SE-01-138 Stora gatan (Sigtuna)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: ceba5ec9fab621c1a9cd413754c75598f034d9c6a418f3bb738971583f2a1bae
+  SHA-256 4:5: b9475286efbdd593766bd8cd479906c763f42951a0a146ca4f0f8a4adc2683d9
+  SHA-256 9:16: 9452e88f85fffd548521329463832b15df64eb490a91d5bb384e697982002ecb
+
+SE-01-139 Skokloster Castle (Skokloster)
+  day/night: night
+  aerial: no
+  time stamp: omitted
+  weather: omitted
+  SHA-256 16:9: d9d256879f5d1ccdb697ac204a79fcff707e1ce8cae4ce5590949ffccf48935f
+  SHA-256 4:5: 1e9eea56781deecea6cb05f6b19612db9c3b4b1c5330bd16652ec837a22d5915
+  SHA-256 9:16: 30e17350b6df76f6a69ce08a637b12e0626b3285f4ad29a933830c4a9e464e46
