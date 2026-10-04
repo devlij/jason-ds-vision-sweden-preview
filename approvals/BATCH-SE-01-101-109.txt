@@ -1,0 +1,141 @@
+Sweden Stockholm batch SE-01-101 through SE-01-109
+Candidate for Cosmo QC. Not self-approved. Draft only. Do not merge.
+
+SE-01-001 through SE-01-010 were not regenerated.
+Masters, pretext, weather, and approvals for those scenes are unchanged.
+SE-01-001 remains Approved night. SE-01-002 through SE-01-010 remain Candidate daylight.
+SE-01-011 through SE-01-082 are already on main and were not edited.
+SE-01-083 through SE-01-100 live on open draft PRs #11 and #12 and are not in this checkout.
+
+Every new scene is genuine night: model is_day 0, before sunrise Europe/Stockholm.
+WMO code 3, cloud cover 92–95%, dry. One Open-Meteo retrieval per scene, unique to the second.
+Scenario minutes sit inside each retrieval's model-valid hour (04:00–04:59).
+Sunrise is 06:46, 06:47, or 06:48 depending on the model grid. Sunset the same civil day is 18:25, 18:26, or 18:27.
+The scenario is about 149 to 151 minutes before sunrise.
+
+Viewpoints were checked against SE-01-001–082 on main and against the batch files on open drafts #11 (SE-01-083–091) and #12 (SE-01-092–100). None of these nine places is in that set.
+
+Aerial: night scenes do not get an aerial. No 8s 360° clip was made, and none is a daylight backfill.
+Still masters ship. Motion control stays off because no motion file is on disk.
+
+Locked SHA-256 of SE-01-001 through SE-01-010 on this branch, unchanged from origin/main:
+SE-01-001 SHA-256 16x9 1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3
+SE-01-001 SHA-256 4x5 25810ce465b775fd5fad674cbeb5123eb55a5c76147893a6ed4d80f0d216944c
+SE-01-001 SHA-256 9x16 f155a695f8e90d56250cfeef2504e9152b7aa0776db05ebb65e8d0c055636a9a
+SE-01-002 SHA-256 16x9 e4bb4f3d4f3825730cdd52ce5c2332d75683e2e49c2d7e64ff3ed2a853203d59
+SE-01-002 SHA-256 4x5 0fa79324d33a87ced491a6b1338734692be991d95ab733b4ed55f32ab4effb24
+SE-01-002 SHA-256 9x16 96d1fffb4b3c02b498003e5c81df735220bff28605a9fd177472235c418124e2
+SE-01-003 SHA-256 16x9 cd88ff6f31e5201490f2bf4486eeee84a877d6d5abdad7403b2b2cc08ac7b960
+SE-01-003 SHA-256 4x5 9329bbdc87d43a5f3024a4fd2a263dd50390e12f96167a95042584d472b6aee0
+SE-01-003 SHA-256 9x16 0b3c2098ef44e0a9a100aa5e229ada7203bb0fe40acddacdc8a348b0f5d341bd
+SE-01-004 SHA-256 16x9 55cd86a2de111ae3e39e36169796dec4b9e9493b740ab39fc7ceedc29518b7a6
+SE-01-004 SHA-256 4x5 df68b733476933266a7d1a11ad2254d3f8496ba02fbc9f0f5a6a20c87fb39ace
+SE-01-004 SHA-256 9x16 1731f84870a83eefcdddd67cff0795746dccfc37199f72a6c2229cedb81e9801
+SE-01-005 SHA-256 16x9 08702cb07898ec1ef6e368eea04130341f4f38345414d30390bc97098154ee59
+SE-01-005 SHA-256 4x5 121e88ab166a7ebfe3ca3352430a2d277a4868fabb3644d294b8af05b0b303da
+SE-01-005 SHA-256 9x16 025ded58810e98dc00b586a399fca3c2cf5a476c7cc578bfb0a25f1f601affd0
+SE-01-006 SHA-256 16x9 519ec77d3920c1277d9f5be54ced9806aa5838a607d730d34842815396398b6c
+SE-01-006 SHA-256 4x5 642e8ae5d79b7aa828dedd99ff662a480533e1f0fd3f8e3fd26aa106cecd741d
+SE-01-006 SHA-256 9x16 b3e33ee6b049aecdb91c903678a7ba45f3539cacce631541185ed7f215b24a69
+SE-01-007 SHA-256 16x9 3abcb61d26db8a15a650b239986a6fd068af001b37dff8550c94e2a94d899cbc
+SE-01-007 SHA-256 4x5 949c0ea3fa0333364ed4bfe85610f6144a7fa78143f608fc85162f69c1275bab
+SE-01-007 SHA-256 9x16 337e2176432c003eb0cc66c6a481c3b689745ce7f644cdf2b4549d5024d7a1cb
+SE-01-008 SHA-256 16x9 b6f5f0c06f046e16518995bc59bf5253c755712223ed6e5dbcd4eb77168ec649
+SE-01-008 SHA-256 4x5 443e596ce2506c7d99c6d13e5fde785d2d464b17ffb6aa15a8fde095ecb128db
+SE-01-008 SHA-256 9x16 4fe9800cf7608b9aeb372636c8050b94587553ca56c6801a0df47238f8924b68
+SE-01-009 SHA-256 16x9 93467088835352ee60685948850331c31a13899fb9b0779fe5fb9cafa5b56b20
+SE-01-009 SHA-256 4x5 f0b52c297e80a294fd03f0554083b12ef5a0bfdc09647e51ea45dd9d302a9aa2
+SE-01-009 SHA-256 9x16 7e181a57a0cf3a0476c55bfee5f0a2f826073e56cf2b6b0931cb4ed0a161dc9a
+SE-01-010 SHA-256 16x9 56dc778e7c100239b123411d1f178440d5874f3f26dc4b31c772f71923a65385
+SE-01-010 SHA-256 4x5 e641dfb00686c45514d2a8086aac8666e2a74fc59fba51f187228711f8895887
+SE-01-010 SHA-256 9x16 baadcb2e68e1f8967085f38bd88560ce0fd2f1cb4149aee90d0040775ed79c49
+
+SE-01-101 Kungstornen (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:34+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: e7ac19efbebe59e063ecb59e2122d211edf0bc4997de39dfa85c158efb31ed5b
+  SHA-256 4:5: c274bd27d4f37e792a872a24adfbb5932760de29827a2e921d0b0c5c3218ff49
+  SHA-256 9:16: f2a9e2c2139c9aa0a152810b07ef4127c95c1b70eedede1783d0e264c84d4a06
+
+SE-01-102 City Museum (Södermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:37+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: 0ed3e3a03742d65b8ba60754f32dd6e4433f986035b839eb5f0f2746e1cdb8d9
+  SHA-256 4:5: c407f4f3d53e343dbb79da4789121559390a3a89f965c9f5464134c5599984f5
+  SHA-256 9:16: 5ef855e79e9ad0746e60dd0ebeba990d7395debeb4ab5c506ce1fb83050a357a
+
+SE-01-103 Havrekvarnen (Kvarnholmen)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:40+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: d54144fce114ea2cc8e2885720a575fbf6a295d93606341b453e158b3d6162e0
+  SHA-256 4:5: cba7e03036202cdb7c1f0144e79e92082b5d2348ad50f97748d01482bfba6c3c
+  SHA-256 9:16: 62e15edc5b53d285f704311239897a3409d3c3b9d391e2c930a17c3bce34410c
+
+SE-01-104 Spånga Church (Spånga)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:43+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: c92801a032b5d420477b4b38b4a57df79e714e500b43245f9c96115f1087b9b8
+  SHA-256 4:5: bb23337cad114e2504b34e42f1bed059276aa98fe5406b8fbaadd257481bc177
+  SHA-256 9:16: 365e5fb8e9e63d213d078ad0573c975f45fcbee30439a7689e64ce6509713601
+
+SE-01-105 Vaxholm Fortress (Vaxholm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:45+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: 4666f9ea18b2a5c4f1f902d7be7d368e415a73378163e4d327803f318484302f
+  SHA-256 4:5: 26a98baae194369ad9fc305fe18450f2ef774280eeaada4ba95555bc019b2150
+  SHA-256 9:16: 1ba410b58dadb21257633dab841cf3cffeea478ea5d13174b511bcc54d0a94cd
+
+SE-01-106 Tyresö Palace (Tyresö)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:48+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: ace7e91f75db770d57930c1fb1d17a7b89a54ab1298db3a61447ca3229f3bfe2
+  SHA-256 4:5: c072d7330b135d8f64295b2f409833d39f75f55c0545dc45e893088c66f8bc30
+  SHA-256 9:16: 4580926081f44430abedba3a7971437d28104b48ad26a3b7ca72ed09ea12cd83
+
+SE-01-107 Centralbadet (Norrmalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:51+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: cebc4ddd40007a130a099d8f20b65b4d4c06a8ee6d4655f2db58a3ae8edf018c
+  SHA-256 4:5: a829d3b7d78300e48ba661729423e63a5c944cd5f75ab3820d340183a1d4d7a8
+  SHA-256 9:16: 46840a6d824e5ddb38992dd7f79348df4464fbd5d9846b5b336833d54a1413ec
+
+SE-01-108 KTH Main Building (Norra Djurgården)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:53+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: 722cb614928052f917ccbe3e7cdb9d4a8231bb6d2fbfaf100ae8cede13ae1caa
+  SHA-256 4:5: eb6656ef1a8250345f4aacd6ba890760fa40004ccf91a8e9134b758e2fe75e86
+  SHA-256 9:16: afbe6d897539c5502f6ef8968ca8c663800d79515335d3cf4b813069f1365120
+
+SE-01-109 Army Museum (Östermalm)
+  day/night: night
+  aerial: no
+  retrieval: 2026-09-29T04:17:56+02:00
+  model time: 2026-09-29T04:15
+  scenario: 29 September 2026 · 04:17 Europe/Stockholm
+  SHA-256 16:9: 16047f218a5ae558ca2c9f93e2fd2f00228e9d8b68f9ef424f7a7a8b4b16fa21
+  SHA-256 4:5: 0a8a5501ac663ff9018779881c0c8285325661bec194230642a6a670697f66bf
+  SHA-256 9:16: 672f78b39a726907f0eeec4fdc039bcf9c50d8b93ece0b88d2778ce1a565a213
