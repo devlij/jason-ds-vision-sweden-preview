@@ -710,6 +710,14 @@ def main() -> None:
         errors.append("lightbox interval is not the 4000ms value on main")
     if "https://sweden.jdvision.org/" not in html:
         errors.append("Sweden canonical missing")
+    if "https://norway.jdvision.org/" not in html or "https://denmark.jdvision.org/" not in html:
+        errors.append("Norway or Denmark switcher still points away from jdvision.org")
+    if "jason-ds-vision-norway-preview" in html or "jason-ds-vision-denmark-preview" in html:
+        errors.append("Norway or Denmark switcher still uses a github.io preview URL")
+    if 'id="wotd" lang="sv" hidden' not in html:
+        errors.append("word-of-day band must stay hidden until tools/sv.json is a 365-item dictionary")
+    if 'id="wotd-data">[]</script>' not in html:
+        errors.append("empty tools/sv.json must publish an empty word-of-day payload")
     for entry_id in [*NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *BATCH83_IDS]:
         start = html.find(f'"entry_id": "{entry_id}"')
         if start < 0:

@@ -242,9 +242,9 @@
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
+      <a href="https://norway.jdvision.org/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
+      <a href="https://denmark.jdvision.org/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a>
       <span class="sep" aria-hidden="true">|</span>
@@ -252,7 +252,7 @@
     </nav>
     <p class="sub">Sweden · Candidate scenes until an independent QC pass</p>
   </header>
-<div class="wotd" id="wotd" lang="sv">
+<div class="wotd" id="wotd" lang="sv" hidden>
   <span class="kicker">Dagens ord · Word of the day</span>
   <span class="wotd-body" aria-live="polite"></span>
   <span class="day" id="wotd-day"></span>
@@ -654,10 +654,21 @@
   })();
   </script>
 <script>
+/* D026 blocked-pending-Cosmo while tools/sv.json is not a 365-item dictionary.
+   Reveal the band only for that Cosmo file: local kicker, bold word, italic
+   phrase, English glosses, Day N of 365. Otherwise leave the band hidden. */
 (function(){
+  var band=document.getElementById('wotd');
   try{
     var data=JSON.parse(document.getElementById('wotd-data').textContent);
-    if(!data||!data.length)return;
+    function filled(v){return typeof v==='string'&&v.length>0;}
+    if(!data||data.length!==365){if(band)band.hidden=true;return;}
+    for(var i=0;i<data.length;i++){
+      var row=data[i];
+      if(!row||!filled(row.word)||!filled(row.word_en)||!filled(row.phrase)||!filled(row.phrase_en)){
+        if(band)band.hidden=true;return;
+      }
+    }
     var now=new Date();
     var doy=Math.floor((now-new Date(now.getFullYear(),0,0))/864e5); /* Jan 1 -> 1 */
     var e=data[(doy-1)%data.length];
@@ -667,9 +678,10 @@
     h+=' <span class="gloss">&ldquo;'+esc(e.word_en)+'&rdquo;</span> <span class="sep">&middot;</span> <span class="phrase">&ldquo;'+esc(e.phrase)+'&rdquo;</span>';
     if(e.phrase_translit)h+=' <span class="translit">('+esc(e.phrase_translit)+')</span>';
     h+=' <span class="gloss">&ldquo;'+esc(e.phrase_en)+'&rdquo;</span>';
+    if(band)band.hidden=false;
     document.querySelector('#wotd .wotd-body').innerHTML=h;
     document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
-  }catch(err){}
+  }catch(err){if(band)band.hidden=true;}
 })();
 </script>
 <script id="narr-manifest" type="application/json">__NARR_JSON__</script>
