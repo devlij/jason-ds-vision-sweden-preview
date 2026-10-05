@@ -72,16 +72,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-002-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-002-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-002-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-003",
@@ -111,16 +114,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-003-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-003-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-003-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-004",
@@ -150,16 +156,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-004-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-004-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-004-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-005",
@@ -189,16 +198,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-005-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-005-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-005-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-006",
@@ -228,16 +240,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-006-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-006-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-006-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-007",
@@ -267,16 +282,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-007-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-007-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-007-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-008",
@@ -306,16 +324,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-008-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-008-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-008-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-009",
@@ -344,16 +365,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-009-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-009-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-009-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-010",
@@ -383,16 +407,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-010-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-010-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-010-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-011",
@@ -422,16 +449,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-011-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-011-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-011-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-012",
@@ -461,16 +491,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-012-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-012-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-012-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-013",
@@ -500,16 +533,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-013-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-013-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-013-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-014",
@@ -539,16 +575,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-014-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-014-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-014-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-015",
@@ -578,16 +617,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-015-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-015-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-015-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-016",
@@ -617,16 +659,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-016-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-016-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-016-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-017",
@@ -656,16 +701,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-017-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-017-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-017-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-018",
@@ -695,16 +743,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-018-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-018-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-018-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-019",
@@ -734,16 +785,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-019-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-019-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-019-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-020",
@@ -773,16 +827,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-020-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-020-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-020-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-021",
@@ -812,16 +869,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-021-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-021-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-021-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-022",
@@ -850,16 +910,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-022-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-022-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-022-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-023",
@@ -889,16 +952,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-023-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-023-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-023-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-024",
@@ -928,16 +994,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-024-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-024-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-024-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-025",
@@ -967,16 +1036,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-025-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-025-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-025-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-026",
@@ -1005,16 +1077,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-026-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-026-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-026-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-027",
@@ -1044,16 +1119,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-027-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-027-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-027-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-028",
@@ -1082,16 +1160,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-028-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-028-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-028-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-074",
@@ -1467,16 +1548,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-029-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-029-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-029-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-030",
@@ -1506,16 +1590,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-030-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-030-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-030-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-031",
@@ -1545,16 +1632,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-031-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-031-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-031-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-032",
@@ -1584,16 +1674,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-032-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-032-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-032-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-033",
@@ -1623,16 +1716,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-033-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-033-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-033-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-034",
@@ -1661,16 +1757,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-034-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-034-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-034-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-035",
@@ -1699,16 +1798,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-035-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-035-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-035-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-036",
@@ -1737,16 +1839,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-036-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-036-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-036-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-037",
@@ -1776,16 +1881,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-037-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-037-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-037-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-038",
@@ -1814,16 +1922,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-038-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-038-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-038-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-039",
@@ -1853,16 +1964,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-039-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-039-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-039-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-040",
@@ -1892,16 +2006,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-040-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-040-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-040-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-041",
@@ -1931,16 +2048,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-041-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-041-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-041-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-042",
@@ -1970,16 +2090,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-042-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-042-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-042-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-043",
@@ -2008,16 +2131,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-043-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-043-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-043-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-044",
@@ -2086,16 +2212,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-045-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-045-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-045-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-046",
@@ -2125,16 +2254,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-046-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-046-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-046-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-047",
@@ -2164,16 +2296,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-047-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-047-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-047-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-048",
@@ -2203,16 +2338,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-048-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-048-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-048-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-049",
@@ -2242,16 +2380,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-049-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-049-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-049-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-050",
@@ -2320,16 +2461,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-051-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-051-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-051-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-052",
@@ -2359,16 +2503,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-052-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-052-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-052-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-053",
@@ -2398,16 +2545,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-053-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-053-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-053-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-054",
@@ -2437,16 +2587,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-054-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-054-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-054-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-055",
@@ -2476,16 +2629,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-055-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-055-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-055-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-056",
@@ -2515,16 +2671,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-056-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-056-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-056-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-057",
@@ -2554,16 +2713,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-057-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-057-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-057-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-058",
@@ -2593,16 +2755,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-058-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-058-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-058-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-059",
@@ -2631,16 +2796,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-059-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-059-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-059-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-060",
@@ -2669,16 +2837,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-060-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-060-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-060-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-061",
@@ -2708,16 +2879,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-061-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-061-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-061-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-062",
@@ -2747,16 +2921,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-062-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-062-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-062-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-063",
@@ -2786,16 +2963,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-063-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-063-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-063-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-064",
@@ -2825,16 +3005,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-064-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-064-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-064-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-065",
@@ -3214,16 +3397,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-083-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-083-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-083-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-084",
@@ -3253,16 +3439,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-084-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-084-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-084-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-085",
@@ -3291,16 +3480,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-085-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-085-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-085-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-086",
@@ -3330,16 +3522,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-086-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-086-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-086-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-087",
@@ -3368,16 +3563,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-087-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-087-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-087-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-088",
@@ -3406,16 +3604,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-088-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-088-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-088-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-089",
@@ -3445,16 +3646,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-089-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-089-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-089-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-090",
@@ -3484,16 +3688,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-090-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-090-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-090-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-091",
@@ -3522,16 +3729,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-091-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-091-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-091-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-092",
@@ -3560,16 +3770,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-092-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-092-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-092-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-093",
@@ -3599,16 +3812,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-093-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-093-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-093-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-094",
@@ -3637,16 +3853,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-094-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-094-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-094-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-095",
@@ -3676,16 +3895,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-095-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-095-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-095-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-096",
@@ -3714,16 +3936,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-096-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-096-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-096-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-097",
@@ -3753,16 +3978,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-097-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-097-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-097-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-098",
@@ -3792,16 +4020,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-098-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-098-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-098-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-099",
@@ -3830,16 +4061,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-099-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-099-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-099-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-100",
@@ -3868,16 +4102,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-100-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-100-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-100-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-101",
@@ -3906,16 +4143,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-101-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-101-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-101-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-102",
@@ -3945,16 +4185,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-102-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-102-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-102-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-103",
@@ -3984,16 +4227,19 @@
         "urban",
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-103-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-103-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-103-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-104",
@@ -4022,16 +4268,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-104-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-104-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-104-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-105",
@@ -4061,16 +4310,19 @@
         "historic",
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-105-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-105-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-105-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-106",
@@ -4099,16 +4351,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-106-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-106-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-106-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-107",
@@ -4138,16 +4393,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-107-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-107-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-107-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-108",
@@ -4177,16 +4435,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-108-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-108-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-108-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-109",
@@ -4216,16 +4477,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-109-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-109-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-109-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-110",
@@ -4255,16 +4519,19 @@
         "coastal",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-110-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-110-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-110-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-111",
@@ -4293,16 +4560,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-111-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-111-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-111-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-112",
@@ -4331,16 +4601,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-112-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-112-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-112-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-113",
@@ -4370,16 +4643,19 @@
         "coastal",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-113-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-113-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-113-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-114",
@@ -4409,16 +4685,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-114-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-114-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-114-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-115",
@@ -4447,16 +4726,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-115-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-115-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-115-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-116",
@@ -4486,16 +4768,19 @@
         "urban",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-116-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-116-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-116-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-117",
@@ -4524,16 +4809,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-117-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-117-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-117-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-118",
@@ -4563,16 +4851,19 @@
         "coastal",
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-118-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-118-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-118-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-119",
@@ -4601,16 +4892,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-119-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-119-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-119-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-120",
@@ -4639,16 +4933,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-120-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-120-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-120-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-121",
@@ -4677,16 +4974,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-121-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-121-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-121-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-122",
@@ -4715,16 +5015,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-122-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-122-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-122-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-123",
@@ -4754,16 +5057,19 @@
         "historic",
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-123-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-123-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-123-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-124",
@@ -4792,16 +5098,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-124-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-124-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-124-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-125",
@@ -4830,16 +5139,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-125-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-125-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-125-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-126",
@@ -4869,16 +5181,19 @@
         "historic",
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-126-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-126-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-126-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-127",
@@ -4907,16 +5222,19 @@
       "moods": [
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-127-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-127-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-127-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-128",
@@ -4946,16 +5264,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-128-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-128-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-128-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-129",
@@ -4985,16 +5306,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-129-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-129-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-129-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-130",
@@ -5024,16 +5348,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-130-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-130-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-130-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-131",
@@ -5063,16 +5390,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-131-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-131-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-131-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-132",
@@ -5102,16 +5432,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-132-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-132-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-132-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-133",
@@ -5142,16 +5475,19 @@
         "historic",
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-133-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-133-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-133-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-134",
@@ -5181,16 +5517,19 @@
       "moods": [
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-134-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-134-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-134-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-135",
@@ -5221,16 +5560,19 @@
         "coastal",
         "urban"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-135-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-135-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-135-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-136",
@@ -5260,16 +5602,19 @@
       "moods": [
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-136-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-136-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-136-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-137",
@@ -5299,16 +5644,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-137-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-137-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-137-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-138",
@@ -5338,16 +5686,19 @@
       "moods": [
         "historic"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-138-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-138-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-138-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     },
     {
       "entry_id": "SE-01-139",
@@ -5378,16 +5729,19 @@
         "historic",
         "coastal"
       ],
-      "approval_status": "Candidate",
-      "format_16x9_approval_status": "Candidate",
-      "format_4x5_approval_status": "Candidate",
+      "approval_status": "Approved",
+      "format_16x9_approval_status": "Approved",
+      "format_4x5_approval_status": "Approved",
       "format_9x16_approval_status": "Candidate",
       "file_16x9": "assets/sweden/Stockholm/se-01-139-16x9.png",
       "file_4x5": "assets/sweden/Stockholm/se-01-139-4x5.png",
       "file_9x16": "assets/sweden/Stockholm/se-01-139-9x16.png",
       "motion": null,
       "license_badge": "Free · no credit needed",
-      "license_anchor": "#license"
+      "license_anchor": "#license",
+      "approval_basis": "Grok Bot five-gate self-QC 2026-10-05 (Jason-authorized builder self-QC; relay wo-qc-zeroout-sweden-20261005T164050Z). Gates 1–3 and 5 PASS. Not Cosmo QC; not Jason approval.",
+      "approved_at": "2026-10-05",
+      "qc_label": "Approved · Grok Bot QC 5/5"
     }
   ]
 }
