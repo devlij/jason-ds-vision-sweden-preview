@@ -113,7 +113,7 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -122,6 +122,7 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
     .day-row button.day-tab {
       display: inline-block; background: #243049; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
@@ -370,11 +371,15 @@
         const file16 = s.file_16x9;
         const file45 = s.file_4x5 ? s.file_4x5 : null;
         const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : null;
+        const day16 = s.file_16x9_day || "";
+        const day45 = s.file_4x5_day || "";
+        const day916 = s.file_9x16_day || "";
+        const hasDay = !!(day16 || day45 || day916);
         const motionSrc = s.motion || "";
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""} />
+              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -382,6 +387,7 @@
               ${file45 ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
+          ${hasDay ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -430,10 +436,21 @@
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         if (dimg && dlink) {
           const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
@@ -443,14 +460,14 @@
           const f = a.getAttribute('data-dl');
           const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
         });
         const sc = dcard.querySelector('p.scenario');
         if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
-      if (!tab) return;
+      if (!tab || tab.disabled) return;
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;

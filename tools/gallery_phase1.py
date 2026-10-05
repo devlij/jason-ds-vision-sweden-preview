@@ -61,6 +61,9 @@ def prepare_scene(scene: dict) -> dict | None:
         out.pop("file_9x16", None)
     if out.get("file_4x5") and not master_exists(out.get("file_4x5")):
         out.pop("file_4x5", None)
+    for key in ("file_16x9_day", "file_4x5_day", "file_9x16_day"):
+        if out.get(key) and not master_exists(out.get(key)):
+            out.pop(key, None)
     if not master_exists(out.get("file_16x9")):
         return None
     # 9:16 stays on disk. The tab and download render only after Jason clears it.
