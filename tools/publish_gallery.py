@@ -69,6 +69,7 @@ def main() -> None:
     write_image_sitemap(scenes)
     print(f"wrote index.html ({len(html)} bytes), robots.txt, sitemap.xml, image-sitemap.xml")
     print(f"scenes {len(scenes)}")
+    print(f"360 clips wired {html.count('-motion-10s-4x5.mp4')}")
 
 
 if __name__ == "__main__":
