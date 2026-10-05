@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from gallery_phase1 import ROOT, load_scenes, render_gallery
+from gallery_phase1 import ROOT, load_night_masters, load_scenes, render_gallery
 
 SITE = "https://sweden.jdvision.org/"
 
@@ -67,8 +67,10 @@ def main() -> None:
     write_robots()
     write_sitemap()
     write_image_sitemap(scenes)
+    night = load_night_masters(scenes)
     print(f"wrote index.html ({len(html)} bytes), robots.txt, sitemap.xml, image-sitemap.xml")
     print(f"scenes {len(scenes)}")
+    print(f"night buttons {len(night)} of {len(scenes)}")
 
 
 if __name__ == "__main__":

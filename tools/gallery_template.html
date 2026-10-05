@@ -113,7 +113,7 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -131,6 +131,16 @@
     .day-row button.day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
     }
+    .day-row button.night-tab {
+      display: inline-block; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+      cursor: pointer; font: inherit;
+    }
+    .day-row button.night-tab:hover { border-color: var(--accent); }
+    .day-row button.night-tab.is-active {
+      background: #1b2744; border-color: #9eb6e0; color: #e7eefc; font-weight: 700;
+    }
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #101820; line-height: 0;
     }
@@ -298,6 +308,9 @@
     /* Phase 1: scene metadata for advanced filters + related scenes.
        tools/publish_gallery.py fills SE_META from tools/gallery_phase1.py. */
     const SE_META=__SE_META__;
+    /* SE_NIGHT: [16:9, 4:5, 9:16] night-master URLs. Empty slot = no night master in that format.
+       Filled only for scenes whose own master is a recorded night plate on disk. */
+    const SE_NIGHT=__SE_NIGHT__;
   </script>
 
   <script>
@@ -370,11 +383,20 @@
         const file16 = s.file_16x9;
         const file45 = s.file_4x5 ? s.file_4x5 : null;
         const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : null;
+        const day16 = s.file_16x9_day || "";
+        const day45 = s.file_4x5_day || "";
+        const day916 = s.file_9x16_day || "";
+        /* SE_NIGHT lists only recorded night masters that are on disk. */
+        const nightRec = (typeof SE_NIGHT !== "undefined") ? SE_NIGHT[s.entry_id] : null;
+        const night16 = (nightRec && nightRec[0]) || "";
+        const night45 = (nightRec && nightRec[1]) || "";
+        const night916 = (nightRec && nightRec[2]) || "";
+        const hasNight = !!(night16 || night45 || night916);
         const motionSrc = s.motion || "";
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""} />
+              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""}${night16 ? ` data-src-16-night="${esc(night16)}"` : ""}${night45 ? ` data-src-45-night="${esc(night45)}"` : ""}${file916 && night916 ? ` data-src-916-night="${esc(night916)}"` : ""} />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -382,6 +404,7 @@
               ${file45 ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
+          ${(hasNight || day16 || day45) ? `<div class="day-row">${hasNight ? `<button type="button" class="night-tab" aria-pressed="false" title="Show the night image">\uD83C\uDF19 Night</button>` : ""}${(day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -393,9 +416,9 @@
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              <a class="download" data-dl="16x9"${night16 ? ` data-dl-night="${esc(night16)}"` : ""} href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
+              ${file45 ? `<a class="download" data-dl="4x5"${night45 ? ` data-dl-night="${esc(night45)}"` : ""} href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
+              ${file916 ? `<a class="download" data-dl="9x16"${night916 ? ` data-dl-night="${esc(night916)}"` : ""} href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
               ${motionSrc ? `<button type="button" class="motion" data-src="${esc(motionSrc)}">Play motion</button>` : ""}
             </div>
           </div>`;
@@ -421,6 +444,43 @@
         if (player.paused) player.play(); else player.pause();
         return;
       }
+      const ntab = event.target.closest('.night-tab');
+      if (ntab) {
+        event.preventDefault();
+        const ncard = ntab.closest('.card');
+        if (!ncard) return;
+        ncard.querySelectorAll('.day-tab.is-active, .gday-tab.is-active, .pc-tab.is-active, .motion-tab.is-active').forEach((b) => {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+          if (b.classList.contains('day-tab') || b.classList.contains('gday-tab')) b.setAttribute('data-daynight', 'night');
+          if (b.classList.contains('pc-tab')) b.setAttribute('data-postcard', 'off');
+        });
+        ntab.classList.add('is-active');
+        ntab.setAttribute('aria-pressed', 'true');
+        const nlink = ncard.querySelector('a.thumb');
+        const nimg = nlink && nlink.querySelector('img');
+        const nftab = ncard.querySelector('.fmt-tab.is-active');
+        const nfmt = nftab ? nftab.getAttribute('data-format') : '16x9';
+        const nkey = nfmt === '4x5' ? 'data-src-45-night' : nfmt === '9x16' ? 'data-src-916-night' : 'data-src-16-night';
+        const nnext = nimg && nimg.getAttribute(nkey);
+        if (nnext && nimg && nlink) { nimg.src = nnext; nlink.href = nnext; }
+        ncard.querySelectorAll('a.download').forEach((a) => {
+          const u = a.getAttribute('data-dl-night');
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
+        });
+        const nsc = ncard.querySelector('p.scenario');
+        if (nsc) nsc.textContent = 'Scenario: ' + (nsc.getAttribute('data-scenario') || '');
+        return;
+      }
+      const otherMode = event.target.closest('.pc-tab, .motion-tab, .gday-tab');
+      if (otherMode) {
+        const ocard = otherMode.closest('.card');
+        const nightOff = ocard && ocard.querySelector('.night-tab');
+        if (nightOff) {
+          nightOff.classList.remove('is-active');
+          nightOff.setAttribute('aria-pressed', 'false');
+        }
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
@@ -430,10 +490,26 @@
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        const nightBtn = dcard.querySelector('.night-tab');
+        if (nightBtn) {
+          nightBtn.classList.remove('is-active');
+          nightBtn.setAttribute('aria-pressed', 'false');
+        }
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         if (dimg && dlink) {
           const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
@@ -443,14 +519,14 @@
           const f = a.getAttribute('data-dl');
           const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
         });
         const sc = dcard.querySelector('p.scenario');
         if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
-      if (!tab) return;
+      if (!tab || tab.disabled) return;
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
@@ -463,13 +539,16 @@
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
+      const nightOn = card.querySelector('.night-tab.is-active');
       const dayOn = card.querySelector('.day-tab.is-active');
-      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
-      const next = fmt === "4x5"
-        ? (useDay && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
-        : fmt === "9x16"
-        ? (useDay && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
-        : (useDay && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
+      const useDay = !nightOn && dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = nightOn
+        ? (fmt === '4x5' ? img.getAttribute('data-src-45-night') : fmt === '9x16' ? img.getAttribute('data-src-916-night') : img.getAttribute('data-src-16-night'))
+        : fmt === '4x5'
+        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        : fmt === '9x16'
+        ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
+        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
       if (next) {
         img.src = next;
         link.href = next;
@@ -602,6 +681,7 @@
     var INTERVAL=4000;
     var lbFormat='16x9';
     var lbDay='night';
+    var lbNight=false;
     function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
     function show(i){
       items=visibleCards().map(function(c){
@@ -609,8 +689,12 @@
         var src='';
         var daySrc='';
         if(im){
-          if(lbDay==='day'){daySrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-day'):lbFormat==='9x16'?im.getAttribute('data-src-916-day'):im.getAttribute('data-src-16-day'))||'';}
-          src=daySrc||(lbFormat==='4x5'?im.getAttribute('data-src-45'):lbFormat==='9x16'?im.getAttribute('data-src-916'):im.getAttribute('data-src-16'));
+          var nightSrc='';
+          if(lbNight){
+            nightSrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-night'):lbFormat==='9x16'?im.getAttribute('data-src-916-night'):im.getAttribute('data-src-16-night'))||'';
+          }
+          if(!lbNight && lbDay==='day'){daySrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-day'):lbFormat==='9x16'?im.getAttribute('data-src-916-day'):im.getAttribute('data-src-16-day'))||'';}
+          src=nightSrc||daySrc||(lbFormat==='4x5'?im.getAttribute('data-src-45'):lbFormat==='9x16'?im.getAttribute('data-src-916'):im.getAttribute('data-src-16'));
         }
         if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
         var capT=t?t.textContent:'';
@@ -635,7 +719,7 @@
     function hide(){stopSlideshow();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
     document.addEventListener('click',function(e){
       var a=e.target.closest?e.target.closest('a.thumb'):null;
-      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
+      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var nOn=card.querySelector('.night-tab.is-active');var dtab=card.querySelector('.day-tab.is-active');lbNight=!!nOn;lbDay=(!nOn&&dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
       if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
       else if(e.target.closest&&e.target.closest('.lb-play'))togglePlay();
       else if(e.target.closest&&e.target.closest('.lb-prev'))nav(-1);
