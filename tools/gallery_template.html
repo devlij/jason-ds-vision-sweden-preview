@@ -363,7 +363,7 @@
       countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
       const approvedN = SCENES.filter(function (x) { return x.approval_status === "Approved"; }).length;
       const qcCountEl = document.getElementById("qc-count");
-      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " independently approved · " + (SCENES.length - approvedN) + " awaiting QC"; }
+      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " approved · " + (SCENES.length - approvedN) + " awaiting QC"; }
       for (const s of filtered) {
         const card = document.createElement('article');
         card.className = 'card';
