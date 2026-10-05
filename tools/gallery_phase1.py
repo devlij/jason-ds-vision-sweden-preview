@@ -118,6 +118,25 @@ def load_wotd() -> list:
     return data
 
 
+def motion_manifest(scenes: list[dict]) -> dict[str, list[str]]:
+    """Daylight 360 clips. Entry is [mp4, poster]. Absent entries have no button.
+
+    data.json ``motion`` stays null: that field is the aerial slot, and
+    preflight rejects an aerial that was not produced. The button reads this map.
+    """
+    out: dict[str, list[str]] = {}
+    for scene in scenes:
+        entry_id = scene.get("entry_id") or ""
+        if not entry_id:
+            continue
+        clip = f"assets/{entry_id.lower()}-motion-10s-4x5.mp4"
+        poster = f"assets/{entry_id.lower()}-motion-10s-4x5-poster.jpg"
+        if not master_exists(clip):
+            continue
+        out[entry_id] = [clip, poster if master_exists(poster) else ""]
+    return out
+
+
 def narr_manifest(scenes: list[dict]) -> dict:
     """Only Aria/Warm, avocado_v2:MAI_01, Approved, and a real mp3 are listed."""
     out = {}
@@ -192,7 +211,7 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
     missing = [token for token in required if token not in html]
     if missing:
         raise SystemExit("gallery page is missing Phase-1 or chrome: " + ", ".join(missing))
-    if "__SCENES__" in html or "__SE_META__" in html or "__WOTD_JSON__" in html or "__NARR_JSON__" in html:
+    if "__SCENES__" in html or "__SE_META__" in html or "__WOTD_JSON__" in html or "__NARR_JSON__" in html or "__SE_MOTION__" in html:
         raise SystemExit("gallery template placeholders were not filled")
     nav_start = html.find('<nav class="country-switch"')
     nav_end = html.find("</nav>", nav_start)
@@ -229,17 +248,20 @@ def render_gallery(scenes: list[dict] | None = None) -> str:
     template = TEMPLATE.read_text()
     wotd = load_wotd()
     narr = narr_manifest(page_scenes)
+    motion = motion_manifest(page_scenes)
     # Compact separators match the gallery already published on main.
     compact = (",", ":")
     payload = json.dumps(page_scenes, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
     meta_payload = json.dumps(meta, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
     wotd_payload = json.dumps(wotd, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
     narr_payload = json.dumps(narr, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
+    motion_payload = json.dumps(motion, ensure_ascii=False, separators=compact).replace("<", "\\u003c")
     html = (
         template.replace("__SCENES__", payload)
         .replace("__SE_META__", meta_payload)
         .replace("__WOTD_JSON__", wotd_payload)
         .replace("__NARR_JSON__", narr_payload)
+        .replace("__SE_MOTION__", motion_payload)
     )
     assert_phase1(html, meta)
     return html

@@ -1,0 +1,69 @@
+{
+  "work_order": "wo-sweden-360-2026-10-05",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 1,
+  "date": "2026-10-05",
+  "entry_id": "SE-01-004",
+  "caption": "Stortorget, Stockholm",
+  "disposition": "shipped",
+  "method": "static-ambient",
+  "technique": "ken-burns",
+  "tool": "ffmpeg",
+  "attempted_method": "static-ambient",
+  "attempts": 1,
+  "retry": false,
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": true,
+  "weather": {
+    "is_day": 1,
+    "daynight": "day",
+    "retrieval_timestamp": "2026-09-28T17:57:02+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "repo_path": "assets/sweden/Stockholm/se-01-004-4x5.png",
+    "sha256": "df68b733476933266a7d1a11ad2254d3f8496ba02fbc9f0f5a6a20c87fb39ace",
+    "bytes": 919375,
+    "dimensions_before_crop": "864x1270",
+    "crop": "864:1080:0:0",
+    "caption": "Stortorget, Stockholm",
+    "weather": {
+      "is_day": 1,
+      "daynight": "day",
+      "retrieval_timestamp": "2026-09-28T17:57:02+02:00",
+      "sunrise": "2026-09-28T06:45",
+      "sunset": "2026-09-28T18:29"
+    }
+  },
+  "zoom": "centered 1.00 → 1.07",
+  "crop": "864:1080:0:0",
+  "top_v": 178.64,
+  "mean_v": 120.46,
+  "label_mad": 28.234,
+  "frame0_mad": 1.589,
+  "motion_mad": 16.884,
+  "output": {
+    "file": "assets/se-01-004-motion-10s-4x5.mp4",
+    "poster": "assets/se-01-004-motion-10s-4x5-poster.jpg",
+    "probe": {
+      "width": 864,
+      "height": 1080,
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "nb_frames": 240,
+      "avg_frame_rate": "24/1",
+      "duration": 10.0,
+      "faststart": true,
+      "audio": false,
+      "sha256": "8969a783f8f91f69de39277789c8c326fb046c0345ec6d74ed9306fe723b31a5",
+      "bytes": 2991987,
+      "frame0_mad": 1.589,
+      "motion_mad": 16.884
+    }
+  },
+  "gallery_button": "wired ▶ 360° via SE_MOTION",
+  "hold_reason": null,
+  "escalation": null
+}

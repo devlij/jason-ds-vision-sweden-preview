@@ -1,0 +1,69 @@
+{
+  "work_order": "wo-sweden-360-2026-10-05",
+  "directive": "wo-360-technical-directive-2026-10-02",
+  "pack": 1,
+  "date": "2026-10-05",
+  "entry_id": "SE-01-010",
+  "caption": "Strandvägen, Stockholm",
+  "disposition": "shipped",
+  "method": "static-ambient",
+  "technique": "ken-burns",
+  "tool": "ffmpeg",
+  "attempted_method": "static-ambient",
+  "attempts": 1,
+  "retry": false,
+  "approval_status": "Candidate",
+  "cosmo_qc": null,
+  "daytime": true,
+  "weather": {
+    "is_day": 1,
+    "daynight": "day",
+    "retrieval_timestamp": "2026-09-28T17:57:17+02:00",
+    "sunrise": "2026-09-28T06:45",
+    "sunset": "2026-09-28T18:29"
+  },
+  "source": {
+    "repo_path": "assets/sweden/Stockholm/se-01-010-4x5.png",
+    "sha256": "e641dfb00686c45514d2a8086aac8666e2a74fc59fba51f187228711f8895887",
+    "bytes": 1056490,
+    "dimensions_before_crop": "864x1270",
+    "crop": "864:1080:0:0",
+    "caption": "Strandvägen, Stockholm",
+    "weather": {
+      "is_day": 1,
+      "daynight": "day",
+      "retrieval_timestamp": "2026-09-28T17:57:17+02:00",
+      "sunrise": "2026-09-28T06:45",
+      "sunset": "2026-09-28T18:29"
+    }
+  },
+  "zoom": "centered 1.00 → 1.07",
+  "crop": "864:1080:0:0",
+  "top_v": 199.66,
+  "mean_v": 142.15,
+  "label_mad": 74.787,
+  "frame0_mad": 1.712,
+  "motion_mad": 20.763,
+  "output": {
+    "file": "assets/se-01-010-motion-10s-4x5.mp4",
+    "poster": "assets/se-01-010-motion-10s-4x5-poster.jpg",
+    "probe": {
+      "width": 864,
+      "height": 1080,
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "nb_frames": 240,
+      "avg_frame_rate": "24/1",
+      "duration": 10.0,
+      "faststart": true,
+      "audio": false,
+      "sha256": "b9e94c8c544aafb0943cb345ae2772c6ebf390f46273e8202a5066267b6791a2",
+      "bytes": 3014200,
+      "frame0_mad": 1.712,
+      "motion_mad": 20.763
+    }
+  },
+  "gallery_button": "wired ▶ 360° via SE_MOTION",
+  "hold_reason": null,
+  "escalation": null
+}
