@@ -38,24 +38,26 @@ BATCH_IDS = [f"SE-01-{n:03d}" for n in range(74, 83)]
 BATCH83_IDS = [f"SE-01-{n:03d}" for n in range(83, 92)]
 EXPECTED_IDS = ["SE-01-001", *NEW_IDS, *NIGHT_IDS, *LATE_IDS, *LATE2_IDS, *LATE3_IDS, *LATE4_IDS, *LATE5_IDS, *LATE6_IDS, *BATCH_IDS, *BATCH83_IDS]
 # Hashes locked when SE-01-001 was approved. This batch must not touch them.
+# 2026-10-08: SE-01-001/002/003 locks moved to the grade-only masters (WO-sweden-visual-fix-graded);
+# publish approved by Jason in the JDVision group chat, 2026-10-08 01:28 EDT. See approvals/<ID>.md.
 SE001_SHA = {
-    "16x9": "1a175723bb5d4af5bff2ae470e58a59dcaa83953fd3261b5f3b5b030ad285db3",
-    "4x5": "25810ce465b775fd5fad674cbeb5123eb55a5c76147893a6ed4d80f0d216944c",
-    "9x16": "f155a695f8e90d56250cfeef2504e9152b7aa0776db05ebb65e8d0c055636a9a",
+    "16x9": "6135614ac9feaaa055f1c945fd645684346b5e596e460a4438e49d7a227455a3",
+    "4x5": "e5cc2928f214b19fe9a7b5d6643cb291e5c9e6bdba3cdd79dd4e15bce682d991",
+    "9x16": "f7918a6ffe1229f7f9b1b34df3671ad00141438290fa9edb35cad72b21147531",
 }
 SE001_WEATHER_SHA = "b15db9903684cc310bdfa346251eb89d416e58916c7a1e317fca6dbfe0a54f6b"
 SE001_RETRIEVAL = "2026-09-28T06:41:11+02:00"
 # Masters on origin/main for SE-01-002–010. This batch must not touch them.
 MAIN_MASTER_SHA = {
     "SE-01-002": {
-        "16x9": "e4bb4f3d4f3825730cdd52ce5c2332d75683e2e49c2d7e64ff3ed2a853203d59",
-        "4x5": "0fa79324d33a87ced491a6b1338734692be991d95ab733b4ed55f32ab4effb24",
-        "9x16": "96d1fffb4b3c02b498003e5c81df735220bff28605a9fd177472235c418124e2",
+        "16x9": "600f387d8a413db47de1d560363be136c1f0f18999defb58425ca277d0f05f9c",
+        "4x5": "f5ef2e1d3aa65f75d688854c952a21ee76a83c3fedbb1bb4f08b669fd3e459f6",
+        "9x16": "0bc96afedf15c34bd8f212f8c322edd6872c966df0041cd608bbb5ee3bb0c149",
     },
     "SE-01-003": {
-        "16x9": "cd88ff6f31e5201490f2bf4486eeee84a877d6d5abdad7403b2b2cc08ac7b960",
-        "4x5": "9329bbdc87d43a5f3024a4fd2a263dd50390e12f96167a95042584d472b6aee0",
-        "9x16": "0b3c2098ef44e0a9a100aa5e229ada7203bb0fe40acddacdc8a348b0f5d341bd",
+        "16x9": "7c71271f471b5836a85469cc36b692d7de2277f1f938b1fb5a49fb51f1793a90",
+        "4x5": "3562ba818c9e6547d4a4f8328b97f4ca9d5a5c4597b9175b92bf91d38e230e42",
+        "9x16": "2b40ef98761ee01d7be85d9b95239588f7a7d883d2bbf1202bde101fb08e0631",
     },
     "SE-01-004": {
         "16x9": "55cd86a2de111ae3e39e36169796dec4b9e9493b740ab39fc7ceedc29518b7a6",
@@ -325,7 +327,8 @@ def main() -> None:
             path = ROOT / "assets" / "sweden" / "Stockholm" / f"{entry_id.lower()}-{fmt}.png"
             if path.is_file():
                 comment = read_text_chunks(path).get("Comment", ("", ""))[1]
-                if "embedded 2026-09-29." not in comment:
+                # 2026-10-08 = grade-only re-composite (WO-sweden-visual-fix-graded).
+                if "embedded 2026-09-29." not in comment and "embedded 2026-10-08." not in comment:
                     errors.append(f"{entry_id} {fmt} Art. 50 comment is not the Stockholm build day")
         if batch83 and entry_id not in batch83:
             errors.append(f"083 batch file missing {entry_id}")
