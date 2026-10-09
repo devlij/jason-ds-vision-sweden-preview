@@ -372,8 +372,8 @@
         card.className = 'card';
         card.id = s.entry_id;
         const file16 = s.file_16x9;
-        const file45 = s.file_4x5 ? s.file_4x5 : null;
-        const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : null;
+        const file45 = s.file_4x5 ? s.file_4x5 : (s.file_16x9 ? s.file_16x9.replace("-16x9.", "-4x5.") : null);
+        const file916 = s.file_9x16 ? s.file_9x16 : (s.file_16x9 ? s.file_16x9.replace("-16x9.", "-9x16.") : null);
         const motionSrc = s.motion || "";
         const pcRec = (typeof SWEDEN_POSTCARD !== "undefined") ? SWEDEN_POSTCARD[s.entry_id] : null;
         const pc16 = (pcRec && pcRec[0]) || "";
